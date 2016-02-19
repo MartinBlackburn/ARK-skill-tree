@@ -209,7 +209,7 @@
     {
         "name": "Feeding trough",
         "description": "Put food for your nearby pets in this, and they'll automatically eat it when hungry!",
-        "image": "Feeding trough.png",
+        "image": "feeding trough.png",
         "minLevel": 15,
         "engrams": 12,
         "prerequisites": [],

@@ -624,6 +624,9 @@ th {
   margin-bottom: 20px;
   border: 1px solid #b2b2b2; }
 
+.category:last-child {
+  margin-bottom: 0; }
+
 .category__children {
   margin-top: 20px;
   display: none; }
