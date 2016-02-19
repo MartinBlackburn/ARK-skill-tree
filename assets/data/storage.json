@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Storage",
+        "description": "For hoarding and keeping all your things safe.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Storage box",
+        "description": "A small box to store goods in.",
+        "image": "Storage box.png",
+        "minLevel": 5,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Storage"
+    },
+    {
+        "name": "Large Storage box",
+        "description": "A large box to store goods in.",
+        "image": "large storage box.png",
+        "minLevel": 15,
+        "engrams": 9,
+        "prerequisites": ["Storage box"],
+        "type": "item",
+        "parent": "Storage"
+    },
+    {
+        "name": "Bookshelf",
+        "description": "A large bookshelf to store Blueprints, Notes, and other small trinkets in.",
+        "image": "bookshelf.png",
+        "minLevel": 20,
+        "engrams": 15,
+        "prerequisites": ["Large Storage box"],
+        "type": "item",
+        "parent": "Storage"
+    },
+    {
+        "name": "Vault",
+        "description": "A large metal vault to securely store goods in.",
+        "image": "vault.png",
+        "minLevel": 65,
+        "engrams": 30,
+        "prerequisites": ["Large Storage box"],
+        "type": "item",
+        "parent": "Storage"
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Resources",
+        "description": "Stuff to go in other things, to make bigger things.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Narcotic",
+        "description": "Increases your health, but puts you to sleep.",
+        "image": "narcotic.png",
+        "minLevel": 5,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Resources"
+    },
+    {
+        "name": "Sparkpowder",
+        "description": "Created by grinding flint with stone in a Mortar and Pestle.",
+        "image": "sparkpowder.png",
+        "minLevel": 5,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Resources"
+    },
+    {
+        "name": "Gunpowder",
+        "description": "An explosive propellant. Necessary for any firearm or explosive.",
+        "image": "gunpowder.png",
+        "minLevel": 10,
+        "engrams": 2,
+        "prerequisites": ["Sparkpowder"],
+        "type": "item",
+        "parent": "Resources"
+    },
+    {
+        "name": "Cementing paste",
+        "description": "Paste created at Mortar and Pestle.",
+        "image": "cementing paste.png",
+        "minLevel": 10,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Resources"
+    },
+    {
+        "name": "Electronics",
+        "description": "This multipurpose computer chip can be used to create electronic devices.",
+        "image": "electronics.png",
+        "minLevel": 40,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Resources"
+    },
+    {
+        "name": "Polymer",
+        "description": "These incredibly strong, lightweight plates can be shaped and then heat treated into casings for anything.",
+        "image": "polymer.png",
+        "minLevel": 40,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Resources"
+    }
+]

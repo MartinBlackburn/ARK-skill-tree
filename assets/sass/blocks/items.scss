@@ -1,0 +1,58 @@
+.items {
+    width: 100%;
+
+    @media screen and (max-width: $lapSize) {
+        display: block;
+    }
+}
+
+.item {
+    @media screen and (max-width: $lapSize) {
+        margin-bottom: $spacing;
+        display: block;
+    }
+}
+
+.item--selected {
+    background: $grey;
+}
+
+.item td:first-child {
+    width: 6%;
+    vertical-align: middle;
+}
+
+.item td:nth-child(2) {
+    white-space: nowrap;
+}
+
+.item td:nth-child(4),
+.item td:nth-child(5) {
+    width: 15%;
+}
+
+.item td {
+    @media screen and (max-width: $lapSize) {
+        width: 100% !important;
+        padding: 0;
+        display: block !important;
+
+        text-align: center;
+    }
+}
+
+.item img {
+    max-width: 100px;
+}
+
+.item__name {
+}
+
+.item__description {
+}
+
+.item__level {
+}
+
+.item__engrams {
+}

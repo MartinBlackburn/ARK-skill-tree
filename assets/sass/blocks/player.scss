@@ -1,0 +1,48 @@
+.player {
+    margin-bottom: $spacing;
+
+    text-align: center;
+
+    @media screen and (max-width: $lapSize) {
+        width: 100%;
+        display: block;
+    }
+}
+
+.player th {
+    @media screen and (max-width: $lapSize) {
+        width: 100%;
+        display: none;
+    }
+}
+
+.player td {
+    width: 20%;
+    border: 1px solid $grey;
+    vertical-align: middle;
+
+    text-align: center;
+
+    @media screen and (max-width: $lapSize) {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: $lapSize) {
+    .player td:nth-child(1):before,
+    .player td:nth-child(2):before,
+    .player td:nth-child(3):before,
+    .player td:nth-child(4):before {
+        width: 100%;
+        display: block;
+    }
+
+    .player td:nth-child(1):before {
+        content: 'Level';
+    }
+
+    .player td:nth-child(2):before {
+        content: 'Spent / Max engrams';
+    }
+}

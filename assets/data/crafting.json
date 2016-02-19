@@ -1,0 +1,108 @@
+[
+    {
+        "name": "Crafting stations",
+        "description": "Tools and workbenches to help build bigger and better things.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Campfire",
+        "description": "Perfect for cooking meat, staying warm, and providing light.",
+        "image": "campfire.png",
+        "minLevel": 2,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
+    {
+        "name": "Mortar and pestle",
+        "description": "This simple stone contraption can be used to grind resources into new substances.",
+        "image": "mortar and pestle.png",
+        "minLevel": 5,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
+    {
+        "name": "Cooking pot",
+        "description": "Must contain basic fuel to light the fire. Put various ingredients with water in this to make soups, stews, and dyes.",
+        "image": "cooking pot.png",
+        "minLevel": 10,
+        "engrams": 9,
+        "prerequisites": ["Campfire"],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
+    {
+        "name": "Refining forge",
+        "description": "Requires wood, thatch, or sparkpowder to activate. Put unrefined resources in this to refine them.",
+        "image": "refining forge.png",
+        "minLevel": 20,
+        "engrams": 21,
+        "prerequisites": ["Campfire"],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
+    {
+        "name": "Smithy",
+        "description": "Place materials along with blueprints in this to create certain advanced forged items.",
+        "image": "smithy.png",
+        "minLevel": 25,
+        "engrams": 16,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
+    {
+        "name": "Beer barrel",
+        "description": "Ferments tasty brew from Thatch, Water, and Berries.",
+        "image": "beer barrel.png",
+        "minLevel": 35,
+        "engrams": 24,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
+    {
+        "name": "Fabricator",
+        "description": "Place materials along with blueprints in this to create certain high-end machined items.",
+        "image": "fabricator.png",
+        "minLevel": 40,
+        "engrams": 24,
+        "prerequisites": ["Smithy"],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
+    {
+        "name": "Industrial grill",
+        "description": "Perfect for cooking meat in bulk, staying warm, and providing light. Powered by Gasoline.",
+        "image": "industrial grill.png",
+        "minLevel": 45,
+        "engrams": 40,
+        "prerequisites": ["Campfire", "Industrial grill"],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
+    {
+        "name": "Industrial cooker",
+        "description": "Burns Gasoline to cook large quantities of food quickly. Put various ingredients in this to make soups, stews, and dyes.",
+        "image": "industrial cooker.png",
+        "minLevel": 80,
+        "engrams": 60,
+        "prerequisites": ["Cooking pot"],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
+    {
+        "name": "Industrial forge",
+        "description": "Refines resources in bulk. Powered by gasoline.",
+        "image": "industrial forge.png",
+        "minLevel": 85,
+        "engrams": 90,
+        "prerequisites": ["Refining forge", "Fabricator"],
+        "type": "item",
+        "parent": "Crafting stations"
+    }
+]

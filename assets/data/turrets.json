@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Turrets",
+        "description": "Stationary turrets with more firepower then a little bow.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Ballista turret",
+        "description": "Survivors can mount this and fire devastating ballista arrows, useful for bringing down large dinos and structures!",
+        "image": "ballista turret.png",
+        "minLevel": 25,
+        "engrams": 25,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Turrets"
+    },
+    {
+        "name": "Catapult turret",
+        "description": "Mount this to throw destructive Boulders at your enemies, particularly effective against Structures.",
+        "image": "catapult turret.png",
+        "minLevel": 30,
+        "engrams": 25,
+        "prerequisites": ["Ballista turret"],
+        "type": "item",
+        "parent": "Turrets"
+    },
+    {
+        "name": "Auto turret",
+        "description": "Requires electricity to run. Consumes bullets while firing. Can be configured to automatically attack hostiles within range.",
+        "image": "auto turret.png",
+        "minLevel": 60,
+        "engrams": 40,
+        "prerequisites": ["Assault rifle"],
+        "type": "item",
+        "parent": "Turrets"
+    },
+    {
+        "name": "Minigun turret",
+        "description": "Mount this to fire a hail of Advanced Rifle Bullets at your enemies. Powered by the rider.",
+        "image": "minigun turret.png",
+        "minLevel": 85,
+        "engrams": 80,
+        "prerequisites": ["Catapult turret", "Auto turret"],
+        "type": "item",
+        "parent": "Turrets"
+    },
+    {
+        "name": "Rocket turret",
+        "description": "Mount this to fire Rockets at your enemies. Powered by the rider.",
+        "image": "rocket turret.png",
+        "minLevel": 90,
+        "engrams": 100,
+        "prerequisites": ["Minigun turret", "Rocket launcher"],
+        "type": "item",
+        "parent": "Turrets"
+    }
+]
