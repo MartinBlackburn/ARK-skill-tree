@@ -242,7 +242,7 @@
     {
         "name": "Carnotaurus saddle",
         "description": "Equip an Carnotaurus with this to ride it.",
-        "image": "Carnotaurus saddle.png",
+        "image": "carnotaurus saddle.png",
         "minLevel": 50,
         "engrams": 21,
         "prerequisites": [],
