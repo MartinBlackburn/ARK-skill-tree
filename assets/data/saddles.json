@@ -4,5 +4,389 @@
         "description": "Riding dinosaurs, what could possible go wrong?",
         "image": "test.png",
         "type": "category"
+    },
+    {
+        "name": "Riding saddles",
+        "description": "Run like the wind Bullseye!",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Saddles"
+    },
+    {
+        "name": "Platform saddles",
+        "description": "Build turrets and bases on dinosaurs, I wasn't drunk when I though of this.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Saddles"
+    },
+    {
+        "name": "Phiomia saddle",
+        "description": "Equip an Phiomia with this to ride it.",
+        "image": "phiomia saddle.png",
+        "minLevel": 5,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Ichthyosaurus saddle",
+        "description": "Equip an Ichthyosaurus with this to ride it.",
+        "image": "ichthyosaurus saddle.png",
+        "minLevel": 10,
+        "engrams": 8,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Parasaur saddle",
+        "description": "Equip an Parasaur with this to ride it.",
+        "image": "parasaur saddle.png",
+        "minLevel": 10,
+        "engrams": 9,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Pachy saddle",
+        "description": "Equip an Pachy with this to ride it.",
+        "image": "pachy saddle.png",
+        "minLevel": 15,
+        "engrams": 9,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Raptor saddle",
+        "description": "Equip an Raptor with this to ride it.",
+        "image": "raptor saddle.png",
+        "minLevel": 15,
+        "engrams": 9,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Trike saddle",
+        "description": "Equip an Triceratops with this to ride it.",
+        "image": "trike saddle.png",
+        "minLevel": 20,
+        "engrams": 12,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Carbonemys saddle",
+        "description": "Equip an Carbonemys with this to ride it.",
+        "image": "carbonemys saddle.png",
+        "minLevel": 25,
+        "engrams": 12,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Beelzebufo saddle",
+        "description": "Equip an Beelzebufo with this to ride it.",
+        "image": "beelzebufo saddle.png",
+        "minLevel": 25,
+        "engrams": 16,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Pulmonoscorpius saddle",
+        "description": "Equip an Pulmonoscorpius with this to ride it.",
+        "image": "pulmonoscorpius saddle.png",
+        "minLevel": 25,
+        "engrams": 12,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Terror bird saddle",
+        "description": "Equip an Terror Bird with this to ride it.",
+        "image": "terror bird saddle.png",
+        "minLevel": 25,
+        "engrams": 15,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Doedicurus saddle",
+        "description": "Equip an Doedicurus with this to ride it.",
+        "image": "doedicurus saddle.png",
+        "minLevel": 30,
+        "engrams": 20,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Gallimimus saddle",
+        "description": "A saddle for your Gallimimus. It has three seats! Bring your friends!",
+        "image": "gallimimus saddle.png",
+        "minLevel": 30,
+        "engrams": 20,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Megaloceros saddle",
+        "description": "Equip an Megaloceros with this to ride it.",
+        "image": "megaloceros saddle.png",
+        "minLevel": 30,
+        "engrams": 20,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Paracer saddle",
+        "description": "Equip an Paracer with this to ride it.",
+        "image": "paracer saddle.png",
+        "minLevel": 30,
+        "engrams": 18,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Stego saddle",
+        "description": "Equip an Stego with this to ride it.",
+        "image": "stego saddle.png",
+        "minLevel": 30,
+        "engrams": 15,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Pteranodon saddle",
+        "description": "Equip an Pteranodon with this to ride it.",
+        "image": "pteranodon saddle.png",
+        "minLevel": 35,
+        "engrams": 15,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Sarco saddle",
+        "description": "Equip an Sarco with this to ride it.",
+        "image": "sarco saddle.png",
+        "minLevel": 35,
+        "engrams": 15,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Ankylo saddle",
+        "description": "Equip an Ankylo with this to ride it.",
+        "image": "ankylo saddle.png",
+        "minLevel": 40,
+        "engrams": 18,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Araneo saddle",
+        "description": "Equip an Araneo with this to ride it.",
+        "image": "araneo saddle.png",
+        "minLevel": 40,
+        "engrams": 18,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Mammoth saddle",
+        "description": "Equip an Mammoth with this to ride it.",
+        "image": "mammoth saddle.png",
+        "minLevel": 40,
+        "engrams": 18,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Megalodon saddle",
+        "description": "Equip an Megalodon with this to ride it.",
+        "image": "megalodon saddle.png",
+        "minLevel": 45,
+        "engrams": 18,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Sabertooth saddle",
+        "description": "Equip an Sabertooth with this to ride it.",
+        "image": "sabertooth saddle.png",
+        "minLevel": 45,
+        "engrams": 18,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Carnotaurus saddle",
+        "description": "Equip an Carnotaurus with this to ride it.",
+        "image": "Carnotaurus saddle.png",
+        "minLevel": 50,
+        "engrams": 21,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Procoptodon saddle",
+        "description": "Equip an Procoptodon with this to ride it.",
+        "image": "procoptodon saddle.png",
+        "minLevel": 50,
+        "engrams": 35,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Argentavis saddle",
+        "description": "Equip an Argentavis with this to ride it.",
+        "image": "argentavis saddle.png",
+        "minLevel": 55,
+        "engrams": 21,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Bronto saddle",
+        "description": "Equip an Bronto with this to ride it.",
+        "image": "bronto saddle.png",
+        "minLevel": 55,
+        "engrams": 21,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Plesiosaur saddle",
+        "description": "Equip an Plesiosaur with this to ride it.",
+        "image": "plesiosaur saddle.png",
+        "minLevel": 60,
+        "engrams": 40,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Quetz saddle",
+        "description": "Equip an Quetz with this to ride it.",
+        "image": "quetz saddle.png",
+        "minLevel": 60,
+        "engrams": 44,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Rex saddle",
+        "description": "Equip an T-rex with this to ride it.",
+        "image": "t-rex saddle.png",
+        "minLevel": 60,
+        "engrams": 44,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Spino saddle",
+        "description": "Equip an Spino with this to ride it.",
+        "image": "spino saddle.png",
+        "minLevel": 60,
+        "engrams": 40,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Mosasaurus saddle",
+        "description": "Equip an Mosasaurus with this to ride it.",
+        "image": "mosasaurus saddle.png",
+        "minLevel": 75,
+        "engrams": 60,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Giganotosaurus saddle",
+        "description": "Equip an Giganotosaurus with this to ride it.",
+        "image": "giganotosaurus saddle.png",
+        "minLevel": 85,
+        "engrams": 75,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
+        "name": "Paracer platform saddle",
+        "description": "Equip a Paraceratherium with this to ride it. You can build structures on the large platform to make a mobile base.",
+        "image": "paracer saddle.png",
+        "minLevel": 45,
+        "engrams": 24,
+        "prerequisites": ["Paracer saddle"],
+        "type": "item",
+        "parent": "Platform saddles"
+    },
+    {
+        "name": "Bronto platform saddle",
+        "description": "Equip a Bronto with this to ride it. You can build structure on the large platform to make a mobile base.",
+        "image": "bronto saddle.png",
+        "minLevel": 70,
+        "engrams": 35,
+        "prerequisites": ["Bronto saddle"],
+        "type": "item",
+        "parent": "Platform saddles"
+    },
+    {
+        "name": "Plesiosaur platform saddle",
+        "description": "Equip a Plesiosaur with this to ride it. You can build structure on the large platform to make a mobile base.",
+        "image": "plesiosaur saddle.png",
+        "minLevel": 80,
+        "engrams": 50,
+        "prerequisites": ["Plesiosaur saddle"],
+        "type": "item",
+        "parent": "Platform saddles"
+    },
+    {
+        "name": "Quetz platform saddle",
+        "description": "Equip a Quetz with this to ride it. You can build structure on the large platform to make a mobile base.",
+        "image": "quetz saddle.png",
+        "minLevel": 80,
+        "engrams": 80,
+        "prerequisites": ["Quetz saddle"],
+        "type": "item",
+        "parent": "Platform saddles"
+    },
+    {
+        "name": "Mosasaurus platform saddle",
+        "description": "Equip a Mosasaurus with this to ride it. You can build structure on the large platform to make a mobile base.",
+        "image": "mosasaurus saddle.png",
+        "minLevel": 85,
+        "engrams": 80,
+        "prerequisites": ["Mosasaurus saddle"],
+        "type": "item",
+        "parent": "Platform saddles"
     }
 ]

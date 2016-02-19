@@ -1,7 +1,7 @@
 var App = App || {};
 
-App.Items = (function() 
-{   
+App.Items = (function()
+{
     //variables
     var items;
     var container = $(".js-categories");
@@ -13,6 +13,7 @@ App.Items = (function()
                     "assets/data/crafting.json",
                     "assets/data/farming.json",
                     "assets/data/resources.json",
+                    "assets/data/saddles.json",
                     "assets/data/storage.json",
                     "assets/data/tools.json",
                     "assets/data/traps.json",
@@ -39,7 +40,7 @@ App.Items = (function()
             });
         }
     }
-    
+
 
     //save selection to local storage
 
@@ -53,7 +54,7 @@ App.Items = (function()
 
     /**
      * Process all items from json file
-     * 
+     *
      * @param items json
      */
     function processItems(items)
@@ -81,7 +82,7 @@ App.Items = (function()
 
     /**
      * Draw a category to the page
-     * 
+     *
      * @param category json
      */
     function drawCategory(category)
@@ -111,7 +112,7 @@ App.Items = (function()
 
     /**
      * Draw an item to the page
-     * 
+     *
      * @param item json
      */
     function drawItem(item)
@@ -155,7 +156,7 @@ App.Items = (function()
         //remove an existing events
         $(".category").off();
         $(".item").off();
-        
+
         //open and close categories
         $(".category").on("click", ".category__name, .category__description" , function(event) {
             event.stopPropagation();
@@ -185,7 +186,7 @@ App.Items = (function()
     /**
      * Select an item
      * and any prerequisite items
-     * 
+     *
      * @param item jquery element
      */
     function selectItem(item)
@@ -243,7 +244,7 @@ App.Items = (function()
 
     /**
      * Unselect an item and any thing that prerequisites it
-     * 
+     *
      * @param item jquery element
      */
     function unselectItem(item)
