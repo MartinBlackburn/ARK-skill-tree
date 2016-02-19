@@ -8,7 +8,7 @@
     {
         "name": "Storage box",
         "description": "A small box to store goods in.",
-        "image": "Storage box.png",
+        "image": "storage box.png",
         "minLevel": 5,
         "engrams": 6,
         "prerequisites": [],
