@@ -4,5 +4,113 @@
         "description": "Build a little home for yourself and friends.",
         "image": "test.png",
         "type": "category"
+    },
+    {
+        "name": "Thatch",
+        "description": "What was this little pig thinking.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Wooden",
+        "description": "Little log cabin in the woods.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Stone",
+        "description": "Lot stronger than wood.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Metal",
+        "description": "This little pig had the right idea.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Thatch foundation",
+        "description": "A foundation is required to build structures. This one is a wooden frame with some smooth bundles of sticks that act as a floor.",
+        "image": "thatch foundation.png",
+        "minLevel": 2,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Thatch"
+    },
+    {
+        "name": "Thatch doorframe",
+        "description": "This thatch wall has an entrance in it, but requires more wood to stay stable.",
+        "image": "thatch doorframe.png",
+        "minLevel": 2,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Thatch"
+    },
+    {
+        "name": "Thatch door",
+        "description": "Enough sticks bundled together works as a simple door. Can be locked for security, but not very strong.",
+        "image": "thatch door.png",
+        "minLevel": 3,
+        "engrams": 3,
+        "prerequisites": ["Thatch doorframe"],
+        "type": "item",
+        "parent": "Thatch"
+    },
+    {
+        "name": "Thatch wall",
+        "description": "A simple wall made of bundled sticks, and stabilized by a wooden frame. Fairly fragile, but better than nothing.",
+        "image": "thatch wall.png",
+        "minLevel": 3,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Thatch"
+    },
+    {
+        "name": "Thatch roof",
+        "description": "A thatched roof to protect you from the elements. Not stable enough to build on.",
+        "image": "thatch roof.png",
+        "minLevel": 3,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Thatch"
+    },
+    {
+        "name": "Sloped thatch roof",
+        "description": "An inclined Thatch roof. Slightly different angle than the ramp.",
+        "image": "sloped thatch roof.png",
+        "minLevel": 5,
+        "engrams": 3,
+        "prerequisites": ["Thatch roof"],
+        "type": "item",
+        "parent": "Thatch"
+    },
+    {
+        "name": "Sloped thatch wall left",
+        "description": "A simple Thatch sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with a roof.",
+        "image": "sloped thatch wall left.png",
+        "minLevel": 5,
+        "engrams": 3,
+        "prerequisites": ["Thatch wall"],
+        "type": "item",
+        "parent": "Thatch"
+    },
+    {
+        "name": "Sloped thatch wall right",
+        "description": "A simple Thatch sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with a roof.",
+        "image": "sloped thatch wall right.png",
+        "minLevel": 5,
+        "engrams": 3,
+        "prerequisites": ["Thatch wall"],
+        "type": "item",
+        "parent": "Thatch"
     }
 ]

@@ -15,6 +15,7 @@ App.Items = (function()
                     "assets/data/resources.json",
                     "assets/data/saddles.json",
                     "assets/data/storage.json",
+                    "assets/data/structures.json",
                     "assets/data/tools.json",
                     "assets/data/traps.json",
                     "assets/data/turrets.json"
@@ -41,12 +42,9 @@ App.Items = (function()
         }
     }
 
+    //TODO save and load selection from local storage
 
-    //save selection to local storage
-
-    //get selection from local storage
-
-    //get selection from url
+    //TODO save and load selection from url
 
 
 
