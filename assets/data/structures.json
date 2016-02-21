@@ -112,5 +112,205 @@
         "prerequisites": ["Thatch wall"],
         "type": "item",
         "parent": "Thatch"
+    },
+    {
+        "name": "Sloped thatch roof",
+        "description": "An inclined Thatch roof. Slightly different angle than the ramp.",
+        "image": "sloped thatch roof.png",
+        "minLevel": 5,
+        "engrams": 3,
+        "prerequisites": ["Thatch roof"],
+        "type": "item",
+        "parent": "Thatch"
+    },
+    {
+        "name": "Wooden foundation",
+        "description": "A foundation is required to build structures. This one is made from sturdy wood.",
+        "image": "wooden foundation.png",
+        "minLevel": 5,
+        "engrams": 6,
+        "prerequisites": ["Thatch foundation"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden wall",
+        "description": "A sturdy wooden wall that insulates the inside from the outside, separates rooms, and provides structural integrity.",
+        "image": "wooden wall.png",
+        "minLevel": 5,
+        "engrams": 7,
+        "prerequisites": ["Thatch wall"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden spike wall",
+        "description": "These incredibly sharp wooden stakes are dangerous to any that touch them. Larger creatures take more damage.",
+        "image": "wooden spike wall.png",
+        "minLevel": 10,
+        "engrams": 4,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden hatchframe",
+        "description": "A wooden ceiling with a hole in it for trapdoors.",
+        "image": "wooden hatchframe.png",
+        "minLevel": 15,
+        "engrams": 9,
+        "prerequisites": ["Wooden ceiling"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden ramp",
+        "description": "An inclined wooden floor for travelling up or down. Can also be used to make an angled roof.",
+        "image": "wooden ramp.png",
+        "minLevel": 15,
+        "engrams": 3,
+        "prerequisites": ["Wooden ceiling"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden trapdoor",
+        "description": "This small wooden door can be used to secure hatches.",
+        "image": "wooden trapdoor.png",
+        "minLevel": 20,
+        "engrams": 6,
+        "prerequisites": ["Wooden hatchframe"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden windowframe",
+        "description": "A wooden wall with a hole for a window.",
+        "image": "wooden windowframe.png",
+        "minLevel": 20,
+        "engrams": 9,
+        "prerequisites": ["Wooden wall"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden window",
+        "description": "Wooden beams on hinges that cover windows to provide protection from projectiles and spying.",
+        "image": "wooden window.png",
+        "minLevel": 25,
+        "engrams": 6,
+        "prerequisites": ["Wooden windowframe"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden doorframe",
+        "description": "A wooden wall that provides entrance to a structure.",
+        "image": "wooden doorframe.png",
+        "minLevel": 10,
+        "engrams": 6,
+        "prerequisites": ["Thatch doorframe", "Wooden wall"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden door",
+        "description": "A stable wooden door that provides entrance to structures. Can be locked for security.",
+        "image": "wooden door.png",
+        "minLevel": 10,
+        "engrams": 4,
+        "prerequisites": ["Thatch door", "Wooden doorframe"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Sloped wooden roof",
+        "description": "An inclined wooden roof. Slightly different angle than the ramp.",
+        "image": "sloped wooden roof.png",
+        "minLevel": 10,
+        "engrams": 4,
+        "prerequisites": ["Sloped thatch roof", "Wooden ceiling"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Sloped wood wall left",
+        "description": "A sturdy Wooden sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof.",
+        "image": "sloped thatch wall left.png",
+        "minLevel": 10,
+        "engrams": 3,
+        "prerequisites": ["Sloped thatch wall left", "Wooden wall"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Sloped wood wall right",
+        "description": "A sturdy Wooden sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof.",
+        "image": "sloped thatch wall right.png",
+        "minLevel": 10,
+        "engrams": 3,
+        "prerequisites": ["Sloped thatch wall right", "Wooden wall"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden ceiling",
+        "description": "A stable wooden ceiling that insulates the inside from the outside, and doubles as a floor for higher levels.",
+        "image": "wooden ceiling.png",
+        "minLevel": 10,
+        "engrams": 6,
+        "prerequisites": ["Thatch roof"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden catwalk",
+        "description": "A thin walkway for bridging areas together. Made from sturdy wood.",
+        "image": "wooden catwalk.png",
+        "minLevel": 20,
+        "engrams": 6,
+        "prerequisites": ["Wooden ceiling"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden railing",
+        "description": "A sturdy wooden railing that acts a a simple barrier to prevent people from falling.",
+        "image": "wooden railing.png",
+        "minLevel": 10,
+        "engrams": 3,
+        "prerequisites": ["Wooden wall"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden pillar",
+        "description": "Adds structural integrity to the area it is built on. Can also act as stilts for buildings on inclines.",
+        "image": "wooden pillar.png",
+        "minLevel": 15,
+        "engrams": 9,
+        "prerequisites": ["Wooden foundation"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden ladder",
+        "description": "A simple wooden ladder used to climb up or down tall structures. Can also be used to extend existing ladders.",
+        "image": "wooden ladder.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Wooden"
+    },
+    {
+        "name": "Wooden fence",
+        "description": "This very cheap, narrow foundation is used to build fences around an area.",
+        "image": "wooden fence.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Wooden foundation"],
+        "type": "item",
+        "parent": "Wooden"
     }
 ]
