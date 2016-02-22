@@ -15,5 +15,15 @@
         "prerequisites": ["Wooden ceiling"],
         "type": "item",
         "parent": "Catwalks"
+    },
+    {
+        "name": "Metal catwalk",
+        "description": "A thin walkway for bridging areas together. Made from metal plates.",
+        "image": "metal catwalk.png",
+        "minLevel": 50,
+        "engrams": 18,
+        "prerequisites": ["Wooden catwalk", "Metal ceiling"],
+        "type": "item",
+        "parent": "Catwalks"
     }
 ]
