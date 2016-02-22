@@ -6,29 +6,99 @@
         "type": "category"
     },
     {
-        "name": "Thatch",
-        "description": "What was this little pig thinking.",
+        "name": "Catwalks",
+        "description": "Narrow walkways.",
         "image": "test.png",
         "type": "category",
         "parent": "Structures"
     },
     {
-        "name": "Wooden",
-        "description": "Little log cabin in the woods.",
+        "name": "Dinosaur gates",
+        "description": "Massive doors that can fit a dinosaur though.",
         "image": "test.png",
         "type": "category",
         "parent": "Structures"
     },
     {
-        "name": "Stone",
-        "description": "Lot stronger than wood.",
+        "name": "Doors",
+        "description": "Added security for doorframes.",
         "image": "test.png",
         "type": "category",
         "parent": "Structures"
     },
     {
-        "name": "Metal",
-        "description": "This little pig had the right idea.",
+        "name": "Doorframes",
+        "description": "Magically teleport between sides of a wall.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Foundations",
+        "description": "Create a solid base for building to stand on.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Ladders",
+        "description": "Quick, get to the roof.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Pillars",
+        "description": "That roof wont hold itself up.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Railings",
+        "description": "Safety first!",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Ramps",
+        "description": "Better than stairs.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Roofs",
+        "description": "Keep your head dry when it rains.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Trapdoors",
+        "description": "Like doors, but for your ceilings.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Walls",
+        "description": "Walls to keeps things out, or in.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Windows",
+        "description": "Hatches to cover to the windows when its too cold outside.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Windowframes",
+        "description": "Small holes in walls to see or shoot out of.",
         "image": "test.png",
         "type": "category",
         "parent": "Structures"
@@ -41,28 +111,33 @@
         "engrams": 3,
         "prerequisites": [],
         "type": "item",
-        "parent": "Thatch"
+        "parent": "Foundations"
     },
     {
-        "name": "Thatch doorframe",
-        "description": "This thatch wall has an entrance in it, but requires more wood to stay stable.",
-        "image": "thatch doorframe.png",
-        "minLevel": 2,
-        "engrams": 3,
-        "prerequisites": [],
+        "name": "Wooden foundation",
+        "description": "A foundation is required to build structures. This one is made from sturdy wood.",
+        "image": "wooden foundation.png",
+        "minLevel": 5,
+        "engrams": 6,
+        "prerequisites": ["Thatch foundation"],
         "type": "item",
-        "parent": "Thatch"
+        "parent": "Foundations"
     },
     {
-        "name": "Thatch door",
-        "description": "Enough sticks bundled together works as a simple door. Can be locked for security, but not very strong.",
-        "image": "thatch door.png",
-        "minLevel": 3,
-        "engrams": 3,
-        "prerequisites": ["Thatch doorframe"],
+        "name": "Wooden fence foundation",
+        "description": "This very cheap, narrow foundation is used to build fences around an area.",
+        "image": "wooden fence foundation.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Wooden foundation"],
         "type": "item",
-        "parent": "Thatch"
+        "parent": "Foundations"
     },
+
+
+
+
+
     {
         "name": "Thatch wall",
         "description": "A simple wall made of bundled sticks, and stabilized by a wooden frame. Fairly fragile, but better than nothing.",
@@ -73,6 +148,73 @@
         "type": "item",
         "parent": "Thatch"
     },
+    {
+        "name": "Wooden wall",
+        "description": "A sturdy wooden wall that insulates the inside from the outside, separates rooms, and provides structural integrity.",
+        "image": "wooden wall.png",
+        "minLevel": 5,
+        "engrams": 7,
+        "prerequisites": ["Thatch wall"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+
+
+
+
+
+
+
+    {
+        "name": "Thatch doorframe",
+        "description": "This thatch wall has an entrance in it, but requires more wood to stay stable.",
+        "image": "thatch doorframe.png",
+        "minLevel": 2,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Doorframes"
+    },
+    {
+        "name": "Wooden doorframe",
+        "description": "A wooden wall that provides entrance to a structure.",
+        "image": "wooden doorframe.png",
+        "minLevel": 10,
+        "engrams": 6,
+        "prerequisites": ["Thatch doorframe", "Wooden wall"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+
+
+
+
+
+    {
+        "name": "Thatch door",
+        "description": "Enough sticks bundled together works as a simple door. Can be locked for security, but not very strong.",
+        "image": "thatch door.png",
+        "minLevel": 3,
+        "engrams": 3,
+        "prerequisites": ["Thatch doorframe"],
+        "type": "item",
+        "parent": "Doors"
+    },
+    {
+        "name": "Wooden door",
+        "description": "A stable wooden door that provides entrance to structures. Can be locked for security.",
+        "image": "wooden door.png",
+        "minLevel": 10,
+        "engrams": 4,
+        "prerequisites": ["Thatch door", "Wooden doorframe"],
+        "type": "item",
+        "parent": "Wooden"
+    },
+
+
+
+
+
     {
         "name": "Thatch roof",
         "description": "A thatched roof to protect you from the elements. Not stable enough to build on.",
@@ -123,26 +265,13 @@
         "type": "item",
         "parent": "Thatch"
     },
-    {
-        "name": "Wooden foundation",
-        "description": "A foundation is required to build structures. This one is made from sturdy wood.",
-        "image": "wooden foundation.png",
-        "minLevel": 5,
-        "engrams": 6,
-        "prerequisites": ["Thatch foundation"],
-        "type": "item",
-        "parent": "Wooden"
-    },
-    {
-        "name": "Wooden wall",
-        "description": "A sturdy wooden wall that insulates the inside from the outside, separates rooms, and provides structural integrity.",
-        "image": "wooden wall.png",
-        "minLevel": 5,
-        "engrams": 7,
-        "prerequisites": ["Thatch wall"],
-        "type": "item",
-        "parent": "Wooden"
-    },
+
+
+
+
+
+
+
     {
         "name": "Wooden spike wall",
         "description": "These incredibly sharp wooden stakes are dangerous to any that touch them. Larger creatures take more damage.",
@@ -200,26 +329,6 @@
         "minLevel": 25,
         "engrams": 6,
         "prerequisites": ["Wooden windowframe"],
-        "type": "item",
-        "parent": "Wooden"
-    },
-    {
-        "name": "Wooden doorframe",
-        "description": "A wooden wall that provides entrance to a structure.",
-        "image": "wooden doorframe.png",
-        "minLevel": 10,
-        "engrams": 6,
-        "prerequisites": ["Thatch doorframe", "Wooden wall"],
-        "type": "item",
-        "parent": "Wooden"
-    },
-    {
-        "name": "Wooden door",
-        "description": "A stable wooden door that provides entrance to structures. Can be locked for security.",
-        "image": "wooden door.png",
-        "minLevel": 10,
-        "engrams": 4,
-        "prerequisites": ["Thatch door", "Wooden doorframe"],
         "type": "item",
         "parent": "Wooden"
     },
@@ -300,16 +409,6 @@
         "minLevel": 15,
         "engrams": 6,
         "prerequisites": [],
-        "type": "item",
-        "parent": "Wooden"
-    },
-    {
-        "name": "Wooden fence foundation",
-        "description": "This very cheap, narrow foundation is used to build fences around an area.",
-        "image": "wooden fence foundation.png",
-        "minLevel": 15,
-        "engrams": 6,
-        "prerequisites": ["Wooden foundation"],
         "type": "item",
         "parent": "Wooden"
     }

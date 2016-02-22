@@ -8,16 +8,47 @@ App.Items = (function()
 
     //item files
     var itemFiles = [
-                    "assets/data/ammunition.json",
-                    "assets/data/armor.json",
-                    "assets/data/crafting.json",
-                    "assets/data/farming.json",
+                    "assets/data/_root-categories.json",
+
+                    "assets/data/ammunition/arrows.json",
+                    "assets/data/ammunition/bullets.json",
+                    "assets/data/ammunition/other.json",
+                    "assets/data/ammunition/turret.json",
+
+                    "assets/data/armor/cloth.json",
+                    "assets/data/armor/hide.json",
+                    "assets/data/armor/fur.json",
+                    "assets/data/armor/chitin.json",
+                    "assets/data/armor/ghillie.json",
+                    "assets/data/armor/flak.json",
+                    "assets/data/armor/riot.json",
+                    "assets/data/armor/scuba.json",
+                    "assets/data/armor/other.json",
+
+                    "assets/data/crafting-stations.json",
+
+                    "assets/data/farming/crop-plots.json",
+                    "assets/data/farming/irrigation.json",
+                    "assets/data/farming/greenhouse.json",
+                    "assets/data/farming/other.json",
+
                     "assets/data/resources.json",
-                    "assets/data/saddles.json",
+
+                    "assets/data/saddles/riding.json",
+                    "assets/data/saddles/platform.json",
+
                     "assets/data/storage.json",
-                    "assets/data/structures.json",
-                    "assets/data/tools.json",
+
+                    "assets/data/structures/structures.json",
+
+                    "assets/data/tools/harvesting.json",
+                    "assets/data/tools/survival.json",
+                    "assets/data/tools/navigation.json",
+                    "assets/data/tools/cosmetic.json",
+                    "assets/data/tools/other.json",
+
                     "assets/data/traps.json",
+
                     "assets/data/turrets.json"
                     ];
 
@@ -26,25 +57,36 @@ App.Items = (function()
 
 
     /**
-     * Load all items
+     * Start item loading
      */
     function loadItems()
     {
-        //Get all items from each json file
-        for(var i = 0; i < itemFiles.length; i++) {
-            $.ajax({
-                dataType: "json",
-                url: itemFiles[i],
-                cache: false,
-                success: processItems,
-                error: function(jqXHR, textStatus){ console.log("Error loading items: " + textStatus); }
-            });
-        }
+        //load first item file
+        $.ajax({
+            dataType: "json",
+            url: itemFiles[0],
+            cache: false,
+            success: processItems,
+            error: loadingError
+        });
     }
 
-    //TODO save and load selection from local storage
 
-    //TODO save and load selection from url
+
+
+    /**
+     * Load next item file in the list
+     */
+    function loadNextItemFile()
+    {
+        //remove from array so it doesn't get loaded again
+        itemFiles.shift();
+
+        //load items if any left to load
+        if(itemFiles.length > 0) {
+            loadItems();
+        }
+    }
 
 
 
@@ -71,7 +113,29 @@ App.Items = (function()
         });
 
         //add event handlers
+        //done after each item set so its usable while other items load
         addEventHandlers();
+
+        //load next set of items
+        loadNextItemFile();
+    }
+
+
+
+
+
+    /**
+     * Error when unable to load items
+     */
+    function loadingError(xhr, errorType, exception)
+    {
+        //log error
+        console.error("Error loading items: " + itemFiles[0]);
+        console.log(errorType);
+        console.log(exception);
+
+        //load next set of items
+        loadNextItemFile();
     }
 
 

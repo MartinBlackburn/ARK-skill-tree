@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Greenhouse",
+        "description": "Plants need a house too.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Farming"
+    },
+    {
+        "name": "Greenhouse wall",
+        "description": "A metal-framed, glass wall that insulates the inside from the outside and separates rooms. Excellent for growing crops indoors.",
+        "image": "greenhouse wall.png",
+        "minLevel": 45,
+        "engrams": 30,
+        "prerequisites": ["Stone wall"],
+        "type": "item",
+        "parent": "Greenhouse"
+    },
+    {
+        "name": "Greenhouse doorframe",
+        "description": "A metal-frame, glass wall that provides entrance to a structure. Excellent for growing crops indoors.",
+        "image": "greenhouse doorframe.png",
+        "minLevel": 45,
+        "engrams": 15,
+        "prerequisites": ["Stone doorframe"],
+        "type": "item",
+        "parent": "Greenhouse"
+    },
+    {
+        "name": "Greenhouse door",
+        "description": "A metal-frame, glass door that provides entrance to structures. Can be locked for security. Excellent for growing crops indoors.",
+        "image": "greenhouse door.png",
+        "minLevel": 45,
+        "engrams": 15,
+        "prerequisites": ["Stone doorframe"],
+        "type": "item",
+        "parent": "Greenhouse"
+    },
+    {
+        "name": "Greenhouse ceiling",
+        "description": "A metal-framed, glass ceiling that provides insulation, and doubles as a floor for higher levels. Excellent for growing crops indoors.",
+        "image": "greenhouse ceiling.png",
+        "minLevel": 45,
+        "engrams": 30,
+        "prerequisites": ["Stone ceiling"],
+        "type": "item",
+        "parent": "Greenhouse"
+    },
+    {
+        "name": "Sloped greenhouse roof",
+        "description": "An inclined metal-frame, glass roof. Slightly differant angle than the ramp. Excellent for growing crops indoors.",
+        "image": "greenhouse roof.png",
+        "minLevel": 50,
+        "engrams": 30,
+        "prerequisites": ["Sloped stone roof"],
+        "type": "item",
+        "parent": "Greenhouse"
+    },
+    {
+        "name": "Sloped greenhouse wall left",
+        "description": "A metal-frame, glass sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof. Excellent for growing crops indoors.",
+        "image": "greenhouse roof.png",
+        "minLevel": 50,
+        "engrams": 15,
+        "prerequisites": ["Stone wall"],
+        "type": "item",
+        "parent": "Greenhouse"
+    },
+    {
+        "name": "Sloped greenhouse wall right",
+        "description": "A metal-frame, glass sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof. Excellent for growing crops indoors.",
+        "image": "greenhouse roof.png",
+        "minLevel": 50,
+        "engrams": 15,
+        "prerequisites": ["Stone wall"],
+        "type": "item",
+        "parent": "Greenhouse"
+    }
+]

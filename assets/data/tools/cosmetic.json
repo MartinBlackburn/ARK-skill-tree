@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Cosmetic",
+        "description": "Time to paint the town red.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Tools"
+    },
+    {
+        "name": "Paintbrush",
+        "description": "Apply a dye to this, then swing it at structures to paint them.",
+        "image": "paintbrush.png",
+        "minLevel": 5,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Cosmetic"
+    },
+    {
+        "name": "Spray painter",
+        "description": "Apply a dye to this, then shoot it at structures to paint them. Hold Alt Fire + Hotkey Number to set painting region.",
+        "image": "spray painter.png",
+        "minLevel": 60,
+        "engrams": 30,
+        "prerequisites": ["Paintbrush", "Metal Water Reservoir", "Fabricator"],
+        "type": "item",
+        "parent": "Cosmetic"
+    }
+]

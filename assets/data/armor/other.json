@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Other armor",
+        "description": "One off, little bits of armor.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Armor"
+    },
+    {
+        "name": "Heavy miners helmet",
+        "description": "Provides heavy physical protection, but makes the elements harder to endure. Comes with a built-in light source!",
+        "image": "heavy miners helmet.png",
+        "minLevel": 65,
+        "engrams": 35,
+        "prerequisites": ["Flak helmet"],
+        "type": "item",
+        "parent": "Other armor"
+    }
+]

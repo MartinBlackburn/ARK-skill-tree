@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Survival",
+        "description": "Drinking water helps keep you hydrated.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Tools"
+    },
+    {
+        "name": "Waterskin",
+        "description": "Good to keep you hydrated, but slowly leaks water.",
+        "image": "waterskin.png",
+        "minLevel": 3,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Survival"
+    },
+    {
+        "name": "Water jar",
+        "description": "Safely carries a lot of water, but is also a bit heavy.",
+        "image": "water jar.png",
+        "minLevel": 30,
+        "engrams": 12,
+        "prerequisites": ["Waterskin"],
+        "type": "item",
+        "parent": "Survival"
+    },
+    {
+        "name": "Canteen",
+        "description": "Safely carries a sizable amount of water, and is reasonably lightweight.",
+        "image": "canteen.png",
+        "minLevel": 50,
+        "engrams": 24,
+        "prerequisites": ["Water jar"],
+        "type": "item",
+        "parent": "Survival"
+    },
+    {
+        "name": "Blood extraction syringe",
+        "description": "Use this on a human to extract their blood for transfusion.",
+        "image": "blood extraction syringe.png",
+        "minLevel": 5,
+        "engrams": 6,
+        "prerequisites": ["Waterskin"],
+        "type": "item",
+        "parent": "Survival"
+    }
+]

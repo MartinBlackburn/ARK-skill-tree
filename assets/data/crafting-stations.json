@@ -1,11 +1,5 @@
 [
     {
-        "name": "Crafting stations",
-        "description": "Tools and workbenches to help build bigger and better things.",
-        "image": "test.png",
-        "type": "category"
-    },
-    {
         "name": "Campfire",
         "description": "Perfect for cooking meat, staying warm, and providing light.",
         "image": "campfire.png",

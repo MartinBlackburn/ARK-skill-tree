@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Turret ammunition",
+        "description": "Big arrows for big knees.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Ammunition"
+    },
+    {
+        "name": "Ballista bolt",
+        "description": "A massive Bolt with a cast iron arrow head. Can only be used in a Ballista Turret. If it doesn't break, you can recover your ammo.",
+        "image": "ballista bolt.png",
+        "minLevel": 25,
+        "engrams": 10,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Turret ammunition"
+    }
+]

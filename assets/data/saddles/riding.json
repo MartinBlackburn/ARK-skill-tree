@@ -1,20 +1,7 @@
 [
     {
-        "name": "Saddles",
-        "description": "Riding dinosaurs, what could possible go wrong?",
-        "image": "test.png",
-        "type": "category"
-    },
-    {
         "name": "Riding saddles",
         "description": "Run like the wind Bullseye!",
-        "image": "test.png",
-        "type": "category",
-        "parent": "Saddles"
-    },
-    {
-        "name": "Platform saddles",
-        "description": "Build turrets and bases on dinosaurs, I wasn't drunk when I though of this.",
         "image": "test.png",
         "type": "category",
         "parent": "Saddles"
@@ -338,55 +325,5 @@
         "prerequisites": [],
         "type": "item",
         "parent": "Riding saddles"
-    },
-    {
-        "name": "Paracer platform saddle",
-        "description": "Equip a Paraceratherium with this to ride it. You can build structures on the large platform to make a mobile base.",
-        "image": "paracer saddle.png",
-        "minLevel": 45,
-        "engrams": 24,
-        "prerequisites": ["Paracer saddle"],
-        "type": "item",
-        "parent": "Platform saddles"
-    },
-    {
-        "name": "Bronto platform saddle",
-        "description": "Equip a Bronto with this to ride it. You can build structure on the large platform to make a mobile base.",
-        "image": "bronto saddle.png",
-        "minLevel": 70,
-        "engrams": 35,
-        "prerequisites": ["Bronto saddle"],
-        "type": "item",
-        "parent": "Platform saddles"
-    },
-    {
-        "name": "Plesiosaur platform saddle",
-        "description": "Equip a Plesiosaur with this to ride it. You can build structure on the large platform to make a mobile base.",
-        "image": "plesiosaur saddle.png",
-        "minLevel": 80,
-        "engrams": 50,
-        "prerequisites": ["Plesiosaur saddle"],
-        "type": "item",
-        "parent": "Platform saddles"
-    },
-    {
-        "name": "Quetz platform saddle",
-        "description": "Equip a Quetz with this to ride it. You can build structure on the large platform to make a mobile base.",
-        "image": "quetz saddle.png",
-        "minLevel": 80,
-        "engrams": 80,
-        "prerequisites": ["Quetz saddle"],
-        "type": "item",
-        "parent": "Platform saddles"
-    },
-    {
-        "name": "Mosasaurus platform saddle",
-        "description": "Equip a Mosasaurus with this to ride it. You can build structure on the large platform to make a mobile base.",
-        "image": "mosasaurus saddle.png",
-        "minLevel": 85,
-        "engrams": 80,
-        "prerequisites": ["Mosasaurus saddle"],
-        "type": "item",
-        "parent": "Platform saddles"
     }
 ]

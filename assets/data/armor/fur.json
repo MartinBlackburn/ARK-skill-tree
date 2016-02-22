@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Fur armor",
+        "description": "Fluffy and warm, no good for swimming though.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Armor"
+    },
+    {
+        "name": "Fur cap",
+        "description": "Provides significant physical protection. Also keeps your temperature up, so long as it stays dry.",
+        "image": "fur cap.png",
+        "minLevel": 25,
+        "engrams": 14,
+        "prerequisites": ["Hide hat"],
+        "type": "item",
+        "parent": "Fur armor"
+    },
+    {
+        "name": "Fur chestpiece",
+        "description": "Provides significant physical protection. Also keeps your temperature up, so long as it stays dry.",
+        "image": "fur chestpiece.png",
+        "minLevel": 30,
+        "engrams": 16,
+        "prerequisites": ["Hide shirt"],
+        "type": "item",
+        "parent": "Fur armor"
+    },
+    {
+        "name": "Fur gauntlets",
+        "description": "Provides significant physical protection. Also keeps your temperature up, so long as it stays dry.",
+        "image": "fur gauntlets.png",
+        "minLevel": 25,
+        "engrams": 12,
+        "prerequisites": ["Hide gloves"],
+        "type": "item",
+        "parent": "Fur armor"
+    },
+    {
+        "name": "Fur leggings",
+        "description": "Provides significant physical protection. Also keeps your temperature up, so long as it stays dry.",
+        "image": "fur leggings.png",
+        "minLevel": 25,
+        "engrams": 16,
+        "prerequisites": ["Hide pants"],
+        "type": "item",
+        "parent": "Fur armor"
+    },
+    {
+        "name": "Fur boots",
+        "description": "Provides significant physical protection. Also keeps your temperature up, so long as it stays dry.",
+        "image": "fur boots.png",
+        "minLevel": 25,
+        "engrams": 12,
+        "prerequisites": ["Hide boots"],
+        "type": "item",
+        "parent": "Fur armor"
+    }
+]

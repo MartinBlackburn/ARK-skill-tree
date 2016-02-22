@@ -1,11 +1,5 @@
 [
     {
-        "name": "Resources",
-        "description": "Stuff to go in other things, to make bigger things.",
-        "image": "test.png",
-        "type": "category"
-    },
-    {
         "name": "Narcotic",
         "description": "Increases your health, but puts you to sleep.",
         "image": "narcotic.png",

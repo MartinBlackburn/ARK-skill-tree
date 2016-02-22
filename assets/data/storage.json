@@ -1,11 +1,5 @@
 [
     {
-        "name": "Storage",
-        "description": "For hoarding and keeping all your things safe.",
-        "image": "test.png",
-        "type": "category"
-    },
-    {
         "name": "Storage box",
         "description": "A small box to store goods in.",
         "image": "storage box.png",

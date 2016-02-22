@@ -1,0 +1,69 @@
+[
+    {
+        "name": "Bullets",
+        "description": "Pew pew.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Ammunition"
+    },
+    {
+        "name": "Simple bullet",
+        "description": "Primarily used with forged handguns.",
+        "image": "simple bullet.png",
+        "minLevel": 30,
+        "engrams": 6,
+        "prerequisites": ["Gunpowder"],
+        "type": "item",
+        "parent": "Bullets"
+    },
+    {
+        "name": "Advanced bullet",
+        "description": "A small-caliber modern bullet, primarily used with fabricated handguns.",
+        "image": "advanced bullet.png",
+        "minLevel": 50,
+        "engrams": 6,
+        "prerequisites": ["Simple bullet"],
+        "type": "item",
+        "parent": "Bullets"
+    },
+    {
+        "name": "Simple rifle ammo",
+        "description": "An odd bullet and casing, used with forged rifles.",
+        "image": "simple rifle ammo.png",
+        "minLevel": 35,
+        "engrams": 6,
+        "prerequisites": ["Gunpowder"],
+        "type": "item",
+        "parent": "Bullets"
+    },
+    {
+        "name": "Advanced rifle bullet",
+        "description": "Primarily used with fabricated rifles.",
+        "image": "advanced rifle bullet.png",
+        "minLevel": 55,
+        "engrams": 8,
+        "prerequisites": ["Simple rifle ammo"],
+        "type": "item",
+        "parent": "Bullets"
+    },
+    {
+        "name": "Simple shotgun ammo",
+        "description": "A few simple bullets in a hide casing, used with forged shotguns.",
+        "image": "simple shotgun ammo.png",
+        "minLevel": 30,
+        "engrams": 6,
+        "prerequisites": ["Simple bullet"],
+        "type": "item",
+        "parent": "Bullets"
+    },
+    {
+        "name": "Advanced sniper ammo",
+        "description": "A high-caliber modern bullet, primarily used with fabricated sniper rifles.",
+        "image": "advanced sniper bullet.png",
+        "minLevel": 70,
+        "engrams": 16,
+        "prerequisites": ["Simple rifle ammo"],
+        "type": "item",
+        "parent": "Bullets"
+    }
+]

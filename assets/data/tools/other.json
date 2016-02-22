@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Other tools",
+        "description": "Few other things to help make life easier..",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Tools"
+    },
+    {
+        "name": "Note",
+        "description": "Write your own text on a note! Or put it in a Cooking Pot to make a Custom Recipe!",
+        "image": "note.png",
+        "minLevel": 2,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other tools"
+    },
+    {
+        "name": "Flare gun",
+        "description": "A single-use flare launcher. Fires a bright ball of Sparkpowder to temporarily light an area.",
+        "image": "flare gun.png",
+        "minLevel": 10,
+        "engrams": 6,
+        "prerequisites": ["Gunpowder"],
+        "type": "item",
+        "parent": "Other tools"
+    },
+    {
+        "name": "Magnifying glass",
+        "description": "This instrument, while primitive, is effective as short-range analysis of both flora and fauna.",
+        "image": "magnifying glass.png",
+        "minLevel": 20,
+        "engrams": 16,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other tools"
+    },
+    {
+        "name": "Radio",
+        "description": "Use this to communicate securely over great distances.",
+        "image": "radio.png",
+        "minLevel": 25,
+        "engrams": 8,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other tools"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Crop plots",
+        "description": "Boxes to grow crops in.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Farming"
+    },
+    {
+        "name": "Small crop plot",
+        "description": "A small garden plot, with a fence to keep out vermin.",
+        "image": "small crop plot.png",
+        "minLevel": 10,
+        "engrams": 9,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Crop plots"
+    },
+    {
+        "name": "Medium crop plot",
+        "description": "A meduim garden plot, with a fence to keep out vermin.",
+        "image": "medium crop plot.png",
+        "minLevel": 25,
+        "engrams": 12,
+        "prerequisites": ["Small crop plot"],
+        "type": "item",
+        "parent": "Crop plots"
+    },
+    {
+        "name": "Large crop plot",
+        "description": "A large garden plot, with a fence to keep out vermin.",
+        "image": "large crop plot.png",
+        "minLevel": 35,
+        "engrams": 15,
+        "prerequisites": ["Medium crop plot"],
+        "type": "item",
+        "parent": "Crop plots"
+    }
+]
