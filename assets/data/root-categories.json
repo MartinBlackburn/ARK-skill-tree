@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Ammunition",
+        "description": "Because firing blanks is never cool.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Armor",
+        "description": "Protect yourself from those snakes.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Crafting stations",
+        "description": "Tools and workbenches to help build bigger and better things.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Farming",
+        "description": "Growing food is so much easier then punching dinosaurs for meat.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Furniture",
+        "description": "Usless stuff to make your house look nicer.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Resources",
+        "description": "Stuff to go in other things, to make bigger things.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Saddles",
+        "description": "Riding dinosaurs, what could possible go wrong?",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Storage",
+        "description": "For hoarding and keeping all your things safe.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Structures",
+        "description": "Build a little home for yourself and friends.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Tools",
+        "description": "For collecting all the things, finding your way and making life easier.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Traps",
+        "description": "Kill or catch things without even being there.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Turrets",
+        "description": "Stationary turrets with more firepower then a little bow.",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
+        "name": "Weapons",
+        "description": "For hunting, making lots of noise or just showing off.",
+        "image": "test.png",
+        "type": "category"
+    }
+]
