@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Trapdoors",
+        "description": "Like doors, but for your ceilings.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Wooden trapdoor",
+        "description": "This small wooden door can be used to secure hatches.",
+        "image": "wooden trapdoor.png",
+        "minLevel": 20,
+        "engrams": 6,
+        "prerequisites": ["Wooden hatchframe"],
+        "type": "item",
+        "parent": "Trapdoors"
+    }
+]

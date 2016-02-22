@@ -1,0 +1,69 @@
+[
+    {
+        "name": "Walls",
+        "description": "Walls to keeps things out, or in.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Thatch wall",
+        "description": "A simple wall made of bundled sticks, and stabilized by a wooden frame. Fairly fragile, but better than nothing.",
+        "image": "thatch wall.png",
+        "minLevel": 3,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Walls"
+    },
+    {
+        "name": "Sloped thatch wall left",
+        "description": "A simple Thatch sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with a roof.",
+        "image": "sloped thatch wall left.png",
+        "minLevel": 5,
+        "engrams": 3,
+        "prerequisites": ["Thatch wall"],
+        "type": "item",
+        "parent": "Walls"
+    },
+    {
+        "name": "Sloped thatch wall right",
+        "description": "A simple Thatch sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with a roof.",
+        "image": "sloped thatch wall right.png",
+        "minLevel": 5,
+        "engrams": 3,
+        "prerequisites": ["Thatch wall"],
+        "type": "item",
+        "parent": "Walls"
+    },
+    {
+        "name": "Wooden wall",
+        "description": "A sturdy wooden wall that insulates the inside from the outside, separates rooms, and provides structural integrity.",
+        "image": "wooden wall.png",
+        "minLevel": 5,
+        "engrams": 7,
+        "prerequisites": ["Thatch wall"],
+        "type": "item",
+        "parent": "Walls"
+    },
+    {
+        "name": "Sloped wood wall left",
+        "description": "A sturdy Wooden sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof.",
+        "image": "sloped thatch wall left.png",
+        "minLevel": 10,
+        "engrams": 3,
+        "prerequisites": ["Sloped thatch wall left", "Wooden wall"],
+        "type": "item",
+        "parent": "Walls"
+    },
+    {
+        "name": "Sloped wood wall right",
+        "description": "A sturdy Wooden sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof.",
+        "image": "sloped thatch wall right.png",
+        "minLevel": 10,
+        "engrams": 3,
+        "prerequisites": ["Sloped thatch wall right", "Wooden wall"],
+        "type": "item",
+        "parent": "Walls"
+    }
+]

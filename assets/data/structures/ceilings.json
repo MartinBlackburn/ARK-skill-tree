@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Ceilings",
+        "description": "Doubles as a roof and a floor.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Wooden ceiling",
+        "description": "A stable wooden ceiling that insulates the inside from the outside, and doubles as a floor for higher levels.",
+        "image": "wooden ceiling.png",
+        "minLevel": 10,
+        "engrams": 6,
+        "prerequisites": ["Thatch roof"],
+        "type": "item",
+        "parent": "Ceilings"
+    }
+]

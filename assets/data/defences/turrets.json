@@ -1,5 +1,12 @@
 [
     {
+        "name": "Turrets",
+        "description": "Stationary turrets with more firepower then a little bow.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Defences"
+    },
+    {
         "name": "Ballista turret",
         "description": "Survivors can mount this and fire devastating ballista arrows, useful for bringing down large dinos and structures!",
         "image": "ballista turret.png",

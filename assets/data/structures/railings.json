@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Railings",
+        "description": "Safety first!",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Wooden railing",
+        "description": "A sturdy wooden railing that acts a a simple barrier to prevent people from falling.",
+        "image": "wooden railing.png",
+        "minLevel": 10,
+        "engrams": 3,
+        "prerequisites": ["Wooden wall"],
+        "type": "item",
+        "parent": "Railings"
+    }
+]

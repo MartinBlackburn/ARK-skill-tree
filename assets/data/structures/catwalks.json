@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Catwalks",
+        "description": "Narrow walkways.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Wooden catwalk",
+        "description": "A thin walkway for bridging areas together. Made from sturdy wood.",
+        "image": "wooden catwalk.png",
+        "minLevel": 20,
+        "engrams": 6,
+        "prerequisites": ["Wooden ceiling"],
+        "type": "item",
+        "parent": "Catwalks"
+    }
+]

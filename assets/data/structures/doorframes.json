@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Doorframes",
+        "description": "Magically teleport between sides of a wall.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Thatch doorframe",
+        "description": "This thatch wall has an entrance in it, but requires more wood to stay stable.",
+        "image": "thatch doorframe.png",
+        "minLevel": 2,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Doorframes"
+    },
+    {
+        "name": "Wooden doorframe",
+        "description": "A wooden wall that provides entrance to a structure.",
+        "image": "wooden doorframe.png",
+        "minLevel": 10,
+        "engrams": 6,
+        "prerequisites": ["Thatch doorframe", "Wooden wall"],
+        "type": "item",
+        "parent": "Doorframes"
+    }
+]

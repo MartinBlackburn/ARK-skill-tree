@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Doors",
+        "description": "Added security for doorframes.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Thatch door",
+        "description": "Enough sticks bundled together works as a simple door. Can be locked for security, but not very strong.",
+        "image": "thatch door.png",
+        "minLevel": 3,
+        "engrams": 3,
+        "prerequisites": ["Thatch doorframe"],
+        "type": "item",
+        "parent": "Doors"
+    },
+    {
+        "name": "Wooden door",
+        "description": "A stable wooden door that provides entrance to structures. Can be locked for security.",
+        "image": "wooden door.png",
+        "minLevel": 10,
+        "engrams": 4,
+        "prerequisites": ["Thatch door", "Wooden doorframe"],
+        "type": "item",
+        "parent": "Doors"
+    }
+]

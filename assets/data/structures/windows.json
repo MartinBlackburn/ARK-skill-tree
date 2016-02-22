@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Windows",
+        "description": "Hatches to cover to the windows when its too cold outside.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Wooden window",
+        "description": "Wooden beams on hinges that cover windows to provide protection from projectiles and spying.",
+        "image": "wooden window.png",
+        "minLevel": 25,
+        "engrams": 6,
+        "prerequisites": ["Wooden windowframe"],
+        "type": "item",
+        "parent": "Windows"
+    }
+]

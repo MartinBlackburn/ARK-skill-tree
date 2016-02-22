@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Spikewalls",
+        "description": "Make it hard for people to get to you.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Defences"
+    },
+    {
+        "name": "Wooden spike wall",
+        "description": "These incredibly sharp wooden stakes are dangerous to any that touch them. Larger creatures take more damage.",
+        "image": "wooden spike wall.png",
+        "minLevel": 10,
+        "engrams": 4,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Spikewalls"
+    }
+]

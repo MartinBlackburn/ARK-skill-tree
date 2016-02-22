@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Pillars",
+        "description": "That roof wont hold itself up.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Wooden pillar",
+        "description": "Adds structural integrity to the area it is built on. Can also act as stilts for buildings on inclines.",
+        "image": "wooden pillar.png",
+        "minLevel": 15,
+        "engrams": 9,
+        "prerequisites": ["Wooden foundation"],
+        "type": "item",
+        "parent": "Pillars"
+    }
+]

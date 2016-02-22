@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Windowframes",
+        "description": "Small holes in walls to see or shoot out of.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Wooden windowframe",
+        "description": "A wooden wall with a hole for a window.",
+        "image": "wooden windowframe.png",
+        "minLevel": 20,
+        "engrams": 9,
+        "prerequisites": ["Wooden wall"],
+        "type": "item",
+        "parent": "Windowframes"
+    }
+]

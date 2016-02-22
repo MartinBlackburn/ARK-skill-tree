@@ -1,5 +1,12 @@
 [
     {
+        "name": "Traps",
+        "description": "Kill or catch things without even being there.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Defences"
+    },
+    {
         "name": "Tripwire alarm trap",
         "description": "Place two of these near each other to create a trap.",
         "image": "tripwire alarm trap.png",

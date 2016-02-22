@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Ramps",
+        "description": "Better than stairs.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Wooden ramp",
+        "description": "An inclined wooden floor for travelling up or down. Can also be used to make an angled roof.",
+        "image": "wooden ramp.png",
+        "minLevel": 15,
+        "engrams": 3,
+        "prerequisites": ["Wooden ceiling"],
+        "type": "item",
+        "parent": "Ramps"
+    }
+]

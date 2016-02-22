@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Roofs",
+        "description": "Keep your head dry when it rains.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Thatch roof",
+        "description": "A thatched roof to protect you from the elements. Not stable enough to build on.",
+        "image": "thatch roof.png",
+        "minLevel": 3,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Roofs"
+    },
+    {
+        "name": "Sloped thatch roof",
+        "description": "An inclined Thatch roof. Slightly different angle than the ramp.",
+        "image": "sloped thatch roof.png",
+        "minLevel": 5,
+        "engrams": 3,
+        "prerequisites": ["Thatch roof"],
+        "type": "item",
+        "parent": "Roofs"
+    },
+    {
+        "name": "Sloped wooden roof",
+        "description": "An inclined wooden roof. Slightly different angle than the ramp.",
+        "image": "sloped wooden roof.png",
+        "minLevel": 10,
+        "engrams": 4,
+        "prerequisites": ["Sloped thatch roof", "Wooden ceiling"],
+        "type": "item",
+        "parent": "Roofs"
+    }
+]

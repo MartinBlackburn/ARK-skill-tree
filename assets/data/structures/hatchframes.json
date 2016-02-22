@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Hatchframes",
+        "description": "Hole in the ceiling for easy access.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Wooden hatchframe",
+        "description": "A wooden ceiling with a hole in it for trapdoors.",
+        "image": "wooden hatchframe.png",
+        "minLevel": 15,
+        "engrams": 9,
+        "prerequisites": ["Wooden ceiling"],
+        "type": "item",
+        "parent": "Hatchframes"
+    }
+]

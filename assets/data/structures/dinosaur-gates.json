@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Dinosaur gates",
+        "description": "Massive doors that can fit a dinosaur though.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    }
+]

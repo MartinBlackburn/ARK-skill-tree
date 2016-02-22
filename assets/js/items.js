@@ -27,6 +27,10 @@ App.Items = (function()
 
                     "assets/data/crafting-stations.json",
 
+                    "assets/data/defences/spikewalls.json",
+                    "assets/data/defences/traps.json",
+                    "assets/data/defences/turrets.json",
+
                     "assets/data/farming/crop-plots.json",
                     "assets/data/farming/irrigation.json",
                     "assets/data/farming/greenhouse.json",
@@ -39,17 +43,28 @@ App.Items = (function()
 
                     "assets/data/storage.json",
 
-                    "assets/data/structures/structures.json",
+                    "assets/data/structures/catwalks.json",
+                    "assets/data/structures/ceilings.json",
+                    "assets/data/structures/dinosaur-gates.json",
+                    "assets/data/structures/doorframes.json",
+                    "assets/data/structures/doors.json",
+                    "assets/data/structures/foundations.json",
+                    "assets/data/structures/hatchframes.json",
+                    "assets/data/structures/ladders.json",
+                    "assets/data/structures/pillars.json",
+                    "assets/data/structures/railings.json",
+                    "assets/data/structures/ramps.json",
+                    "assets/data/structures/roofs.json",
+                    "assets/data/structures/trapdoors.json",
+                    "assets/data/structures/walls.json",
+                    "assets/data/structures/windowframes.json",
+                    "assets/data/structures/windows.json",
 
                     "assets/data/tools/harvesting.json",
                     "assets/data/tools/survival.json",
                     "assets/data/tools/navigation.json",
                     "assets/data/tools/cosmetic.json",
-                    "assets/data/tools/other.json",
-
-                    "assets/data/traps.json",
-
-                    "assets/data/turrets.json"
+                    "assets/data/tools/other.json"
                     ];
 
 

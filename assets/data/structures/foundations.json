@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Foundations",
+        "description": "Create a solid base for building to stand on.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "name": "Thatch foundation",
+        "description": "A foundation is required to build structures. This one is a wooden frame with some smooth bundles of sticks that act as a floor.",
+        "image": "thatch foundation.png",
+        "minLevel": 2,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Foundations"
+    },
+    {
+        "name": "Wooden foundation",
+        "description": "A foundation is required to build structures. This one is made from sturdy wood.",
+        "image": "wooden foundation.png",
+        "minLevel": 5,
+        "engrams": 6,
+        "prerequisites": ["Thatch foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    },
+    {
+        "name": "Wooden fence foundation",
+        "description": "This very cheap, narrow foundation is used to build fences around an area.",
+        "image": "wooden fence foundation.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Wooden foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    }
+]
