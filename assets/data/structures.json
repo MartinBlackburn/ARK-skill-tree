@@ -304,9 +304,9 @@
         "parent": "Wooden"
     },
     {
-        "name": "Wooden fence",
+        "name": "Wooden fence foundation",
         "description": "This very cheap, narrow foundation is used to build fences around an area.",
-        "image": "wooden fence.png",
+        "image": "wooden fence foundation.png",
         "minLevel": 15,
         "engrams": 6,
         "prerequisites": ["Wooden foundation"],
