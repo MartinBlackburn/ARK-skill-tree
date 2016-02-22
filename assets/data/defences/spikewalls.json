@@ -15,5 +15,15 @@
         "prerequisites": [],
         "type": "item",
         "parent": "Spikewalls"
+    },
+    {
+        "name": "Metal spike wall",
+        "description": "These incredibly sharp metal spikes are dangerous to any that touch them. Large creatures take more damage.",
+        "image": "metal spike wall.png",
+        "minLevel": 25,
+        "engrams": 11,
+        "prerequisites": ["Wooden spike wall"],
+        "type": "item",
+        "parent": "Spikewalls"
     }
 ]
