@@ -8,7 +8,7 @@ App.Items = (function()
 
     //item files
     var itemFiles = [
-                    "assets/data/_root-categories.json",
+                    "assets/data/root-categories.json",
 
                     "assets/data/ammunition/arrows.json",
                     "assets/data/ammunition/bullets.json",
