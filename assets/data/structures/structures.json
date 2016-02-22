@@ -1,11 +1,5 @@
 [
     {
-        "name": "Structures",
-        "description": "Build a little home for yourself and friends.",
-        "image": "test.png",
-        "type": "category"
-    },
-    {
         "name": "Catwalks",
         "description": "Narrow walkways.",
         "image": "test.png",
