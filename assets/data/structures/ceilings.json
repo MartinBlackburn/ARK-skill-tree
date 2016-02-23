@@ -15,5 +15,25 @@
         "prerequisites": ["Thatch roof"],
         "type": "item",
         "parent": "Ceilings"
+    },
+    {
+        "name": "Stone ceiling",
+        "description": "A stable brick-and-mortar ceiling that insulates the inside from the outside, and doubles as a floor for higher levels.",
+        "image": "stone ceiling.png",
+        "minLevel": 20,
+        "engrams": 6,
+        "prerequisites": ["Wooden ceiling"],
+        "type": "item",
+        "parent": "Ceilings"
+    },
+    {
+        "name": "Metal ceiling",
+        "description": "A stable metal-plated concrete ceiling that provides insulation, and doubles as a floor for higher levels.",
+        "image": "metal ceiling.png",
+        "minLevel": 35,
+        "engrams": 15,
+        "prerequisites": ["Stone ceiling"],
+        "type": "item",
+        "parent": "Ceilings"
     }
 ]
