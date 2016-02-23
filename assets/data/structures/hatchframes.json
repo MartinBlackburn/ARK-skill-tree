@@ -15,5 +15,25 @@
         "prerequisites": ["Wooden ceiling"],
         "type": "item",
         "parent": "Hatchframes"
+    },
+    {
+        "name": "Stone hatchframe",
+        "description": "This brick-and-mortar ceiling has a hole in it for trapdoors.",
+        "image": "stone hatchframe.png",
+        "minLevel": 25,
+        "engrams": 5,
+        "prerequisites": ["Stone ceiling", "Wooden hatchframe"],
+        "type": "item",
+        "parent": "Hatchframes"
+    },
+    {
+        "name": "Metal hatchframe",
+        "description": "This metal-plated concrete ceiling has a hole in it for trapdoors.",
+        "image": "metal hatchframe.png",
+        "minLevel": 40,
+        "engrams": 18,
+        "prerequisites": ["Metal ceiling", "Stone hatchframe"],
+        "type": "item",
+        "parent": "Hatchframes"
     }
 ]
