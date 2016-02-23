@@ -45,6 +45,7 @@ App.Items = (function()
 
                     "assets/data/structures/catwalks.json",
                     "assets/data/structures/ceilings.json",
+                    "assets/data/structures/dinosaur-gateways.json",
                     "assets/data/structures/dinosaur-gates.json",
                     "assets/data/structures/doorframes.json",
                     "assets/data/structures/doors.json",
