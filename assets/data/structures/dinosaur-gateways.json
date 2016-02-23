@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Dinosaur gateways",
+        "description": "Massive gateways that can fit a dinosaur though.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    }
+]

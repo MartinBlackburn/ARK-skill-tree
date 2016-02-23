@@ -5,5 +5,55 @@
         "image": "test.png",
         "type": "category",
         "parent": "Structures"
+    },
+    {
+        "name": "Dinosaur gate",
+        "description": "A large wooden gate that can be used with a gateway to keep dinosaurs in or out. Cannot be destroyed by any dinosaur.",
+        "image": "dinosaur gate.png",
+        "minLevel": 15,
+        "engrams": 5,
+        "prerequisites": ["Dinosaur gateway"],
+        "type": "item",
+        "parent": "Dinosaur gates"
+    },
+    {
+        "name": "Reinforced dinosaur gate",
+        "description": "A large, reinforced wooden gate that can be used with a Gateway to keep dinosaurs in or out.",
+        "image": "reinforced dinosaur gate.png",
+        "minLevel": 20,
+        "engrams": 6,
+        "prerequisites": ["Dinosaur gate", "Stone dinosaur gateway"],
+        "type": "item",
+        "parent": "Dinosaur gates"
+    },
+    {
+        "name": "Behemoth reinforced dinosaur gate",
+        "description": "A large, reinforced wooden gate that can be used with a Gateway to keep dinosaurs in or out.",
+        "image": "behemoth reinforced dinosaur gate.png",
+        "minLevel": 25,
+        "engrams": 16,
+        "prerequisites": ["Reinforced dinosaur gate", "Behemoth stone dinosaur gateway"],
+        "type": "item",
+        "parent": "Dinosaur gates"
+    },
+    {
+        "name": "Metal dinosaur gate",
+        "description": "A large metal gate that can be used with a Gateway to keep most dinosaurs in or out.",
+        "image": "metal dinosaur gate.png",
+        "minLevel": 40,
+        "engrams": 8,
+        "prerequisites": ["Dinosaur gate", "Metal dinosaur gateway"],
+        "type": "item",
+        "parent": "Dinosaur gates"
+    },
+    {
+        "name": "Behemoth gate",
+        "description": "A large metal-plated concrete gate that can be used with a Behemoth Gateway to allow even the largest of creatures in or out.",
+        "image": "behemoth gate.png",
+        "minLevel": 55,
+        "engrams": 15,
+        "prerequisites": ["Metal dinosaur gate", "Behemoth gateway"],
+        "type": "item",
+        "parent": "Dinosaur gates"
     }
 ]
