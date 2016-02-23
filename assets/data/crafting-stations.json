@@ -75,7 +75,7 @@
         "image": "industrial grill.png",
         "minLevel": 45,
         "engrams": 40,
-        "prerequisites": ["Campfire", "Industrial grill"],
+        "prerequisites": ["Campfire", "Fabricator"],
         "type": "item",
         "parent": "Crafting stations"
     },
