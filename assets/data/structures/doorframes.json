@@ -25,5 +25,25 @@
         "prerequisites": ["Thatch doorframe", "Wooden wall"],
         "type": "item",
         "parent": "Doorframes"
+    },
+    {
+        "name": "Stone doorframe",
+        "description": "A stone wall that provides entrance to a structure.",
+        "image": "stone doorframe.png",
+        "minLevel": 20,
+        "engrams": 6,
+        "prerequisites": ["Wooden doorframe", "Stone wall"],
+        "type": "item",
+        "parent": "Doorframes"
+    },
+    {
+        "name": "Metal doorframe",
+        "description": "A metal-plated concrete wall that provides entrance to a structure.",
+        "image": "metal doorframe.png",
+        "minLevel": 30,
+        "engrams": 24,
+        "prerequisites": ["Stone doorframe", "Metal wall"],
+        "type": "item",
+        "parent": "Doorframes"
     }
 ]
