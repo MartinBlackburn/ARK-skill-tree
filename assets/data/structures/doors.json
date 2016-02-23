@@ -25,5 +25,25 @@
         "prerequisites": ["Thatch door", "Wooden doorframe"],
         "type": "item",
         "parent": "Doors"
+    },
+    {
+        "name": "Reinforced wooden door",
+        "description": "A reinforced wooden door that provides entance to structures. Can be locked for security.",
+        "image": "reinforced wooden door.png",
+        "minLevel": 20,
+        "engrams": 4,
+        "prerequisites": ["Wooden door", "Stone doorframe"],
+        "type": "item",
+        "parent": "Doors"
+    },
+    {
+        "name": "Metal door",
+        "description": "A stable metal-plated concrete door that provides entrance to structures. Can be locked for security.",
+        "image": "metal door.png",
+        "minLevel": 35,
+        "engrams": 12,
+        "prerequisites": ["Reinforced wooden door", "Metal doorframe"],
+        "type": "item",
+        "parent": "Doors"
     }
 ]
