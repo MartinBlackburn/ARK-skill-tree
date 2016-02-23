@@ -35,5 +35,45 @@
         "prerequisites": ["Wooden foundation"],
         "type": "item",
         "parent": "Foundations"
+    },
+    {
+        "name": "Stone foundation",
+        "description": "A foundation is required to build structures in an area. This one is made from brick-and-mortar.",
+        "image": "stone foundation.png",
+        "minLevel": 20,
+        "engrams": 6,
+        "prerequisites": ["Wooden foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    },
+    {
+        "name": "Stone fence foundation",
+        "description": "This strong, narrow foundation is used to build walls around an area.",
+        "image": "stone fence foundation.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Wooden fence foundation", "Stone foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    },
+    {
+        "name": "Metal foundation",
+        "description": "A foundation is required to build structures in an area. This one is made from sturdy metal-plated concrete.",
+        "image": "metal foundation.png",
+        "minLevel": 30,
+        "engrams": 24,
+        "prerequisites": ["Stone foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    },
+    {
+        "name": "Metal fence foundation",
+        "description": "This very strong, narrow foundation is used to build walls around an area.",
+        "image": "metal fence foundation.png",
+        "minLevel": 40,
+        "engrams": 12,
+        "prerequisites": ["Stone fence foundation", "Metal foundation"],
+        "type": "item",
+        "parent": "Foundations"
     }
 ]
