@@ -23,6 +23,7 @@ App.Items = (function()
                     "assets/data/armor/hide.json",
                     "assets/data/armor/riot.json",
                     "assets/data/armor/scuba.json",
+                    "assets/data/armor/shields.json",
                     "assets/data/armor/other.json",
 
                     "assets/data/crafting-stations.json",
