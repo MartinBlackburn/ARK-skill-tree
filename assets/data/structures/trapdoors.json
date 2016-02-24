@@ -15,5 +15,25 @@
         "prerequisites": ["Wooden hatchframe"],
         "type": "item",
         "parent": "Trapdoors"
+    },
+    {
+        "name": "Reinforced trapdoor",
+        "description": "This small reinforced door can be used to secure hatches.",
+        "image": "reinforced trapdoor.png",
+        "minLevel": 30,
+        "engrams": 10,
+        "prerequisites": ["Stone hatchframe", "Wooden trapdoor"],
+        "type": "item",
+        "parent": "Trapdoors"
+    },
+    {
+        "name": "Metal trapdoor",
+        "description": "This metal-plated concrete slab can be used to secure hatches.",
+        "image": "metal trapdoor.png",
+        "minLevel": 40,
+        "engrams": 14,
+        "prerequisites": ["Metal hatchframe", "Reinforced trapdoor"],
+        "type": "item",
+        "parent": "Trapdoors"
     }
 ]
