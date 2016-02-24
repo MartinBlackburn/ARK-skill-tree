@@ -15,5 +15,25 @@
         "prerequisites": ["Wooden wall"],
         "type": "item",
         "parent": "Railings"
+    },
+    {
+        "name": "Stone railing",
+        "description": "A brick-and-mortar railing that acts a a simple barrier to prevent people from falling.",
+        "image": "stone railing.png",
+        "minLevel": 40,
+        "engrams": 4,
+        "prerequisites": ["Stone wall", "Wooden railing"],
+        "type": "item",
+        "parent": "Railings"
+    },
+    {
+        "name": "Metal railing",
+        "description": "A metal-plated concrete railing that acts a a simple barrier to prevent people from falling.",
+        "image": "metal railing.png",
+        "minLevel": 30,
+        "engrams": 7,
+        "prerequisites": ["Metal wall", "Stone railing"],
+        "type": "item",
+        "parent": "Railings"
     }
 ]
