@@ -15,5 +15,25 @@
         "prerequisites": ["Wooden foundation"],
         "type": "item",
         "parent": "Pillars"
+    },
+    {
+        "name": "Stone pillar",
+        "description": "Adds structural integrity to the area it is built on. Can also act as stilts for buildings on inclines.",
+        "image": "stone pillar.png",
+        "minLevel": 25,
+        "engrams": 8,
+        "prerequisites": ["Stone foundation", "Wooden pillar"],
+        "type": "item",
+        "parent": "Pillars"
+    },
+    {
+        "name": "Metal pillar",
+        "description": "This metal-plated concrete pillar adds structural integrity to the area it is built under. Can also act as stilts for building on inclines.",
+        "image": "metal pillar.png",
+        "minLevel": 35,
+        "engrams": 18,
+        "prerequisites": ["Metal foundation", "Stone pillar"],
+        "type": "item",
+        "parent": "Pillars"
     }
 ]
