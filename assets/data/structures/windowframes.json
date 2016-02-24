@@ -15,5 +15,25 @@
         "prerequisites": ["Wooden wall"],
         "type": "item",
         "parent": "Windowframes"
+    },
+    {
+        "name": "Stone windowframe",
+        "description": "A brick-and-mortar wall with a hole for a window.",
+        "image": "stone windowframe.png",
+        "minLevel": 25,
+        "engrams": 11,
+        "prerequisites": ["Stone wall", "Wooden windowframe"],
+        "type": "item",
+        "parent": "Windowframes"
+    },
+    {
+        "name": "Metal windowframe",
+        "description": "A metal-plated concrete wall, with a hole for a window.",
+        "image": "metal windowframe.png",
+        "minLevel": 45,
+        "engrams": 18,
+        "prerequisites": ["Metal wall", "Stone windowframe"],
+        "type": "item",
+        "parent": "Windowframes"
     }
 ]
