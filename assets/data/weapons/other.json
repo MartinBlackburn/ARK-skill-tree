@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Other weapons",
+        "description": "Few other things to help kill dinosaurs.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Weapons"
+    }
+]

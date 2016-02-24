@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Bows",
+        "description": "Be the next robin hood.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Weapons"
+    }
+]
