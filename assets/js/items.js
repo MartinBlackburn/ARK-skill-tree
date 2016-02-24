@@ -66,7 +66,15 @@ App.Items = (function()
                     "assets/data/tools/survival.json",
                     "assets/data/tools/navigation.json",
                     "assets/data/tools/cosmetic.json",
-                    "assets/data/tools/other.json"
+                    "assets/data/tools/other.json",
+
+                    "assets/data/weapons/attachments.json",
+                    "assets/data/weapons/explosives.json",
+                    "assets/data/weapons/grenades.json",
+                    "assets/data/weapons/melee.json",
+                    "assets/data/weapons/pistols.json",
+                    "assets/data/weapons/rifles.json",
+                    "assets/data/weapons/shotguns.json"
                     ];
 
 
