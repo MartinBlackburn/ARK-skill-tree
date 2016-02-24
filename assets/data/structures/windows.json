@@ -15,5 +15,25 @@
         "prerequisites": ["Wooden windowframe"],
         "type": "item",
         "parent": "Windows"
+    },
+    {
+        "name": "Reinforced window",
+        "description": "Reinforced window covering to provide protection from projectiles and spying.",
+        "image": "reinforced window.png",
+        "minLevel": 30,
+        "engrams": 10,
+        "prerequisites": ["Stone windowframe", "Wooden window"],
+        "type": "item",
+        "parent": "Windows"
+    },
+    {
+        "name": "Metal window",
+        "description": "Metal plates on hinges that cover windows to provide protection from projectiles and spying.",
+        "image": "metal window.png",
+        "minLevel": 50,
+        "engrams": 18,
+        "prerequisites": ["Metal windowframe", "Reinforced window"],
+        "type": "item",
+        "parent": "Windows"
     }
 ]
