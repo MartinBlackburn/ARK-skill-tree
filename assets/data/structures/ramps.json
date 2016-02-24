@@ -15,5 +15,15 @@
         "prerequisites": ["Wooden ceiling"],
         "type": "item",
         "parent": "Ramps"
+    },
+    {
+        "name": "Metal ramp",
+        "description": "An inclined metal-plated concrete floor for travelling up or down levels. Can also be used to make an angled roof.",
+        "image": "metal ramp.png",
+        "minLevel": 35,
+        "engrams": 12,
+        "prerequisites": ["Metal ceiling", "Wooden ramp"],
+        "type": "item",
+        "parent": "Ramps"
     }
 ]
