@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Furniture",
+        "description": "Usless stuff to make your house look nicer.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    }
+]

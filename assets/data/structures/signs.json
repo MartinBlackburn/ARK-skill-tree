@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Signs",
+        "description": "Post directions or warnings.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    }
+]

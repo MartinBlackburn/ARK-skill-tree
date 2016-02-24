@@ -51,6 +51,7 @@ App.Items = (function()
                     "assets/data/structures/doorframes.json",
                     "assets/data/structures/doors.json",
                     "assets/data/structures/foundations.json",
+                    "assets/data/structures/furniture.json",
                     "assets/data/structures/hatchframes.json",
                     "assets/data/structures/ladders.json",
                     "assets/data/structures/pillars.json",

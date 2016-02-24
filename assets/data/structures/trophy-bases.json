@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Trophy bases",
+        "description": "Show off your awards.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    }
+]

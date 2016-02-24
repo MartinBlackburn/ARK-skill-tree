@@ -30,12 +30,6 @@
         "type": "category"
     },
     {
-        "name": "Furniture",
-        "description": "Usless stuff to make your house look nicer.",
-        "image": "test.png",
-        "type": "category"
-    },
-    {
         "name": "Resources",
         "description": "Stuff to go in other things, to make bigger things.",
         "image": "test.png",

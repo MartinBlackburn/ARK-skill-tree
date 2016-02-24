@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Beds",
+        "description": "zzzzzzzzzzzzz.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    }
+]
