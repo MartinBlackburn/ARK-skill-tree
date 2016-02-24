@@ -305,12 +305,9 @@ App.Items = (function()
             for(var i = 0; i < prerequisitesArray.length; i++) {
                 var requiredItem = container.find("[data-id='" + prerequisitesArray[i] + "']");
 
-                //check parent exists
-                //error if not
+                //check item exists
                 if(requiredItem.length < 1) {
-                    console.error("Item '" + item.data("id") + "' doesn't have prerequisite '" + prerequisitesArray[i] + "'");
-
-                    return false;
+                    return;
                 }
 
                 selectItem(requiredItem);

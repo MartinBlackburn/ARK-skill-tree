@@ -33,6 +33,7 @@ App.Tests = (function()
 
         sameCategoryId();
         sameItemId();
+        prerequisitesExist();
     }
 
 
@@ -60,7 +61,7 @@ App.Tests = (function()
 
 
     /**
-     * Make sure no category has the same id
+     * Make sure no item has the same id
      */
     function sameItemId()
     {
@@ -71,6 +72,36 @@ App.Tests = (function()
 
             if(sameItemId.length > 1) {
                 console.error("There are items with the same id: " + id);
+            }
+        });
+    }
+
+
+
+
+
+    /**
+     * Make sure prerequisites exist
+     */
+    function prerequisitesExist()
+    {
+        items.each(function() {
+            //get item prerequisites
+            var prerequisites = $(this).data("prerequisites").toString();
+
+            //if item has prerequisites, check they exist
+            if(prerequisites.length !== 0) {
+                var prerequisitesArray = prerequisites.split(",");
+
+                //check each prerequisite
+                for(var i = 0; i < prerequisitesArray.length; i++) {
+                    var requiredItem = container.find("[data-id='" + prerequisitesArray[i] + "']");
+
+                    //check item exists
+                    if(requiredItem.length < 1) {
+                        console.error("Item '" + $(this).data("id") + "' doesn't have prerequisite '" + prerequisitesArray[i] + "'");
+                    }
+                }
             }
         });
     }
