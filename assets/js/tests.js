@@ -35,6 +35,7 @@ App.Tests = (function()
         sameItemId();
         prerequisitesExist();
         prerequisiteNotCategory();
+        emptyCategory();
     }
 
 
@@ -133,6 +134,25 @@ App.Tests = (function()
                         console.error("Item '" + $(this).data("id") + "' has prerequisite which is a category '" + prerequisitesArray[i] + "'");
                     }
                 }
+            }
+        });
+    }
+
+
+
+
+
+    /**
+     * Make sure no category is empty
+     */
+    function emptyCategory()
+    {
+        categories.each(function() {
+            var childItems = $(this).find(".item");
+            var id = $(this).data("id").toString();
+
+            if(childItems.length === 0) {
+                console.error("Categories has no items: " + id);
             }
         });
     }
