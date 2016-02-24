@@ -5,5 +5,55 @@
         "image": "test.png",
         "type": "category",
         "parent": "Weapons"
+    },
+    {
+        "name": "Spear",
+        "description": "An easily made melee weapon that can also be thrown. Has a chance to break when used.",
+        "image": "spear.png",
+        "minLevel": 2,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Melee"
+    },
+    {
+        "name": "Wooden club",
+        "description": "A easily made melee weapon that is excellent for knocking out targets. Only effective at short range.",
+        "image": "wooden club.png",
+        "minLevel": 3,
+        "engrams": 4,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Melee"
+    },
+    {
+        "name": "Pike",
+        "description": "A powerful weapon tipped with metal. Unlike the spear, it cannot be thrown.",
+        "image": "pike.png",
+        "minLevel": 25,
+        "engrams": 10,
+        "prerequisites": ["Spear"],
+        "type": "item",
+        "parent": "Melee"
+    },
+    {
+        "name": "Metal sword",
+        "description": "The undisputed ruler of short-range combat. Needs a hotter flame to be forged.",
+        "image": "metal sword.png",
+        "minLevel": 30,
+        "engrams": 11,
+        "prerequisites": ["Wooden club"],
+        "type": "item",
+        "parent": "Melee"
+    },
+    {
+        "name": "Electric prod",
+        "description": "Powerful stunning weapon, but can only be used for a single strike before recharge is needed.",
+        "image": "electric prod.png",
+        "minLevel": 80,
+        "engrams": 60,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Melee"
     }
 ]
