@@ -5,5 +5,15 @@
         "image": "test.png",
         "type": "category",
         "parent": "Weapons"
+    },
+    {
+        "name": "Slingshot",
+        "description": "A simple ranged weapon that deals damage from afar. Better for knocking out a target than killing it outright. Requires stone to fire.",
+        "image": "slingshot.png",
+        "minLevel": 5,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other weapons"
     }
 ]
