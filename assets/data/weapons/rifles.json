@@ -5,5 +5,35 @@
         "image": "test.png",
         "type": "category",
         "parent": "Weapons"
+    },
+    {
+        "name": "Longneck rifle",
+        "description": "This simple single-shot rifle is highly accurate, but has a long reload time.",
+        "image": "longneck rifle.png",
+        "minLevel": 35,
+        "engrams": 18,
+        "prerequisites": ["Flare gun"],
+        "type": "item",
+        "parent": "Rifles"
+    },
+    {
+        "name": "Assault rifle",
+        "description": "The fastest way to fill a target with holes.",
+        "image": "assault rifle.png",
+        "minLevel": 55,
+        "engrams": 24,
+        "prerequisites": ["Longneck rifle"],
+        "type": "item",
+        "parent": "Rifles"
+    },
+    {
+        "name": "Fabricated sniper rifle",
+        "description": "This semi-automatic rifle has less punch than a Longneck Rifle, but can be fired much more rapidly.",
+        "image": "fabricated sniper rifle.png",
+        "minLevel": 70,
+        "engrams": 36,
+        "prerequisites": ["Longneck rifle"],
+        "type": "item",
+        "parent": "Rifles"
     }
 ]

@@ -5,5 +5,25 @@
         "image": "test.png",
         "type": "category",
         "parent": "Weapons"
+    },
+    {
+        "name": "Shotgun",
+        "description": "Very powerful up close, but less reliable with range.",
+        "image": "shotgun.png",
+        "minLevel": 35,
+        "engrams": 18,
+        "prerequisites": ["Flare gun"],
+        "type": "item",
+        "parent": "Shotguns"
+    },
+    {
+        "name": "Pump-action shotgun",
+        "description": "Powerful up close, but less reliable with range. Can fire six rounds before reloading.",
+        "image": "pump-action shotgun.png",
+        "minLevel": 50,
+        "engrams": 18,
+        "prerequisites": ["Shotgun"],
+        "type": "item",
+        "parent": "Shotguns"
     }
 ]
