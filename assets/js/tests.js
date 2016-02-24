@@ -34,6 +34,7 @@ App.Tests = (function()
         sameCategoryId();
         sameItemId();
         prerequisitesExist();
+        prerequisiteNotCategory();
     }
 
 
@@ -100,6 +101,36 @@ App.Tests = (function()
                     //check item exists
                     if(requiredItem.length < 1) {
                         console.error("Item '" + $(this).data("id") + "' doesn't have prerequisite '" + prerequisitesArray[i] + "'");
+                    }
+                }
+            }
+        });
+    }
+
+
+
+
+
+    /**
+     * Make sure prerequisites isn't a category
+     */
+    function prerequisiteNotCategory()
+    {
+        items.each(function() {
+            //get item prerequisites
+            var prerequisites = $(this).data("prerequisites").toString();
+
+            //if item has prerequisites, check it's not a category
+            if(prerequisites.length !== 0) {
+                var prerequisitesArray = prerequisites.split(",");
+
+                //check each prerequisite
+                for(var i = 0; i < prerequisitesArray.length; i++) {
+                    var requiredItem = container.find("[data-id='" + prerequisitesArray[i] + "']");
+
+                    //check prerequisite isn't a category
+                    if(requiredItem.hasClass("category")) {
+                        console.error("Item '" + $(this).data("id") + "' has prerequisite which is a category '" + prerequisitesArray[i] + "'");
                     }
                 }
             }

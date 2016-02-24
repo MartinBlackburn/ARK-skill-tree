@@ -5,5 +5,35 @@
         "image": "test.png",
         "type": "category",
         "parent": "Weapons"
+    },
+    {
+        "name": "C4 charge",
+        "description": "This advanced explosive can annihilate structures.",
+        "image": "c4 charge.png",
+        "minLevel": 55,
+        "engrams": 12,
+        "prerequisites": ["Improvised explosive device"],
+        "type": "item",
+        "parent": "Explosives"
+    },
+    {
+        "name": "C4 remote detonator",
+        "description": "This device uses radio waves to detonate all primed C4 packages on the same frequency.",
+        "image": "c4 remote detonator.png",
+        "minLevel": 55,
+        "engrams": 24,
+        "prerequisites": ["Electronics"],
+        "type": "item",
+        "parent": "Explosives"
+    },
+    {
+        "name": "Rocket launcher",
+        "description": "Mankind's ultimate portable killing device.",
+        "image": "rocket launcher.png",
+        "minLevel": 60,
+        "engrams": 32,
+        "prerequisites": ["Longneck rifle"],
+        "type": "item",
+        "parent": "Explosives"
     }
 ]
