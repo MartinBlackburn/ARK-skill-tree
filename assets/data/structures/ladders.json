@@ -15,5 +15,15 @@
         "prerequisites": [],
         "type": "item",
         "parent": "Ladders"
+    },
+    {
+        "name": "Metal ladder",
+        "description": "A simple metal ladder used to climb up or down tall structures. Can also be used to extend existing ladders.",
+        "image": "metal ladder.png",
+        "minLevel": 45,
+        "engrams": 21,
+        "prerequisites": ["Wooden ladder"],
+        "type": "item",
+        "parent": "Ladders"
     }
 ]
