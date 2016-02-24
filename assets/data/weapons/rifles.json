@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Rifles",
+        "description": "This is my rifle. There are many like it, but this one is mine.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Weapons"
+    }
+]

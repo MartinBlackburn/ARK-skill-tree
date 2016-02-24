@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Attachments",
+        "description": "Tape things to your weapon to make them better.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Weapons"
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Pistols",
+        "description": "Small guns, for small hands.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Weapons"
+    }
+]

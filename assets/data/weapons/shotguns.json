@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Shotguns",
+        "description": "These things have a little kick.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Weapons"
+    }
+]

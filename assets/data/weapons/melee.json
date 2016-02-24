@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Melee",
+        "description": "Stab and smack things",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Weapons"
+    }
+]

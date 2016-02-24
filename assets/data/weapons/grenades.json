@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Grenade",
+        "description": "Pull the pin and thorw, just don't hold it too long.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Weapons"
+    }
+]

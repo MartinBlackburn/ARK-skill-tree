@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Explosives",
+        "description": "Tick tick, BOOM!",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Weapons"
+    }
+]
