@@ -2,6 +2,7 @@ var App = App || {};
 
 // start the app
 App.init = function () {
+    App.Tests.init();
     App.Player.init();
     App.Items.init();
 };

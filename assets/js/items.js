@@ -110,8 +110,11 @@ App.Items = (function()
         itemFiles.shift();
 
         //load items if any left to load
+        //otherwise trigger all items loaded event
         if(itemFiles.length > 0) {
             loadItems();
+        } else {
+            $(document).trigger("loaded:everything");
         }
     }
 

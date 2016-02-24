@@ -97,36 +97,6 @@
         "parent": "Walls"
     },
     {
-        "name": "Stone wall",
-        "description": "A brick-and-mortar wall that insulates the inside from the outside and seperates rooms.",
-        "image": "stone wall.png",
-        "minLevel": 15,
-        "engrams": 8,
-        "prerequisites": ["Wooden wall"],
-        "type": "item",
-        "parent": "Walls"
-    },
-    {
-        "name": "Sloped stone wall left",
-        "description": "A sturdy stone sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof.",
-        "image": "sloped stone wall left.png",
-        "minLevel": 20,
-        "engrams": 3,
-        "prerequisites": ["Sloped wood wall left", "Stone wall"],
-        "type": "item",
-        "parent": "Walls"
-    },
-    {
-        "name": "Sloped stone wall right",
-        "description": "A sturdy stone sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof.",
-        "image": "sloped stone wall right.png",
-        "minLevel": 20,
-        "engrams": 3,
-        "prerequisites": ["Sloped wood wall right", "Stone wall"],
-        "type": "item",
-        "parent": "Walls"
-    },
-    {
         "name": "Metal wall",
         "description": "A metal-plated concrete wall that insulates the inside from the outside and separates rooms.",
         "image": "metal wall.png",
