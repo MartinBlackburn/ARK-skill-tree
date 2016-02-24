@@ -22,7 +22,7 @@
         "image": "spray painter.png",
         "minLevel": 60,
         "engrams": 30,
-        "prerequisites": ["Paintbrush", "Metal Water Reservoir", "Fabricator"],
+        "prerequisites": ["Paintbrush", "Metal water reservoir", "Fabricator"],
         "type": "item",
         "parent": "Cosmetic"
     }
