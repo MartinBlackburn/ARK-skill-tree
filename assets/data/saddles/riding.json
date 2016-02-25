@@ -267,6 +267,16 @@
         "parent": "Riding saddles"
     },
     {
+        "name": "Castoroides saddle",
+        "description": "Equip a Giant Beaver with this to ride it. Can be used as a mobile Smithy! Sounds pretty good eh?",
+        "image": "castoroides saddle.png",
+        "minLevel": 55,
+        "engrams": 50,
+        "prerequisites": ["Smithy"],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
         "name": "Plesiosaur saddle",
         "description": "Equip an Plesiosaur with this to ride it.",
         "image": "plesiosaur saddle.png",
