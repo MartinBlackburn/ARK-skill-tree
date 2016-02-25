@@ -55,5 +55,15 @@
         "prerequisites": [],
         "type": "item",
         "parent": "Other tools"
+    },
+    {
+        "name": "Parachute",
+        "description": "Use this while falling to slow your fall. Jump while parachuting to deactivate it.",
+        "image": "parachute.png",
+        "minLevel": 25,
+        "engrams": 8,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other tools"
     }
 ]

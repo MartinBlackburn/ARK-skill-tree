@@ -33,6 +33,10 @@ App.Items = (function()
                     "assets/data/defences/turrets.json",
 
                     "assets/data/electrical/cables.json",
+                    "assets/data/electrical/elevators.json",
+                    "assets/data/electrical/generators.json",
+                    "assets/data/electrical/lampposts.json",
+                    "assets/data/electrical/other.json",
 
                     "assets/data/farming/crop-plots.json",
                     "assets/data/farming/irrigation.json",

@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Lampposts",
+        "description": "Magical source of light.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Electrical"
+    },
+    {
+        "name": "Lamppost",
+        "description": "Requires electricity to activate. Lights an area without adding much heat.",
+        "image": "lamppost.png",
+        "minLevel": 50,
+        "engrams": 20,
+        "prerequisites": ["Standing torch"],
+        "type": "item",
+        "parent": "Lampposts"
+    },
+    {
+        "name": "Omnidirectional lamppost",
+        "description": "Requires electricity to activate. Lights an area without adding much heat.",
+        "image": "omnidirectional lamppost.png",
+        "minLevel": 50,
+        "engrams": 20,
+        "prerequisites": ["Standing torch"],
+        "type": "item",
+        "parent": "Lampposts"
+    }
+]

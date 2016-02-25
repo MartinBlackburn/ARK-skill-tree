@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Other elecrtical",
+        "description": "Other useful electrical things.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Electrical"
+    },
+    {
+        "name": "Remote Keypad",
+        "description": "Allows remote access to multiple doors and/or lights.",
+        "image": "remote keypad.png",
+        "minLevel": 50,
+        "engrams": 18,
+        "prerequisites": ["Electronics"],
+        "type": "item",
+        "parent": "Other elecrtical"
+    },
+    {
+        "name": "Air conditioner",
+        "description": "Requires electricity to run. Provides insulation from both the heat and the cold to an area.",
+        "image": "air conditioner.png",
+        "minLevel": 55,
+        "engrams": 21,
+        "prerequisites": ["Refrigerator"],
+        "type": "item",
+        "parent": "Other elecrtical"
+    }
+]
