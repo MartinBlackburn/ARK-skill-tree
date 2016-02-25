@@ -97,6 +97,16 @@
         "parent": "Furniture"
     },
     {
+        "name": "Wall torch",
+        "description": "A torch on a metal connector that lights and warms the immediate area. Must be placed on a wall.",
+        "image": "wall torch.png",
+        "minLevel": 25,
+        "engrams": 8,
+        "prerequisites": ["Standing torch"],
+        "type": "item",
+        "parent": "Furniture"
+    },
+    {
         "name": "Stone fireplace",
         "description": "A nice, relaxing fireplace. Keeps a large area very warm and provides light.",
         "image": "stone fireplace.png",
