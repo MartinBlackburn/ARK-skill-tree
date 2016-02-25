@@ -5,5 +5,35 @@
         "image": "test.png",
         "type": "category",
         "parent": "Structures"
+    },
+    {
+        "name": "Hide sleeping bag",
+        "description": "This hide sleeping bag acts as a single-use respawn point, only usable by you.",
+        "image": "hide sleeping bag.png",
+        "minLevel": 3,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Beds"
+    },
+    {
+        "name": "Simple bed",
+        "description": "Thatch may not make the most comfortable mattress, but this bed acts as a respawn point for you and your Tribe.",
+        "image": "simple bed.png",
+        "minLevel": 5,
+        "engrams": 8,
+        "prerequisites": ["Hide sleeping bag"],
+        "type": "item",
+        "parent": "Beds"
+    },
+    {
+        "name": "Bunk bed",
+        "description": "This modern bunk-style bed has two mattresses, and a high thread count. Acts as a respawn point for you and your tribe with half cooldown time.",
+        "image": "bunk bed.png",
+        "minLevel": 60,
+        "engrams": 28,
+        "prerequisites": ["Simple bed"],
+        "type": "item",
+        "parent": "Beds"
     }
 ]
