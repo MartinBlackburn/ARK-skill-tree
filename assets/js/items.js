@@ -406,6 +406,9 @@ App.Items = (function()
 
         //add selected item to localstorage
         localStorage.setItem('selected', JSON.stringify(selected));
+
+        //update flash message
+        App.FlashMessage.displayMessage("Selection saved", "success");
     }
 
 
