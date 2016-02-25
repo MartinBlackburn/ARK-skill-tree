@@ -743,14 +743,14 @@ th {
 .flashMessage--success {
   border-bottom: 1px solid #4F8A10;
   color: #4F8A10;
-  background: rgba(79, 138, 16, 0.2); }
+  background: #dff2bf; }
 
 .flashMessage--warning {
   border-bottom: 1px solid #9F6000;
   color: #9F6000;
-  background: rgba(159, 96, 0, 0.2); }
+  background: #feefb3; }
 
 .flashMessage--error {
   border-bottom: 1px solid #D8000C;
   color: #D8000C;
-  background: rgba(216, 0, 12, 0.2); }
+  background: #ffbaba; }
