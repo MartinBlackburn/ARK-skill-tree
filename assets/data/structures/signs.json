@@ -5,5 +5,65 @@
         "image": "test.png",
         "type": "category",
         "parent": "Structures"
+    },
+    {
+        "name": "Wooden sign",
+        "description": "A simple wooden sign for landmark navigation or relaying messages.",
+        "image": "wooden sign.png",
+        "minLevel": 3,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Signs"
+    },
+    {
+        "name": "Wooden wall sign",
+        "description": "A simple wooden wall sign for basic messages, requires attaching to a wall.",
+        "image": "wooden wall sign.png",
+        "minLevel": 10,
+        "engrams": 2,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Signs"
+    },
+    {
+        "name": "Wooden billboard",
+        "description": "A large wooden billboard for landmark navigation or relaying messages.",
+        "image": "wooden billboard.png",
+        "minLevel": 15,
+        "engrams": 4,
+        "prerequisites": ["Wooden sign"],
+        "type": "item",
+        "parent": "Signs"
+    },
+    {
+        "name": "Metal sign",
+        "description": "A small metal sign for landmark navigation or relaying messages.",
+        "image": "metal sign.png",
+        "minLevel": 25,
+        "engrams": 10,
+        "prerequisites": ["Wooden sign"],
+        "type": "item",
+        "parent": "Signs"
+    },
+    {
+        "name": "Metal wall sign",
+        "description": "A simple metal wall sign for basic messages, requires attaching to a wall.",
+        "image": "metal wall sign.png",
+        "minLevel": 30,
+        "engrams": 6,
+        "prerequisites": ["Wooden wall sign", "Metal sign"],
+        "type": "item",
+        "parent": "Signs"
+    },
+    {
+        "name": "Metal billboard",
+        "description": "A large metal billboard for landmark navigation or relaying messages.",
+        "image": "metal billboard.png",
+        "minLevel": 50,
+        "engrams": 15,
+        "prerequisites": ["Metal sign", "Wooden billboard"],
+        "type": "item",
+        "parent": "Signs"
     }
 ]

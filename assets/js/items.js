@@ -65,6 +65,7 @@ App.Items = (function()
                     "assets/data/structures/railings.json",
                     "assets/data/structures/ramps.json",
                     "assets/data/structures/roofs.json",
+                    "assets/data/structures/signs.json",
                     "assets/data/structures/trapdoors.json",
                     "assets/data/structures/trophy-bases.json",
                     "assets/data/structures/walls.json",
