@@ -10,6 +10,16 @@
         "parent": "Storage"
     },
     {
+        "name": "Wooden cage",
+        "description": "A portable cage in which to imprison victims.",
+        "image": "wooden cage.png",
+        "minLevel": 10,
+        "engrams": 10,
+        "prerequisites": ["Wooden foundation", "Wooden wall"],
+        "type": "item",
+        "parent": "Storage"
+    },
+    {
         "name": "Large Storage box",
         "description": "A large box to store goods in.",
         "image": "large storage box.png",
