@@ -153,6 +153,14 @@ App.Items = (function()
             }
         });
 
+        //update flash message
+        var message = itemFiles[0];
+        message = message.replace(".json", "");
+        message = message.replace("assets/data/", "");
+        message = message.replace("/", " - ");
+
+        App.FlashMessage.displayMessage("Loaded: " + message, "success");
+
         //add event handlers
         //done after each item set so its usable while other items load
         addEventHandlers();
