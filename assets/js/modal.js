@@ -1,7 +1,7 @@
 var App = App || {};
 
-App.Modal = (function() 
-{   
+App.Modal = (function()
+{
     /**
      * Display a modal with a given message
      *
@@ -12,6 +12,7 @@ App.Modal = (function()
         var modalTemplate = ["<div class='modal'>",
                                 "<div class='modal__inner'>",
                                     "<div class='modal__message'>" + message + "</div>",
+                                    "<div class='button'>OK</div>",
                                 "</div>",
                              "</div>"
                             ].join("\n");
