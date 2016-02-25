@@ -125,6 +125,7 @@ App.Items = (function()
             loadItems();
         } else {
             $(document).trigger("loaded:everything");
+            load();
         }
     }
 
@@ -151,14 +152,6 @@ App.Items = (function()
                 drawItem(item);
             }
         });
-
-        //update flash message
-        var message = itemFiles[0];
-        message = message.replace(".json", "");
-        message = message.replace("assets/data/", "");
-        message = message.replace("/", " - ");
-
-        App.FlashMessage.displayMessage("Loaded: " + message, "success");
 
         //add event handlers
         //done after each item set so its usable while other items load
@@ -399,10 +392,58 @@ App.Items = (function()
 
 
     /**
+     * Save item selction to localstorage
+     */
+    function save()
+    {
+        var selected = [];
+
+        //added selected items to array
+        $(".item--selected").each(function() {
+            console.log($(this).data("id"));
+            selected.push($(this).data("id"));
+        });
+
+        //add selected item to localstorage
+        localStorage.setItem('selected', JSON.stringify(selected));
+    }
+
+
+
+
+
+    /**
+     * Save item selction to localstorage
+     */
+    function load()
+    {
+        //get saved items from localstorage
+        var selected = JSON.parse(localStorage.getItem('selected'));
+
+        //load items if any stored
+        if(selected.length > 0) {
+            //update flash message
+            App.FlashMessage.displayMessage("Loaded your saved settings", "success");
+
+            //select each item
+            $.each(selected, function(index, value) {
+                var item = container.find("[data-id='" + value + "']");
+
+                selectItem(item);
+            });
+        }
+    }
+
+
+
+
+
+    /**
      * Functions available to the public
      */
     return {
         init: loadItems,
-        reset: unselectAllItems
+        reset: unselectAllItems,
+        save: save
     };
 })();

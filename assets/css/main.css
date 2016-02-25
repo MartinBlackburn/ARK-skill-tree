@@ -674,10 +674,12 @@ th {
       width: 100%;
       display: block; } }
 
-@media screen and (max-width: 650px) {
-  .player th {
-    width: 100%;
-    display: none; } }
+.player th {
+  font-weight: bold; }
+  @media screen and (max-width: 650px) {
+    .player th {
+      width: 100%;
+      display: none; } }
 
 .player td {
   width: 20%;
@@ -692,16 +694,20 @@ th {
 @media screen and (max-width: 650px) {
   .player td:nth-child(1):before,
   .player td:nth-child(2):before,
-  .player td:nth-child(3):before,
-  .player td:nth-child(4):before {
+  .player td:nth-child(3):before {
     width: 100%;
-    display: block; }
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold; }
 
   .player td:nth-child(1):before {
     content: 'Level'; }
 
   .player td:nth-child(2):before {
-    content: 'Spent / Max engrams'; } }
+    content: 'Spent / Max engrams'; }
+
+  .player td:nth-child(3):before {
+    content: 'Actions'; } }
 .modal {
   width: 100%;
   height: 100%;

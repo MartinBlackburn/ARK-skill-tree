@@ -10,6 +10,8 @@
 }
 
 .player th {
+    font-weight: bold;
+    
     @media screen and (max-width: $lapSize) {
         width: 100%;
         display: none;
@@ -32,10 +34,12 @@
 @media screen and (max-width: $lapSize) {
     .player td:nth-child(1):before,
     .player td:nth-child(2):before,
-    .player td:nth-child(3):before,
-    .player td:nth-child(4):before {
+    .player td:nth-child(3):before {
         width: 100%;
+        margin-bottom: $spacing/2;
         display: block;
+
+        font-weight: bold;
     }
 
     .player td:nth-child(1):before {
@@ -44,5 +48,9 @@
 
     .player td:nth-child(2):before {
         content: 'Spent / Max engrams';
+    }
+
+    .player td:nth-child(3):before {
+        content: 'Actions';
     }
 }
