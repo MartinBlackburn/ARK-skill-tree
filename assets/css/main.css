@@ -32,7 +32,7 @@ abbr[title], dfn[title] {
  * Typography
  */
 strong, mark, b {
-  font-weight: 400;
+  font-weight: 800;
   font-style: inherit; }
 
 em, i, cite, q, address, dfn, var {
@@ -488,7 +488,7 @@ h6, .h6 {
   font-weight: bold; }
 
 h1, .h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 30px;
   line-height: 38px; }
 
@@ -535,7 +535,7 @@ body {
   line-height: 24px; }
 
 p {
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
 
 p:last-child {
   margin-bottom: 0; }

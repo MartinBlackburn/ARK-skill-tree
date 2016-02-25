@@ -1,6 +1,6 @@
-a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, dl, 
-dt, em, fieldset, figcaption, figure, footer, form, header, hgroup, h1, h2, h3, h4, h5, h6, html, i, iframe, img, 
-ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, 
+a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, dl,
+dt, em, fieldset, figcaption, figure, footer, form, header, hgroup, h1, h2, h3, h4, h5, h6, html, i, iframe, img,
+ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary,
 sup, table, tbody, td, th, thead, time, tfoot, tr, ul, var, video {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ sup, table, tbody, td, th, thead, time, tfoot, tr, ul, var, video {
 *,
 :before,
 :after {
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 html {
@@ -29,8 +29,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 
-abbr[title], dfn[title] { 
-    border-bottom: 1px dotted #ccc; 
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted #ccc;
     cursor: help;
 }
 
@@ -39,12 +39,12 @@ abbr[title], dfn[title] {
  * Typography
  */
 strong, mark, b {
-    font-weight: 400; 
+    font-weight: 800; 
     font-style: inherit;
 }
 
 em, i, cite, q, address, dfn, var {
-    font-style: italic; 
+    font-style: italic;
     font-weight: inherit;
 }
 
@@ -83,11 +83,11 @@ input, textarea, select {
 
 
 /* ----- Tables ----- */
-table, th, td { 
+table, th, td {
     border-collapse: collapse;
     border-spacing: 0;
     vertical-align: top;
-    text-align: left; 
+    text-align: left;
     font-weight: normal;
 }
 

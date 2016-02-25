@@ -1,8 +1,8 @@
-h1, .h1, 
-h2, .h2, 
-h3, .h3, 
-h4, .h4, 
-h5, .h5, 
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
 h6, .h6 {
     font-family: 'Ubuntu Condensed', "Arial", sans-serif;
     color: $black;
@@ -10,8 +10,8 @@ h6, .h6 {
 }
 
 h1, .h1 {
-    margin-bottom: $spacing;
-    
+    margin-bottom: $spacing/2;
+
     font-size: 30px;
     line-height: 38px;
 }
@@ -27,7 +27,7 @@ h3, .h3 {
 }
 
 h4, .h4,
-h5, .h5, 
+h5, .h5,
 h6, .h6 {
     font-size: 18px;
     line-height: 26px;
