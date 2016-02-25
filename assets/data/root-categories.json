@@ -24,6 +24,12 @@
         "type": "category"
     },
     {
+        "name": "Electrical",
+        "description": "Tesla would be proud!",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
         "name": "Farming",
         "description": "Growing food is so much easier then punching dinosaurs for meat.",
         "image": "test.png",
