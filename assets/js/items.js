@@ -408,7 +408,6 @@ App.Items = (function()
 
         //added selected items to array
         $(".item--selected").each(function() {
-            console.log($(this).data("id"));
             selected.push($(this).data("id"));
         });
 
