@@ -107,9 +107,6 @@ App.Items = (function()
             localStorage.setItem('version', version);
         }
 
-        console.log(version);
-        console.log(localVersion);
-
         //if versions same use local storage
         if(version === localVersion) {
             useLocalStorage = true;
