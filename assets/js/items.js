@@ -99,6 +99,9 @@ App.Items = (function()
      */
     function init()
     {
+        //set flash message
+        App.FlashMessage.displayMessage("Loading items...", "success");
+
         //check version in local storage
         var localVersion = localStorage.getItem('version');
 
@@ -207,8 +210,10 @@ App.Items = (function()
      */
     function processItems(items)
     {
-        //save items to local storage
-        localStorage.setItem(itemFiles[0], JSON.stringify(items));
+        //save items to local storage, if not loaded from there
+        if(!useLocalStorage) {
+            localStorage.setItem(itemFiles[0], JSON.stringify(items));
+        }
 
         //loop over each item and draw it to the page
         $.each(items, function(index, item) {
