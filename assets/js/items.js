@@ -3,8 +3,9 @@ var App = App || {};
 App.Items = (function()
 {
     //variables
-    var items;
     var container = $(".js-categories");
+    var useLocalStorage = false;
+    var version = "236.2";
 
     //item files
     var itemFiles = [
@@ -94,11 +95,59 @@ App.Items = (function()
 
 
     /**
-     * Start item loading
+     * setup items
      */
-    function loadItems()
+    function init()
     {
-        //load first item file
+        //check version in local storage
+        var localVersion = localStorage.getItem('version');
+
+        //if no local version, set one
+        if(localVersion) {
+            localStorage.setItem('version', version);
+        }
+
+        //if versions same use local storage
+        if(version == localVersion) {
+            useLocalStorage = true;
+        }
+
+        //load items
+        if(useLocalStorage) {
+            loadItemsFromLocal();
+        } else {
+            loadItemsFromServer();
+        }
+    }
+
+
+
+
+
+    /**
+     * Start item loading from local storage
+     * Fallback to loading from server
+     */
+    function loadItemsFromLocal()
+    {
+        var items = JSON.parse(localStorage.getItem(itemFiles[0]));
+
+        if(items && items.length > 0) {
+            processItems(items);
+        } else {
+            loadItemsFromServer();
+        }
+    }
+
+
+
+
+
+    /**
+     * Start item loading from server
+     */
+    function loadItemsFromServer()
+    {
         $.ajax({
             dataType: "json",
             url: itemFiles[0],
@@ -107,6 +156,7 @@ App.Items = (function()
             error: loadingError
         });
     }
+
 
 
 
@@ -122,9 +172,15 @@ App.Items = (function()
         //load items if any left to load
         //otherwise trigger all items loaded event
         if(itemFiles.length > 0) {
-            loadItems();
+            loadItemsFromLocal();
         } else {
+            //update flash message
+            App.FlashMessage.displayMessage("Finished loading", "success");
+
+            //trigger everything loaded event
             $(document).trigger("loaded:everything");
+
+            //try load saved settings
             load();
         }
     }
@@ -140,6 +196,9 @@ App.Items = (function()
      */
     function processItems(items)
     {
+        //save items to local storage
+        localStorage.setItem(itemFiles[0], JSON.stringify(items));
+
         //loop over each item and draw it to the page
         $.each(items, function(index, item) {
             //draw category to page
@@ -431,7 +490,7 @@ App.Items = (function()
         var selected = JSON.parse(localStorage.getItem('selected'));
 
         //load items if any stored
-        if(selected.length > 0) {
+        if(selected && selected.length > 0) {
             //update flash message
             App.FlashMessage.displayMessage("Loaded your saved settings", "success");
 
@@ -452,7 +511,7 @@ App.Items = (function()
      * Functions available to the public
      */
     return {
-        init: loadItems,
+        init: init,
         reset: unselectAllItems,
         save: save,
         load: load
