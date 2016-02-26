@@ -1,11 +1,3 @@
-.items {
-    width: 100%;
-
-    @media screen and (max-width: $lapSize) {
-        display: block;
-    }
-}
-
 .item {
     @media screen and (max-width: $lapSize) {
         margin-bottom: $spacing;
@@ -35,7 +27,7 @@
     @media screen and (max-width: $lapSize) {
         width: 100% !important;
         padding: 0;
-        display: block !important;
+        display: block;
 
         text-align: center;
     }

@@ -2,16 +2,11 @@
     margin-bottom: $spacing;
 
     text-align: center;
-
-    @media screen and (max-width: $lapSize) {
-        width: 100%;
-        display: block;
-    }
 }
 
 .player th {
     font-weight: bold;
-    
+
     @media screen and (max-width: $lapSize) {
         width: 100%;
         display: none;
