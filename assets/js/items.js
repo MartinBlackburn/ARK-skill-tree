@@ -103,16 +103,31 @@ App.Items = (function()
         var localVersion = localStorage.getItem('version');
 
         //if no local version, set one
-        if(localVersion) {
+        if(!localVersion) {
             localStorage.setItem('version', version);
         }
 
+        console.log(version);
+        console.log(localVersion);
+
         //if versions same use local storage
-        if(version == localVersion) {
+        if(version === localVersion) {
             useLocalStorage = true;
         }
 
         //load items
+        loadItems();
+    }
+
+
+
+
+
+    /**
+     * Start item loading
+     */
+    function loadItems()
+    {
         if(useLocalStorage) {
             loadItemsFromLocal();
         } else {
@@ -125,8 +140,7 @@ App.Items = (function()
 
 
     /**
-     * Start item loading from local storage
-     * Fallback to loading from server
+     * Load items from local storage
      */
     function loadItemsFromLocal()
     {
@@ -144,7 +158,7 @@ App.Items = (function()
 
 
     /**
-     * Start item loading from server
+     * Load items from server
      */
     function loadItemsFromServer()
     {
@@ -172,7 +186,7 @@ App.Items = (function()
         //load items if any left to load
         //otherwise trigger all items loaded event
         if(itemFiles.length > 0) {
-            loadItemsFromLocal();
+            loadItems();
         } else {
             //update flash message
             App.FlashMessage.displayMessage("Finished loading", "success");
