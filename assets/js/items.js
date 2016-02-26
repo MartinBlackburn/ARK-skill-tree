@@ -465,6 +465,10 @@ App.Items = (function()
      */
     function unselectAllItems()
     {
+        //update flash message
+        App.FlashMessage.displayMessage("Selection reset", "success");
+
+        //unselect items
         $(".item").each(function() {
             unselectItem($(this));
         });
