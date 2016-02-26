@@ -25,6 +25,11 @@ App.Player = (function()
         App.Items.save();
     });
 
+    //load button
+    $(".js-load").on("click", function() {
+        App.Items.load();
+    });
+
 
 
 

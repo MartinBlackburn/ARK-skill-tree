@@ -454,6 +454,7 @@ App.Items = (function()
     return {
         init: loadItems,
         reset: unselectAllItems,
-        save: save
+        save: save,
+        load: load
     };
 })();
