@@ -273,7 +273,7 @@ App.Items = (function()
      */
     function drawCategory(category)
     {
-        var categoryTemplate = ["<div class='category' data-id='" + category.name + "'>",
+        var categoryTemplate = ["<div class='category' data-name='" + category.name + "'>",
                                     "<h2 class='category__name'>" + category.name + "</h2>",
                                     "<div class='category__description'>" + category.description + "</div>",
                                     "<div class='category__children'></div>",
@@ -283,7 +283,7 @@ App.Items = (function()
         //check where category belongs
         if(category.parent) {
             //add category to parent category
-            var parent = container.find("[data-id='" + category.parent + "'] > .category__children");
+            var parent = container.find("[data-name='" + category.parent + "'] > .category__children");
 
             parent.append(categoryTemplate);
         } else {
@@ -303,7 +303,7 @@ App.Items = (function()
      */
     function drawItem(item)
     {
-        var itemTemplate = ["<tr class='item' data-id='" + item.name + "' data-engrams='" + item.engrams + "' data-minlevel='" + item.minLevel + "' data-prerequisites='" + item.prerequisites + "'>",
+        var itemTemplate = ["<tr class='item' data-name='" + item.name + "' data-engrams='" + item.engrams + "' data-minlevel='" + item.minLevel + "' data-prerequisites='" + item.prerequisites + "'>",
                                 "<td><img src='assets/images/" + item.image + "' /></td>",
                                 "<td><h3 class='item__name'>" + item.name + "</h3></td>",
                                 "<td><div class='item__description'>" + item.description + "</div></td>",
@@ -313,17 +313,17 @@ App.Items = (function()
                         ].join("\n");
 
         //find parent element
-        var parent = container.find("[data-id='" + item.parent + "']");
+        var parent = container.find("[data-name='" + item.parent + "']");
 
         //check if item is being added to correct place
         if(parent.hasClass("category")) {
             //make sure there is a table for items to live in
-            if(container.find("[data-id='" + item.parent + "'] .category__children > table").length < 1) {
-                container.find("[data-id='" + item.parent + "'] .category__children").append("<table class='items'></table>");
+            if(container.find("[data-name='" + item.parent + "'] .category__children > table").length < 1) {
+                container.find("[data-name='" + item.parent + "'] .category__children").append("<table class='items'></table>");
             }
 
             //add to category
-            container.find("[data-id='" + item.parent + "'] .category__children > .items").append(itemTemplate);
+            container.find("[data-name='" + item.parent + "'] .category__children > .items").append(itemTemplate);
         } else {
             //error - parent isn't correct
             console.error("Item '" + item.name + "' doesn't have a correct parent '" + item.parent + "'");
@@ -384,7 +384,7 @@ App.Items = (function()
 
         //check level requirements
         if(item.data("minlevel") > App.Player.getLevel()) {
-            App.Modal.displayModal("You are not high enough level to learn " + item.data("id"));
+            App.Modal.displayModal("You are not high enough level to learn " + item.data("name"));
 
             return;
         }
@@ -397,7 +397,7 @@ App.Items = (function()
             var prerequisitesArray = prerequisites.split(",");
 
             for(var i = 0; i < prerequisitesArray.length; i++) {
-                var requiredItem = container.find("[data-id='" + prerequisitesArray[i] + "']");
+                var requiredItem = container.find("[data-name='" + prerequisitesArray[i] + "']");
 
                 //check item exists
                 if(requiredItem.length < 1) {
@@ -412,7 +412,7 @@ App.Items = (function()
         var engrams = parseInt(item.data("engrams"));
 
         if(App.Player.spendEngrams(engrams) === false) {
-            App.Modal.displayModal("You do not have enough points to learn " + item.data("id"));
+            App.Modal.displayModal("You do not have enough points to learn " + item.data("name"));
 
             return false;
         }
@@ -442,7 +442,7 @@ App.Items = (function()
             var prerequisites = $(this).data("prerequisites").toString();
             var prerequisitesArray = prerequisites.split(",");
 
-            if($.inArray(item.data("id").toString(), prerequisitesArray) > -1) {
+            if($.inArray(item.data("name").toString(), prerequisitesArray) > -1) {
                 //unselect any prerequisite item that this item may have needed
                 unselectItem($(this));
             }
@@ -487,7 +487,7 @@ App.Items = (function()
 
         //added selected items to array
         $(".item--selected").each(function() {
-            selected.push($(this).data("id"));
+            selected.push($(this).data("name"));
         });
 
         //add selected item to localstorage
@@ -516,7 +516,7 @@ App.Items = (function()
 
             //select each item
             $.each(selected, function(index, value) {
-                var item = container.find("[data-id='" + value + "']");
+                var item = container.find("[data-name='" + value + "']");
 
                 selectItem(item);
             });
