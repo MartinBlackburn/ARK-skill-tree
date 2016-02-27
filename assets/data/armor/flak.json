@@ -7,6 +7,7 @@
         "parent": "Armor"
     },
     {
+        "id": 24,
         "name": "Flak helmet",
         "description": "Provides heavy physical protection, but makes the elements harder to endure.",
         "image": "flak helmet.png",
@@ -17,6 +18,7 @@
         "parent": "Flak armor"
     },
     {
+        "id": 25,
         "name": "Flak chestpiece",
         "description": "Provides heavy physical protection, but makes the elements harder to endure.",
         "image": "flak chestpiece.png",
@@ -27,6 +29,7 @@
         "parent": "Flak armor"
     },
     {
+        "id": 26,
         "name": "Flak gauntlets",
         "description": "Provides heavy physical protection, but makes the elements harder to endure.",
         "image": "flak gauntlets.png",
@@ -37,6 +40,7 @@
         "parent": "Flak armor"
     },
     {
+        "id": 27,
         "name": "Flak leggings",
         "description": "Provides heavy physical protection, but makes the elements harder to endure.",
         "image": "flak leggings.png",
@@ -47,6 +51,7 @@
         "parent": "Flak armor"
     },
     {
+        "id": 28,
         "name": "Flak boots",
         "description": "Provides heavy physical protection, but makes the elements harder to endure.",
         "image": "flak boots.png",

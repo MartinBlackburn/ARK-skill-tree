@@ -7,6 +7,7 @@
         "parent": "Weapons"
     },
     {
+        "id": 267,
         "name": "Bow",
         "description": "Masters of the bow often became great conquerors. Requires arrows to fire.",
         "image": "bow.png",
@@ -17,6 +18,7 @@
         "parent": "Bows"
     },
     {
+        "id": 268,
         "name": "Crossbow",
         "description": "Has significantly more power than the Bow, but cannot fire rapidly. Can fire underwater.",
         "image": "crossbow.png",
@@ -27,6 +29,7 @@
         "parent": "Bows"
     },
     {
+        "id": 269,
         "name": "Compound bow",
         "description": "A high-tech bow made of durable alloy, can launch arrows at high velocity. Requires arrows to fire.",
         "image": "compound bow.png",

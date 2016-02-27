@@ -1,5 +1,6 @@
 [
     {
+        "id": 299,
         "name": "Narcotic",
         "description": "Increases your health, but puts you to sleep.",
         "image": "narcotic.png",
@@ -10,6 +11,7 @@
         "parent": "Resources"
     },
     {
+        "id": 300,
         "name": "Sparkpowder",
         "description": "Created by grinding flint with stone in a Mortar and Pestle.",
         "image": "sparkpowder.png",
@@ -20,6 +22,7 @@
         "parent": "Resources"
     },
     {
+        "id": 301,
         "name": "Gunpowder",
         "description": "An explosive propellant. Necessary for any firearm or explosive.",
         "image": "gunpowder.png",
@@ -30,6 +33,7 @@
         "parent": "Resources"
     },
     {
+        "id": 302,
         "name": "Cementing paste",
         "description": "Paste created at Mortar and Pestle.",
         "image": "cementing paste.png",
@@ -40,6 +44,7 @@
         "parent": "Resources"
     },
     {
+        "id": 303,
         "name": "Electronics",
         "description": "This multipurpose computer chip can be used to create electronic devices.",
         "image": "electronics.png",
@@ -50,6 +55,7 @@
         "parent": "Resources"
     },
     {
+        "id": 304,
         "name": "Polymer",
         "description": "These incredibly strong, lightweight plates can be shaped and then heat treated into casings for anything.",
         "image": "polymer.png",

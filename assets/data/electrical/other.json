@@ -7,6 +7,7 @@
         "parent": "Electrical"
     },
     {
+        "id": 81,
         "name": "Remote Keypad",
         "description": "Allows remote access to multiple doors and/or lights.",
         "image": "remote keypad.png",
@@ -17,6 +18,7 @@
         "parent": "Other elecrtical"
     },
     {
+        "id": 82,
         "name": "Air conditioner",
         "description": "Requires electricity to run. Provides insulation from both the heat and the cold to an area.",
         "image": "air conditioner.png",

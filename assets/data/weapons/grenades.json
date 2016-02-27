@@ -7,6 +7,7 @@
         "parent": "Weapons"
     },
     {
+        "id": 273,
         "name": "Smoke grenade",
         "description": "Releases a lot of smoke to obscure your plans. Pulling the pin starts a 5 second timer to an explosion.",
         "image": "smoke grenade.png",
@@ -17,6 +18,7 @@
         "parent": "Grenades"
     },
     {
+        "id": 274,
         "name": "Grenade",
         "description": "Pulling the pin starts a 5 second timer to an explosion. Make sure you've thrown it by then.",
         "image": "grenade.png",
@@ -27,6 +29,7 @@
         "parent": "Grenades"
     },
     {
+        "id": 275,
         "name": "Poison grenade",
         "description": "Releases narcotic smoke to knock out anything in the area - only affects humans. Pulling the pin starts a 2.5 second timer to the gas release.",
         "image": "poison grenade.png",

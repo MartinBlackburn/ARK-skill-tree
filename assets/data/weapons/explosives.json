@@ -7,6 +7,7 @@
         "parent": "Weapons"
     },
     {
+        "id": 270,
         "name": "C4 charge",
         "description": "This advanced explosive can annihilate structures.",
         "image": "c4 charge.png",
@@ -17,6 +18,7 @@
         "parent": "Explosives"
     },
     {
+        "id": 271,
         "name": "C4 remote detonator",
         "description": "This device uses radio waves to detonate all primed C4 packages on the same frequency.",
         "image": "c4 remote detonator.png",
@@ -27,6 +29,7 @@
         "parent": "Explosives"
     },
     {
+        "id": 272,
         "name": "Rocket launcher",
         "description": "Mankind's ultimate portable killing device.",
         "image": "rocket launcher.png",

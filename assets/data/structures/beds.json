@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 147,
         "name": "Hide sleeping bag",
         "description": "This hide sleeping bag acts as a single-use respawn point, only usable by you.",
         "image": "hide sleeping bag.png",
@@ -17,6 +18,7 @@
         "parent": "Beds"
     },
     {
+        "id": 148,
         "name": "Simple bed",
         "description": "Thatch may not make the most comfortable mattress, but this bed acts as a respawn point for you and your Tribe.",
         "image": "simple bed.png",
@@ -27,6 +29,7 @@
         "parent": "Beds"
     },
     {
+        "id": 149,
         "name": "Bunk bed",
         "description": "This modern bunk-style bed has two mattresses, and a high thread count. Acts as a respawn point for you and your tribe with half cooldown time.",
         "image": "bunk bed.png",

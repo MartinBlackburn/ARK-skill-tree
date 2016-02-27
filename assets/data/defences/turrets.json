@@ -7,6 +7,7 @@
         "parent": "Defences"
     },
     {
+        "id": 65,
         "name": "Ballista turret",
         "description": "Survivors can mount this and fire devastating ballista arrows, useful for bringing down large dinos and structures!",
         "image": "ballista turret.png",
@@ -17,6 +18,7 @@
         "parent": "Turrets"
     },
     {
+        "id": 66,
         "name": "Catapult turret",
         "description": "Mount this to throw destructive Boulders at your enemies, particularly effective against Structures.",
         "image": "catapult turret.png",
@@ -27,6 +29,7 @@
         "parent": "Turrets"
     },
     {
+        "id": 67,
         "name": "Auto turret",
         "description": "Requires electricity to run. Consumes bullets while firing. Can be configured to automatically attack hostiles within range.",
         "image": "auto turret.png",
@@ -37,6 +40,7 @@
         "parent": "Turrets"
     },
     {
+        "id": 68,
         "name": "Minigun turret",
         "description": "Mount this to fire a hail of Advanced Rifle Bullets at your enemies. Powered by the rider.",
         "image": "minigun turret.png",
@@ -47,6 +51,7 @@
         "parent": "Turrets"
     },
     {
+        "id": 69,
         "name": "Rocket turret",
         "description": "Mount this to fire Rockets at your enemies. Powered by the rider.",
         "image": "rocket turret.png",

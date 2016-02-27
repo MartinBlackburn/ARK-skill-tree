@@ -7,6 +7,7 @@
         "parent": "Weapons"
     },
     {
+        "id": 287,
         "name": "Shotgun",
         "description": "Very powerful up close, but less reliable with range.",
         "image": "shotgun.png",
@@ -17,6 +18,7 @@
         "parent": "Shotguns"
     },
     {
+        "id": 288,
         "name": "Pump-action shotgun",
         "description": "Powerful up close, but less reliable with range. Can fire six rounds before reloading.",
         "image": "pump-action shotgun.png",

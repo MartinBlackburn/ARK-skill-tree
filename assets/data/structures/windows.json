@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 236,
         "name": "Wooden window",
         "description": "Wooden beams on hinges that cover windows to provide protection from projectiles and spying.",
         "image": "wooden window.png",
@@ -17,6 +18,7 @@
         "parent": "Windows"
     },
     {
+        "id": 237,
         "name": "Reinforced window",
         "description": "Reinforced window covering to provide protection from projectiles and spying.",
         "image": "reinforced window.png",
@@ -27,6 +29,7 @@
         "parent": "Windows"
     },
     {
+        "id": 238,
         "name": "Metal window",
         "description": "Metal plates on hinges that cover windows to provide protection from projectiles and spying.",
         "image": "metal window.png",

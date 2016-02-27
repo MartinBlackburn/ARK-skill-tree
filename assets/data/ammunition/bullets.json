@@ -7,6 +7,7 @@
         "parent": "Ammunition"
     },
     {
+        "id": 5,
         "name": "Simple bullet",
         "description": "Primarily used with forged handguns.",
         "image": "simple bullet.png",
@@ -17,6 +18,7 @@
         "parent": "Bullets"
     },
     {
+        "id": 6,
         "name": "Advanced bullet",
         "description": "A small-caliber modern bullet, primarily used with fabricated handguns.",
         "image": "advanced bullet.png",
@@ -27,6 +29,7 @@
         "parent": "Bullets"
     },
     {
+        "id": 7,
         "name": "Simple rifle ammo",
         "description": "An odd bullet and casing, used with forged rifles.",
         "image": "simple rifle ammo.png",
@@ -37,6 +40,7 @@
         "parent": "Bullets"
     },
     {
+        "id": 8,
         "name": "Advanced rifle bullet",
         "description": "Primarily used with fabricated rifles.",
         "image": "advanced rifle bullet.png",
@@ -47,6 +51,7 @@
         "parent": "Bullets"
     },
     {
+        "id": 9,
         "name": "Simple shotgun ammo",
         "description": "A few simple bullets in a hide casing, used with forged shotguns.",
         "image": "simple shotgun ammo.png",
@@ -57,6 +62,7 @@
         "parent": "Bullets"
     },
     {
+        "id": 10,
         "name": "Advanced sniper ammo",
         "description": "A high-caliber modern bullet, primarily used with fabricated sniper rifles.",
         "image": "advanced sniper bullet.png",

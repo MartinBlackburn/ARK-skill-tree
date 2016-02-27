@@ -7,6 +7,7 @@
         "parent": "Tools"
     },
     {
+        "id": 258,
         "name": "Waterskin",
         "description": "Good to keep you hydrated, but slowly leaks water.",
         "image": "waterskin.png",
@@ -17,6 +18,7 @@
         "parent": "Survival"
     },
     {
+        "id": 259,
         "name": "Water jar",
         "description": "Safely carries a lot of water, but is also a bit heavy.",
         "image": "water jar.png",
@@ -27,6 +29,7 @@
         "parent": "Survival"
     },
     {
+        "id": 260,
         "name": "Canteen",
         "description": "Safely carries a sizable amount of water, and is reasonably lightweight.",
         "image": "canteen.png",
@@ -37,6 +40,7 @@
         "parent": "Survival"
     },
     {
+        "id": 261,
         "name": "Blood extraction syringe",
         "description": "Use this on a human to extract their blood for transfusion.",
         "image": "blood extraction syringe.png",

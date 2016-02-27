@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 203,
         "name": "Wooden ramp",
         "description": "An inclined wooden floor for travelling up or down. Can also be used to make an angled roof.",
         "image": "wooden ramp.png",
@@ -17,6 +18,7 @@
         "parent": "Ramps"
     },
     {
+        "id": 204,
         "name": "Metal ramp",
         "description": "An inclined metal-plated concrete floor for travelling up or down levels. Can also be used to make an angled roof.",
         "image": "metal ramp.png",

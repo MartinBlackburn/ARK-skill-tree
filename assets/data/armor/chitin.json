@@ -7,6 +7,7 @@
         "parent": "Armor"
     },
     {
+        "id": 14,
         "name": "Chitin helmet",
         "description": "Provides moderate physical protection, but can get a little warm.",
         "image": "chitin helmet.png",
@@ -17,6 +18,7 @@
         "parent": "Chitin armor"
     },
     {
+        "id": 15,
         "name": "Chitin chestpiece",
         "description": "Provides moderate physical protection, but can get a little warm.",
         "image": "chitin chestpiece.png",
@@ -27,6 +29,7 @@
         "parent": "Chitin armor"
     },
     {
+        "id": 16,
         "name": "Chitin gauntlets",
         "description": "Provides moderate physical protection, but can get a little warm.",
         "image": "chitin gauntlets.png",
@@ -37,6 +40,7 @@
         "parent": "Chitin armor"
     },
     {
+        "id": 17,
         "name": "Chitin leggings",
         "description": "Provides moderate physical protection, but can get a little warm.",
         "image": "chitin leggings.png",
@@ -47,6 +51,7 @@
         "parent": "Chitin armor"
     },
     {
+        "id": 18,
         "name": "Chitin boots",
         "description": "Provides moderate physical protection, but can get a little warm.",
         "image": "chitin boots.png",

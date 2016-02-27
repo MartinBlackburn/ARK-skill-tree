@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 233,
         "name": "Wooden windowframe",
         "description": "A wooden wall with a hole for a window.",
         "image": "wooden windowframe.png",
@@ -17,6 +18,7 @@
         "parent": "Windowframes"
     },
     {
+        "id": 234,
         "name": "Stone windowframe",
         "description": "A brick-and-mortar wall with a hole for a window.",
         "image": "stone windowframe.png",
@@ -27,6 +29,7 @@
         "parent": "Windowframes"
     },
     {
+        "id": 235,
         "name": "Metal windowframe",
         "description": "A metal-plated concrete wall, with a hole for a window.",
         "image": "metal windowframe.png",

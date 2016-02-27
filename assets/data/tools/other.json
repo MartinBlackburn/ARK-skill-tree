@@ -7,6 +7,7 @@
         "parent": "Tools"
     },
     {
+        "id": 252,
         "name": "Note",
         "description": "Write your own text on a note! Or put it in a Cooking Pot to make a Custom Recipe!",
         "image": "note.png",
@@ -17,6 +18,7 @@
         "parent": "Other tools"
     },
     {
+        "id": 253,
         "name": "Handcuffs",
         "description": "Equip this onto an unconscious player, and they'll be restrained when they wake up!",
         "image": "handcuffs.png",
@@ -27,6 +29,7 @@
         "parent": "Other tools"
     },
     {
+        "id": 254,
         "name": "Flare gun",
         "description": "A single-use flare launcher. Fires a bright ball of Sparkpowder to temporarily light an area.",
         "image": "flare gun.png",
@@ -37,6 +40,7 @@
         "parent": "Other tools"
     },
     {
+        "id": 255,
         "name": "Magnifying glass",
         "description": "This instrument, while primitive, is effective as short-range analysis of both flora and fauna.",
         "image": "magnifying glass.png",
@@ -47,6 +51,7 @@
         "parent": "Other tools"
     },
     {
+        "id": 256,
         "name": "Radio",
         "description": "Use this to communicate securely over great distances.",
         "image": "radio.png",
@@ -57,6 +62,7 @@
         "parent": "Other tools"
     },
     {
+        "id": 257,
         "name": "Parachute",
         "description": "Use this while falling to slow your fall. Jump while parachuting to deactivate it.",
         "image": "parachute.png",

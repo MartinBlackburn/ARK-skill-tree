@@ -7,6 +7,7 @@
         "parent": "Armor"
     },
     {
+        "id": 39,
         "name": "Hide hat",
         "description": "Keeps you warm while providing some physical protection.",
         "image": "hide hat.png",
@@ -17,6 +18,7 @@
         "parent": "Hide armor"
     },
     {
+        "id": 40,
         "name": "Hide shirt",
         "description": "Keeps you warm while providing some physical protection.",
         "image": "hide shirt.png",
@@ -27,6 +29,7 @@
         "parent": "Hide armor"
     },
     {
+        "id": 41,
         "name": "Hide gloves",
         "description": "Keeps you warm while providing some physical protection.",
         "image": "hide gloves.png",
@@ -37,6 +40,7 @@
         "parent": "Hide armor"
     },
     {
+        "id": 42,
         "name": "Hide pants",
         "description": "Keeps you warm while providing some physical protection",
         "image": "hide pants.png",
@@ -47,6 +51,7 @@
         "parent": "Hide armor"
     },
     {
+        "id": 43,
         "name": "Hide boots",
         "description": "Keeps you warm while providing some physical protection.",
         "image": "hide boots.png",

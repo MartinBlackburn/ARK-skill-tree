@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 155,
         "name": "Dinosaur gate",
         "description": "A large wooden gate that can be used with a gateway to keep dinosaurs in or out. Cannot be destroyed by any dinosaur.",
         "image": "dinosaur gate.png",
@@ -17,6 +18,7 @@
         "parent": "Dinosaur gates"
     },
     {
+        "id": 156,
         "name": "Reinforced dinosaur gate",
         "description": "A large, reinforced wooden gate that can be used with a Gateway to keep dinosaurs in or out.",
         "image": "reinforced dinosaur gate.png",
@@ -27,6 +29,7 @@
         "parent": "Dinosaur gates"
     },
     {
+        "id": 157,
         "name": "Behemoth reinforced dinosaur gate",
         "description": "A large, reinforced wooden gate that can be used with a Gateway to keep dinosaurs in or out.",
         "image": "behemoth reinforced dinosaur gate.png",
@@ -37,6 +40,7 @@
         "parent": "Dinosaur gates"
     },
     {
+        "id": 158,
         "name": "Metal dinosaur gate",
         "description": "A large metal gate that can be used with a Gateway to keep most dinosaurs in or out.",
         "image": "metal dinosaur gate.png",
@@ -47,6 +51,7 @@
         "parent": "Dinosaur gates"
     },
     {
+        "id": 159,
         "name": "Behemoth gate",
         "description": "A large metal-plated concrete gate that can be used with a Behemoth Gateway to allow even the largest of creatures in or out.",
         "image": "behemoth gate.png",

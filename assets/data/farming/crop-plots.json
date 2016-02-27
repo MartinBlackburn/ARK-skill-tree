@@ -7,6 +7,7 @@
         "parent": "Farming"
     },
     {
+        "id": 83,
         "name": "Small crop plot",
         "description": "A small garden plot, with a fence to keep out vermin.",
         "image": "small crop plot.png",
@@ -17,6 +18,7 @@
         "parent": "Crop plots"
     },
     {
+        "id": 84,
         "name": "Medium crop plot",
         "description": "A meduim garden plot, with a fence to keep out vermin.",
         "image": "medium crop plot.png",
@@ -27,6 +29,7 @@
         "parent": "Crop plots"
     },
     {
+        "id": 85,
         "name": "Large crop plot",
         "description": "A large garden plot, with a fence to keep out vermin.",
         "image": "large crop plot.png",

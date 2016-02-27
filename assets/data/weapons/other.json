@@ -7,6 +7,7 @@
         "parent": "Weapons"
     },
     {
+        "id": 281,
         "name": "Slingshot",
         "description": "A simple ranged weapon that deals damage from afar. Better for knocking out a target than killing it outright. Requires stone to fire.",
         "image": "slingshot.png",

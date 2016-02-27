@@ -7,6 +7,7 @@
         "parent": "Defences"
     },
     {
+        "id": 59,
         "name": "Tripwire alarm trap",
         "description": "Place two of these near each other to create a trap.",
         "image": "tripwire alarm trap.png",
@@ -17,6 +18,7 @@
         "parent": "Traps"
     },
     {
+        "id": 60,
         "name": "Bear trap",
         "description": "Immobilizes humans and small creatures.",
         "image": "bear trap.png",
@@ -27,6 +29,7 @@
         "parent": "Traps"
     },
     {
+        "id": 61,
         "name": "Large bear trap",
         "description": "Immobilizes large creatures only.",
         "image": "large bear trap.png",
@@ -37,6 +40,7 @@
         "parent": "Traps"
     },
     {
+        "id": 62,
         "name": "Tripwire narcotic trap",
         "description": "Place two of these near each other to create a poisonous trap.",
         "image": "tripwire narcotic trap.png",
@@ -47,6 +51,7 @@
         "parent": "Traps"
     },
     {
+        "id": 63,
         "name": "Improvised explosive device",
         "description": "Place two of these near each other to create an explosive trap.",
         "image": "improvised explosive device.png",
@@ -57,6 +62,7 @@
         "parent": "Traps"
     },
     {
+        "id": 64,
         "name": "Homing underwater mine",
         "description": "Place this underwater to create an explosive trap that floats, homes, explodes when touched.",
         "image": "homing underwater mine.png",

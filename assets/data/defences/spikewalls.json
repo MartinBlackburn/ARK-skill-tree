@@ -7,6 +7,7 @@
         "parent": "Defences"
     },
     {
+        "id": 57,
         "name": "Wooden spike wall",
         "description": "These incredibly sharp wooden stakes are dangerous to any that touch them. Larger creatures take more damage.",
         "image": "wooden spike wall.png",
@@ -17,6 +18,7 @@
         "parent": "Spikewalls"
     },
     {
+        "id": 58,
         "name": "Metal spike wall",
         "description": "These incredibly sharp metal spikes are dangerous to any that touch them. Large creatures take more damage.",
         "image": "metal spike wall.png",

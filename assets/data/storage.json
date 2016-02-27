@@ -1,5 +1,6 @@
 [
     {
+        "id": 305,
         "name": "Storage box",
         "description": "A small box to store goods in.",
         "image": "storage box.png",
@@ -10,6 +11,7 @@
         "parent": "Storage"
     },
     {
+        "id": 306,
         "name": "Wooden cage",
         "description": "A portable cage in which to imprison victims.",
         "image": "wooden cage.png",
@@ -20,6 +22,7 @@
         "parent": "Storage"
     },
     {
+        "id": 307,
         "name": "Large Storage box",
         "description": "A large box to store goods in.",
         "image": "large storage box.png",
@@ -30,6 +33,7 @@
         "parent": "Storage"
     },
     {
+        "id": 308,
         "name": "Bookshelf",
         "description": "A large bookshelf to store Blueprints, Notes, and other small trinkets in.",
         "image": "bookshelf.png",
@@ -40,6 +44,7 @@
         "parent": "Storage"
     },
     {
+        "id": 309,
         "name": "Refrigerator",
         "description": "Requires electricity to run. Keeps perishables from spoiling for a long time.",
         "image": "refrigerator.png",
@@ -50,6 +55,7 @@
         "parent": "Storage"
     },
     {
+        "id": 310,
         "name": "Vault",
         "description": "A large metal vault to securely store goods in.",
         "image": "vault.png",

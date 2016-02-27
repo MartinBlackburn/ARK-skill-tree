@@ -7,6 +7,7 @@
         "parent": "Electrical"
     },
     {
+        "id": 74,
         "name": "Elevator track",
         "description": "Attach an Elevator Platform to these to complete an elevator!",
         "image": "elevator track.png",
@@ -17,6 +18,7 @@
         "parent": "Elevators"
     },
     {
+        "id": 75,
         "name": "Small Elevator Platform",
         "description": "Attach to an Elevator Track to carry a small amount of weight.",
         "image": "small elevator platform.png",
@@ -27,6 +29,7 @@
         "parent": "Elevators"
     },
     {
+        "id": 76,
         "name": "Medium Elevator Platform",
         "description": "Attach to an Elevator Track to carry a medium amount of weight.",
         "image": "medium elevator platform.png",
@@ -37,6 +40,7 @@
         "parent": "Elevators"
     },
     {
+        "id": 77,
         "name": "Large Elevator Platform",
         "description": "Attach to an Elevator Track to carry a large amount of weight.",
         "image": "large elevator platform.png",

@@ -1,5 +1,6 @@
 [
     {
+        "id": 289,
         "name": "Campfire",
         "description": "Perfect for cooking meat, staying warm, and providing light.",
         "image": "campfire.png",
@@ -10,6 +11,7 @@
         "parent": "Crafting stations"
     },
     {
+        "id": 290,
         "name": "Mortar and pestle",
         "description": "This simple stone contraption can be used to grind resources into new substances.",
         "image": "mortar and pestle.png",
@@ -20,6 +22,7 @@
         "parent": "Crafting stations"
     },
     {
+        "id": 291,
         "name": "Cooking pot",
         "description": "Must contain basic fuel to light the fire. Put various ingredients with water in this to make soups, stews, and dyes.",
         "image": "cooking pot.png",
@@ -30,6 +33,7 @@
         "parent": "Crafting stations"
     },
     {
+        "id": 292,
         "name": "Refining forge",
         "description": "Requires wood, thatch, or sparkpowder to activate. Put unrefined resources in this to refine them.",
         "image": "refining forge.png",
@@ -40,6 +44,7 @@
         "parent": "Crafting stations"
     },
     {
+        "id": 293,
         "name": "Smithy",
         "description": "Place materials along with blueprints in this to create certain advanced forged items.",
         "image": "smithy.png",
@@ -50,6 +55,7 @@
         "parent": "Crafting stations"
     },
     {
+        "id": 294,
         "name": "Beer barrel",
         "description": "Ferments tasty brew from Thatch, Water, and Berries.",
         "image": "beer barrel.png",
@@ -60,6 +66,7 @@
         "parent": "Crafting stations"
     },
     {
+        "id": 295,
         "name": "Fabricator",
         "description": "Place materials along with blueprints in this to create certain high-end machined items.",
         "image": "fabricator.png",
@@ -70,6 +77,7 @@
         "parent": "Crafting stations"
     },
     {
+        "id": 296,
         "name": "Industrial grill",
         "description": "Perfect for cooking meat in bulk, staying warm, and providing light. Powered by Gasoline.",
         "image": "industrial grill.png",
@@ -80,6 +88,7 @@
         "parent": "Crafting stations"
     },
     {
+        "id": 297,
         "name": "Industrial cooker",
         "description": "Burns Gasoline to cook large quantities of food quickly. Put various ingredients in this to make soups, stews, and dyes.",
         "image": "industrial cooker.png",
@@ -90,6 +99,7 @@
         "parent": "Crafting stations"
     },
     {
+        "id": 298,
         "name": "Industrial forge",
         "description": "Refines resources in bulk. Powered by gasoline.",
         "image": "industrial forge.png",

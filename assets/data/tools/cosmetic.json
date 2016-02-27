@@ -7,6 +7,7 @@
         "parent": "Tools"
     },
     {
+        "id": 239,
         "name": "Paintbrush",
         "description": "Apply a dye to this, then swing it at structures to paint them.",
         "image": "paintbrush.png",
@@ -17,6 +18,7 @@
         "parent": "Cosmetic"
     },
     {
+        "id": 240,
         "name": "Spray painter",
         "description": "Apply a dye to this, then shoot it at structures to paint them. Hold Alt Fire + Hotkey Number to set painting region.",
         "image": "spray painter.png",

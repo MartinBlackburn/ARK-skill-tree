@@ -7,6 +7,7 @@
         "parent": "Armor"
     },
     {
+        "id": 19,
         "name": "Cloth hat",
         "description": "Provides some protection from the heat and cold, but only minimal protection from injuries.",
         "image": "cloth hat.png",
@@ -17,6 +18,7 @@
         "parent": "Cloth armor"
     },
     {
+        "id": 20,
         "name": "Cloth shirt",
         "description": "Provides some protection from the heat and cold, but only minimal protection from injuries.",
         "image": "cloth shirt.png",
@@ -27,6 +29,7 @@
         "parent": "Cloth armor"
     },
     {
+        "id": 21,
         "name": "Cloth gloves",
         "description": "Hide-padded gloves provide some protection from the heat and cold, but only minimal protection from injuries.",
         "image": "cloth gloves.png",
@@ -37,6 +40,7 @@
         "parent": "Cloth armor"
     },
     {
+        "id": 22,
         "name": "Cloth pants",
         "description": "Provides some protection from the heat and cold, but only minimal protection from injuries.",
         "image": "cloth pants.png",
@@ -47,6 +51,7 @@
         "parent": "Cloth armor"
     },
     {
+        "id": 23,
         "name": "Cloth boots",
         "description": "Hide-soled shoes provide some protection from the heat and cold, but only minimal protection from injuries.",
         "image": "cloth boots.png",

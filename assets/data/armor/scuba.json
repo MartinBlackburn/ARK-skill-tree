@@ -7,6 +7,7 @@
         "parent": "Armor"
     },
     {
+        "id": 50,
         "name": "SCUBA mask",
         "description": "Connects to a SCUBA Tank, allowing the wearer to breathe underwater for as long as the tank has oxygen.",
         "image": "scuba mask.png",
@@ -17,6 +18,7 @@
         "parent": "SCUBA gear"
     },
     {
+        "id": 51,
         "name": "SCUBA tank",
         "description": "A tank that's filled with Oxygen. Used to temporarily breathe underwater.",
         "image": "scuba tank.png",
@@ -27,6 +29,7 @@
         "parent": "SCUBA gear"
     },
     {
+        "id": 52,
         "name": "SCUBA leggings",
         "description": "Provides little defense, but tremendous hypothermal insulation, specifically when underwater.",
         "image": "scuba leggings.png",
@@ -37,6 +40,7 @@
         "parent": "SCUBA gear"
     },
     {
+        "id": 53,
         "name": "SCUBA flippers",
         "description": "These flippers are firm, but flexible. Wearing them increases swim speed, but decreases walking speed.",
         "image": "scuba flippers.png",

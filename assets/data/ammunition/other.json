@@ -7,6 +7,7 @@
         "parent": "Ammunition"
     },
     {
+        "id": 11,
         "name": "Tranquilizer dart",
         "description": "A potent dart full of tranquilizing poison. For use in a Longneck Rifle. Can not be used with attachments.",
         "image": "tranquilizer dart.png",
@@ -17,6 +18,7 @@
         "parent": "Other ammunition"
     },
     {
+        "id": 12,
         "name": "Rocket propelled grenade",
         "description": "A small but powerful explosive, primarily used with rocket launchers.",
         "image": "rocket propelled grenade.png",

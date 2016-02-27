@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 160,
         "name": "Dinosaur gateway",
         "description": "A large wood and stone gateway that can be used with a gate to keep most dinosaurs in or out.",
         "image": "dinosaur gateway.png",
@@ -17,6 +18,7 @@
         "parent": "Dinosaur gateways"
     },
     {
+        "id": 161,
         "name": "Stone dinosaur gateway",
         "description": "A large brick-and-mortar gateway that can be used with a Gate to keep most dinosaurs in or out.",
         "image": "stone dinosaur gateway.png",
@@ -27,6 +29,7 @@
         "parent": "Dinosaur gateways"
     },
     {
+        "id": 162,
         "name": "Behemoth stone dinosaur gateway",
         "description": "A massive brick-and-mortar gateway that can be used for penning up huge dinosaurs.",
         "image": "behemoth stone dinosaur gateway.png",
@@ -37,6 +40,7 @@
         "parent": "Dinosaur gateways"
     },
     {
+        "id": 163,
         "name": "Metal dinosaur gateway",
         "description": "A large metal gateway that can be used with a gate to keep most dinosaurs in or out.",
         "image": "metal dinosaur gateway.png",
@@ -47,6 +51,7 @@
         "parent": "Dinosaur gateways"
     },
     {
+        "id": 164,
         "name": "Behemoth gateway",
         "description": "A large metal-plated concrete gateway, reinforced with obsidian polymer, that can be used with a Behemoth Gate to allow even the largest of creatures in or out.",
         "image": "behemoth gateway.png",

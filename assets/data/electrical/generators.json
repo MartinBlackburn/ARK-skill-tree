@@ -7,6 +7,7 @@
         "parent": "Electrical"
     },
     {
+        "id": 78,
         "name": "Electrical generator",
         "description": "A large machine that converts gasoline into electricity.",
         "image": "electrical generator.png",

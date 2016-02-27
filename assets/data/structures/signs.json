@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 210,
         "name": "Wooden sign",
         "description": "A simple wooden sign for landmark navigation or relaying messages.",
         "image": "wooden sign.png",
@@ -17,6 +18,7 @@
         "parent": "Signs"
     },
     {
+        "id": 211,
         "name": "Wooden wall sign",
         "description": "A simple wooden wall sign for basic messages, requires attaching to a wall.",
         "image": "wooden wall sign.png",
@@ -27,6 +29,7 @@
         "parent": "Signs"
     },
     {
+        "id": 212,
         "name": "Wooden billboard",
         "description": "A large wooden billboard for landmark navigation or relaying messages.",
         "image": "wooden billboard.png",
@@ -37,6 +40,7 @@
         "parent": "Signs"
     },
     {
+        "id": 213,
         "name": "Metal sign",
         "description": "A small metal sign for landmark navigation or relaying messages.",
         "image": "metal sign.png",
@@ -47,6 +51,7 @@
         "parent": "Signs"
     },
     {
+        "id": 214,
         "name": "Metal wall sign",
         "description": "A simple metal wall sign for basic messages, requires attaching to a wall.",
         "image": "metal wall sign.png",
@@ -57,6 +62,7 @@
         "parent": "Signs"
     },
     {
+        "id": 215,
         "name": "Metal billboard",
         "description": "A large metal billboard for landmark navigation or relaying messages.",
         "image": "metal billboard.png",

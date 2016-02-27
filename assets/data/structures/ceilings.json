@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 152,
         "name": "Wooden ceiling",
         "description": "A stable wooden ceiling that insulates the inside from the outside, and doubles as a floor for higher levels.",
         "image": "wooden ceiling.png",
@@ -17,6 +18,7 @@
         "parent": "Ceilings"
     },
     {
+        "id": 153,
         "name": "Stone ceiling",
         "description": "A stable brick-and-mortar ceiling that insulates the inside from the outside, and doubles as a floor for higher levels.",
         "image": "stone ceiling.png",
@@ -27,6 +29,7 @@
         "parent": "Ceilings"
     },
     {
+        "id": 154,
         "name": "Metal ceiling",
         "description": "A stable metal-plated concrete ceiling that provides insulation, and doubles as a floor for higher levels.",
         "image": "metal ceiling.png",

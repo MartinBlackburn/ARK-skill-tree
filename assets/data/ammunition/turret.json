@@ -7,6 +7,7 @@
         "parent": "Ammunition"
     },
     {
+        "id": 13,
         "name": "Ballista bolt",
         "description": "A massive Bolt with a cast iron arrow head. Can only be used in a Ballista Turret. If it doesn't break, you can recover your ammo.",
         "image": "ballista bolt.png",

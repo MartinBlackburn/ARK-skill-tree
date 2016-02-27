@@ -7,6 +7,7 @@
         "parent": "Weapons"
     },
     {
+        "id": 262,
         "name": "Scope attachment",
         "description": "The carefully shaped crystal lenses in this scope grant the user a telescopic aim when firing. Attach this to a supporting weapon to gain more accurate aiming.",
         "image": "scope attachment.png",
@@ -17,6 +18,7 @@
         "parent": "Attachments"
     },
     {
+        "id": 263,
         "name": "Silencer attachment",
         "description": "The lubricated materials in this silencer slow the gases released from a gunshot, muffling the sounds. Attach this to a supporting weapon for reduced noise when firing.",
         "image": "silencer attachment.png",
@@ -27,6 +29,7 @@
         "parent": "Attachments"
     },
     {
+        "id": 264,
         "name": "Flashlight attachment",
         "description": "This flashlight sheds light out in a wide area, but makes you easier to see too. Attach this to a supporting weapon to shine light from a weapon.",
         "image": "flashlight attachment.png",
@@ -37,6 +40,7 @@
         "parent": "Attachments"
     },
     {
+        "id": 265,
         "name": "Laser attachment",
         "description": "This advanced aiming device places a red dot where the weapon is pointed. Attach this to a supporting weapon to add a laser sight.",
         "image": "laser attachment.png",
@@ -47,6 +51,7 @@
         "parent": "Attachments"
     },
     {
+        "id": 266,
         "name": "Holo-scope attachment",
         "description": "This advanced scope can tell friends from strangers. Attach this to a supporting weapon to gain more accurate aiming.",
         "image": "holo-scope attachment.png",

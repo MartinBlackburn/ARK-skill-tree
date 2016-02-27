@@ -7,6 +7,7 @@
         "parent": "Tools"
     },
     {
+        "id": 241,
         "name": "Stone pick",
         "description": "A large stone pick for harvesting primarily flint from rocks, thatch from trees, and raw meat from bodies.",
         "image": "stone pick.png",
@@ -17,6 +18,7 @@
         "parent": "Harvesting"
     },
     {
+        "id": 242,
         "name": "Metal pick",
         "description": "A sharp metal pick for harvesting metal from mountain rocks, flint from rocks, and meat from bodies.",
         "image": "metal pick.png",
@@ -27,6 +29,7 @@
         "parent": "Harvesting"
     },
     {
+        "id": 243,
         "name": "Stone hatchet",
         "description": "A sharp flint hatchet for harvesting wood from trees, stone from rocks, and skin from bodies.",
         "image": "stone hatchet.png",
@@ -37,6 +40,7 @@
         "parent": "Harvesting"
     },
     {
+        "id": 244,
         "name": "Metal hatchet",
         "description": "A sharp metal hatchet for harvesting wood from trees, stone from rocks, and skin from bodies.",
         "image": "metal hatchet.png",
@@ -47,6 +51,7 @@
         "parent": "Harvesting"
     },
     {
+        "id": 245,
         "name": "Metal sickle",
         "description": "A curved tool ideal for harvesting fiber from seed plants.",
         "image": "metal sickle.png",

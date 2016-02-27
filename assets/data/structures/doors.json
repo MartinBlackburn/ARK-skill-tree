@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 169,
         "name": "Thatch door",
         "description": "Enough sticks bundled together works as a simple door. Can be locked for security, but not very strong.",
         "image": "thatch door.png",
@@ -17,6 +18,7 @@
         "parent": "Doors"
     },
     {
+        "id": 170,
         "name": "Wooden door",
         "description": "A stable wooden door that provides entrance to structures. Can be locked for security.",
         "image": "wooden door.png",
@@ -27,6 +29,7 @@
         "parent": "Doors"
     },
     {
+        "id": 171,
         "name": "Reinforced wooden door",
         "description": "A reinforced wooden door that provides entance to structures. Can be locked for security.",
         "image": "reinforced wooden door.png",
@@ -37,6 +40,7 @@
         "parent": "Doors"
     },
     {
+        "id": 172,
         "name": "Metal door",
         "description": "A stable metal-plated concrete door that provides entrance to structures. Can be locked for security.",
         "image": "metal door.png",

@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 173,
         "name": "Thatch foundation",
         "description": "A foundation is required to build structures. This one is a wooden frame with some smooth bundles of sticks that act as a floor.",
         "image": "thatch foundation.png",
@@ -17,6 +18,7 @@
         "parent": "Foundations"
     },
     {
+        "id": 174,
         "name": "Wooden foundation",
         "description": "A foundation is required to build structures. This one is made from sturdy wood.",
         "image": "wooden foundation.png",
@@ -27,6 +29,7 @@
         "parent": "Foundations"
     },
     {
+        "id": 175,
         "name": "Wooden fence foundation",
         "description": "This very cheap, narrow foundation is used to build fences around an area.",
         "image": "wooden fence foundation.png",
@@ -37,6 +40,7 @@
         "parent": "Foundations"
     },
     {
+        "id": 176,
         "name": "Stone foundation",
         "description": "A foundation is required to build structures in an area. This one is made from brick-and-mortar.",
         "image": "stone foundation.png",
@@ -47,6 +51,7 @@
         "parent": "Foundations"
     },
     {
+        "id": 177,
         "name": "Stone fence foundation",
         "description": "This strong, narrow foundation is used to build walls around an area.",
         "image": "stone fence foundation.png",
@@ -57,6 +62,7 @@
         "parent": "Foundations"
     },
     {
+        "id": 178,
         "name": "Metal foundation",
         "description": "A foundation is required to build structures in an area. This one is made from sturdy metal-plated concrete.",
         "image": "metal foundation.png",
@@ -67,6 +73,7 @@
         "parent": "Foundations"
     },
     {
+        "id": 179,
         "name": "Metal fence foundation",
         "description": "This very strong, narrow foundation is used to build walls around an area.",
         "image": "metal fence foundation.png",

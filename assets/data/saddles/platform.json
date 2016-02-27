@@ -7,6 +7,7 @@
         "parent": "Saddles"
     },
     {
+        "id": 109,
         "name": "Paracer platform saddle",
         "description": "Equip a Paraceratherium with this to ride it. You can build structures on the large platform to make a mobile base.",
         "image": "paracer saddle.png",
@@ -17,6 +18,7 @@
         "parent": "Platform saddles"
     },
     {
+        "id": 110,
         "name": "Bronto platform saddle",
         "description": "Equip a Bronto with this to ride it. You can build structure on the large platform to make a mobile base.",
         "image": "bronto saddle.png",
@@ -27,6 +29,7 @@
         "parent": "Platform saddles"
     },
     {
+        "id": 111,
         "name": "Plesiosaur platform saddle",
         "description": "Equip a Plesiosaur with this to ride it. You can build structure on the large platform to make a mobile base.",
         "image": "plesiosaur saddle.png",
@@ -37,6 +40,7 @@
         "parent": "Platform saddles"
     },
     {
+        "id": 112,
         "name": "Quetz platform saddle",
         "description": "Equip a Quetz with this to ride it. You can build structure on the large platform to make a mobile base.",
         "image": "quetz saddle.png",
@@ -47,6 +51,7 @@
         "parent": "Platform saddles"
     },
     {
+        "id": 113,
         "name": "Mosasaurus platform saddle",
         "description": "Equip a Mosasaurus with this to ride it. You can build structure on the large platform to make a mobile base.",
         "image": "mosasaurus saddle.png",

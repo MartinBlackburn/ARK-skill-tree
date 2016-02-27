@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 216,
         "name": "Wooden trapdoor",
         "description": "This small wooden door can be used to secure hatches.",
         "image": "wooden trapdoor.png",
@@ -17,6 +18,7 @@
         "parent": "Trapdoors"
     },
     {
+        "id": 217,
         "name": "Reinforced trapdoor",
         "description": "This small reinforced door can be used to secure hatches.",
         "image": "reinforced trapdoor.png",
@@ -27,6 +29,7 @@
         "parent": "Trapdoors"
     },
     {
+        "id": 218,
         "name": "Metal trapdoor",
         "description": "This metal-plated concrete slab can be used to secure hatches.",
         "image": "metal trapdoor.png",

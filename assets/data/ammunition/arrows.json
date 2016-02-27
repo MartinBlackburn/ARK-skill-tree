@@ -7,6 +7,7 @@
         "parent": "Ammunition"
     },
     {
+        "id": 1,
         "name": "Stone arrow",
         "description": "An arrow for the bow.",
         "image": "stone arrow.png",
@@ -17,6 +18,7 @@
         "parent": "Arrows"
     },
     {
+        "id": 2,
         "name": "Tranquilizer arrow",
         "description": "Less deadly than other arrows, but rapidly increases the victim's torpidity.",
         "image": "tranquilizer arrow.png",
@@ -27,6 +29,7 @@
         "parent": "Arrows"
     },
     {
+        "id": 3,
         "name": "Metal arrow",
         "description": "An armor-and-hide piercing metal arrow.",
         "image": "metal arrow.png",
@@ -37,6 +40,7 @@
         "parent": "Arrows"
     },
     {
+        "id": 4,
         "name": "Grappling hook",
         "description": "Apply on the Crossbow to grapple onto the environment & other creatures. Primary Fire to 'Reel-In', Secondary Fire to 'Reel-Out', Crouch to Detach, Jump + Reel-In to Vault-Jump!",
         "image": "grappling hook.png",

@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 221,
         "name": "Thatch wall",
         "description": "A simple wall made of bundled sticks, and stabilized by a wooden frame. Fairly fragile, but better than nothing.",
         "image": "thatch wall.png",
@@ -17,6 +18,7 @@
         "parent": "Walls"
     },
     {
+        "id": 222,
         "name": "Sloped thatch wall left",
         "description": "A simple Thatch sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with a roof.",
         "image": "sloped thatch wall left.png",
@@ -27,6 +29,7 @@
         "parent": "Walls"
     },
     {
+        "id": 223,
         "name": "Sloped thatch wall right",
         "description": "A simple Thatch sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with a roof.",
         "image": "sloped thatch wall right.png",
@@ -37,6 +40,7 @@
         "parent": "Walls"
     },
     {
+        "id": 224,
         "name": "Wooden wall",
         "description": "A sturdy wooden wall that insulates the inside from the outside, separates rooms, and provides structural integrity.",
         "image": "wooden wall.png",
@@ -47,6 +51,7 @@
         "parent": "Walls"
     },
     {
+        "id": 225,
         "name": "Sloped wood wall left",
         "description": "A sturdy Wooden sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof.",
         "image": "sloped wood wall left.png",
@@ -57,6 +62,7 @@
         "parent": "Walls"
     },
     {
+        "id": 226,
         "name": "Sloped wood wall right",
         "description": "A sturdy Wooden sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof.",
         "image": "sloped wood wall right.png",
@@ -67,6 +73,7 @@
         "parent": "Walls"
     },
     {
+        "id": 227,
         "name": "Stone wall",
         "description": "A brick-and-mortar wall that insulates the inside from the outside and seperates rooms.",
         "image": "stone wall.png",
@@ -77,6 +84,7 @@
         "parent": "Walls"
     },
     {
+        "id": 228,
         "name": "Sloped stone wall left",
         "description": "A sturdy stone sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof.",
         "image": "sloped stone wall left.png",
@@ -87,6 +95,7 @@
         "parent": "Walls"
     },
     {
+        "id": 229,
         "name": "Sloped stone wall right",
         "description": "A sturdy stone sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof.",
         "image": "sloped stone wall right.png",
@@ -97,6 +106,7 @@
         "parent": "Walls"
     },
     {
+        "id": 230,
         "name": "Metal wall",
         "description": "A metal-plated concrete wall that insulates the inside from the outside and separates rooms.",
         "image": "metal wall.png",
@@ -107,6 +117,7 @@
         "parent": "Walls"
     },
     {
+        "id": 231,
         "name": "Sloped metal wall left",
         "description": "A sturdy metal sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof.",
         "image": "sloped metal wall left.png",
@@ -117,6 +128,7 @@
         "parent": "Walls"
     },
     {
+        "id": 232,
         "name": "Sloped metal wall right",
         "description": "A sturdy metal sloped wall that insulates the inside from the outside, separates rooms, and provides structural integrity. Used in conjunction with the roof.",
         "image": "sloped metal wall right.png",

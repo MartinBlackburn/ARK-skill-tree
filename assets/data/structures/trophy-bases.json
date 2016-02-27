@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 219,
         "name": "Trophy base",
         "description": "Provides the base upon which you can place a Trophy!",
         "image": "trophy base.png",
@@ -17,6 +18,7 @@
         "parent": "Trophy bases"
     },
     {
+        "id": 220,
         "name": "Trophy wall-mount",
         "description": "Provides the wall-mount upon which you can place a trophy!",
         "image": "trophy wall-mount.png",

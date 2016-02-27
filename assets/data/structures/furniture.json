@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 180,
         "name": "Standing torch",
         "description": "A torch on a small piece of wood that lights and warms the immediate area.",
         "image": "standing torch.png",
@@ -17,6 +18,7 @@
         "parent": "Furniture"
     },
     {
+        "id": 181,
         "name": "Single panel flag",
         "description": "Mark your tribe's territory and show off its colors by placing this and painting it.",
         "image": "single panel flag.png",
@@ -27,6 +29,7 @@
         "parent": "Furniture"
     },
     {
+        "id": 182,
         "name": "Multi-panel flag",
         "description": "Mark your tribes territory and show off its colours by placing this and dying it.",
         "image": "multi-panel flag.png",
@@ -37,6 +40,7 @@
         "parent": "Furniture"
     },
     {
+        "id": 183,
         "name": "Painting canvas",
         "description": "A canvas sheet stretched over a wooden frame. Perfect for painting on.",
         "image": "painting canvas.png",
@@ -47,6 +51,7 @@
         "parent": "Furniture"
     },
     {
+        "id": 184,
         "name": "Wardrums",
         "description": "A set of tribal wardrums, to let everyone around hear the power of your tribe.",
         "image": "wardrums.png",
@@ -57,6 +62,7 @@
         "parent": "Furniture"
     },
     {
+        "id": 185,
         "name": "Wooden chair",
         "description": "A simple wooden chair for solo sitting.",
         "image": "wooden chair.png",
@@ -67,6 +73,7 @@
         "parent": "Furniture"
     },
     {
+        "id": 186,
         "name": "Wooden table",
         "description": "A simple wooden table with a variety of uses.",
         "image": "wooden table.png",
@@ -77,6 +84,7 @@
         "parent": "Furniture"
     },
     {
+        "id": 187,
         "name": "Wooden bench",
         "description": "A simple wooden bench for solo sitting.",
         "image": "wooden bench.png",
@@ -87,6 +95,7 @@
         "parent": "Furniture"
     },
     {
+        "id": 188,
         "name": "Basic gravestone",
         "description": "A simple unadorned stone headstone to mark a grave or commemorate a loved one.",
         "image": "basic gravestone.png",
@@ -97,6 +106,7 @@
         "parent": "Furniture"
     },
     {
+        "id": 189,
         "name": "Wall torch",
         "description": "A torch on a metal connector that lights and warms the immediate area. Must be placed on a wall.",
         "image": "wall torch.png",
@@ -107,6 +117,7 @@
         "parent": "Furniture"
     },
     {
+        "id": 190,
         "name": "Stone fireplace",
         "description": "A nice, relaxing fireplace. Keeps a large area very warm and provides light.",
         "image": "stone fireplace.png",
@@ -117,6 +128,7 @@
         "parent": "Furniture"
     },
     {
+        "id": 191,
         "name": "War map",
         "description": "A map of the Island upon which you can draw your plans.",
         "image": "war map.png",

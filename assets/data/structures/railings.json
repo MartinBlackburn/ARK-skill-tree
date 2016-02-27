@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 200,
         "name": "Wooden railing",
         "description": "A sturdy wooden railing that acts a a simple barrier to prevent people from falling.",
         "image": "wooden railing.png",
@@ -17,6 +18,7 @@
         "parent": "Railings"
     },
     {
+        "id": 201,
         "name": "Stone railing",
         "description": "A brick-and-mortar railing that acts a a simple barrier to prevent people from falling.",
         "image": "stone railing.png",
@@ -27,6 +29,7 @@
         "parent": "Railings"
     },
     {
+        "id": 202,
         "name": "Metal railing",
         "description": "A metal-plated concrete railing that acts a a simple barrier to prevent people from falling.",
         "image": "metal railing.png",

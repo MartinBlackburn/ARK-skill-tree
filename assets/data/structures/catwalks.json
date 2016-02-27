@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 150,
         "name": "Wooden catwalk",
         "description": "A thin walkway for bridging areas together. Made from sturdy wood.",
         "image": "wooden catwalk.png",
@@ -17,6 +18,7 @@
         "parent": "Catwalks"
     },
     {
+        "id": 151,
         "name": "Metal catwalk",
         "description": "A thin walkway for bridging areas together. Made from metal plates.",
         "image": "metal catwalk.png",

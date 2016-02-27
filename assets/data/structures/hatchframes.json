@@ -7,6 +7,7 @@
         "parent": "Structures"
     },
     {
+        "id": 192,
         "name": "Wooden hatchframe",
         "description": "A wooden ceiling with a hole in it for trapdoors.",
         "image": "wooden hatchframe.png",
@@ -17,6 +18,7 @@
         "parent": "Hatchframes"
     },
     {
+        "id": 193,
         "name": "Stone hatchframe",
         "description": "This brick-and-mortar ceiling has a hole in it for trapdoors.",
         "image": "stone hatchframe.png",
@@ -27,6 +29,7 @@
         "parent": "Hatchframes"
     },
     {
+        "id": 194,
         "name": "Metal hatchframe",
         "description": "This metal-plated concrete ceiling has a hole in it for trapdoors.",
         "image": "metal hatchframe.png",
