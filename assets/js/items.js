@@ -469,7 +469,7 @@ App.Items = (function()
         });
 
         //clear url
-        history.replaceState(null, null, "/");
+        history.replaceState(null, null, location.pathname);
 
         //update flash message
         App.FlashMessage.displayMessage("Selection reset", "success");
