@@ -399,12 +399,10 @@ App.Items = (function()
             for(var i = 0; i < prerequisitesArray.length; i++) {
                 var requiredItem = container.find("[data-name='" + prerequisitesArray[i] + "']");
 
-                //check item exists
-                if(requiredItem.length < 1) {
-                    return;
+                //select item if found
+                if(requiredItem.length) {
+                    selectItem(requiredItem);
                 }
-
-                selectItem(requiredItem);
             }
         }
 
@@ -483,15 +481,19 @@ App.Items = (function()
      */
     function save()
     {
-        var selected = [];
+        var selectedIds = [];
 
-        //added selected items to array
+        //added selected items to arrays
         $(".item--selected").each(function() {
-            selected.push($(this).data("name"));
+            selectedIds.push($(this).data("id"));
         });
 
-        //add selected item to localstorage
-        localStorage.setItem('selected', JSON.stringify(selected));
+        //add selected items to localstorage
+        localStorage.setItem('selected', JSON.stringify(selectedIds));
+
+        //update url with selected IDs
+        var idString = selectedIds.join(",");
+        history.replaceState(null, null, '?ids=' + idString);
 
         //update flash message
         App.FlashMessage.displayMessage("Selection saved", "success");
@@ -506,20 +508,36 @@ App.Items = (function()
      */
     function load()
     {
-        //get saved items from localstorage
-        var selected = JSON.parse(localStorage.getItem('selected'));
+        var loaded = false;
+        var selected;
+
+        //try load from url
+        var query = window.location.search.substring(1);
+        query = query.split("=");
+
+        //have ids in the url
+        if(query[0] === "ids") {
+            var idString = query[1];
+            selected = idString.split(',');
+        } else {
+            //get saved items from localstorage
+            selected = JSON.parse(localStorage.getItem('selected'));
+        }
 
         //load items if any stored
         if(selected && selected.length > 0) {
-            //update flash message
-            App.FlashMessage.displayMessage("Loaded your saved settings", "success");
-
             //select each item
             $.each(selected, function(index, value) {
-                var item = container.find("[data-name='" + value + "']");
+                var item = container.find("[data-id='" + value + "']");
 
-                selectItem(item);
+                //select item if found
+                if(item.length) {
+                    selectItem(item);
+                }
             });
+
+            //update flash message
+            App.FlashMessage.displayMessage("Loaded your saved settings", "success");
         }
     }
 
