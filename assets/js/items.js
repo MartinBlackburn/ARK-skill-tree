@@ -102,7 +102,7 @@ App.Items = (function()
         //set flash message
         App.FlashMessage.displayMessage("Loading items...", "success");
 
-        //check version in local storage
+        //check version in localstorage
         var localVersion = localStorage.getItem('version');
 
         //if no local version, set one
@@ -110,7 +110,7 @@ App.Items = (function()
             localStorage.setItem('version', version);
         }
 
-        //if versions same use local storage
+        //if versions same use localstorage
         if(version === localVersion) {
             useLocalStorage = true;
         }
@@ -140,7 +140,7 @@ App.Items = (function()
 
 
     /**
-     * Load items from local storage
+     * Load items from localstorage
      */
     function loadItemsFromLocal()
     {
@@ -463,13 +463,16 @@ App.Items = (function()
      */
     function unselectAllItems()
     {
-        //update flash message
-        App.FlashMessage.displayMessage("Selection reset", "success");
-
         //unselect items
         $(".item").each(function() {
             unselectItem($(this));
         });
+
+        //clear url
+        history.replaceState(null, null, "/");
+
+        //update flash message
+        App.FlashMessage.displayMessage("Selection reset", "success");
     }
 
 
