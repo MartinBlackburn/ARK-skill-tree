@@ -22,8 +22,8 @@
         "name": "Handcuffs",
         "description": "Equip this onto an unconscious player, and they'll be restrained when they wake up!",
         "image": "handcuffs.png",
-        "minLevel": 1,
-        "engrams": 0,
+        "minLevel": 25,
+        "engrams": 16,
         "prerequisites": [],
         "type": "item",
         "parent": "Other tools"
