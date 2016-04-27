@@ -555,7 +555,7 @@ App.Items = (function()
     {
         console.log(highestItemId);
         
-        return getHighestItemId;
+        return highestItemId;
     }
 
 
