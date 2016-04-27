@@ -545,6 +545,20 @@ App.Items = (function()
     }
 
 
+    
+    
+    
+    /**
+     * Log highest used ID when asked for
+     */
+    function getHighestItemId()
+    {
+        console.log(highestItemId);
+        
+        return getHighestItemId;
+    }
+
+
 
 
 
