@@ -6,6 +6,7 @@ App.Items = (function()
     var container = $(".js-categories");
     var useLocalStorage = false;
     var version = "236.2";
+    var highestItemId = 0;
 
     //item files
     var itemFiles = [
@@ -225,6 +226,11 @@ App.Items = (function()
             //draw item to page
             if(item.type == "item") {
                 drawItem(item);
+                
+                //log highest item ID
+                if(item.id > highestItemId) {
+                    highestItemId = item.id;
+                }
             }
         });
 
