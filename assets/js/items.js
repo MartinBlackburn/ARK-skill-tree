@@ -569,6 +569,7 @@ App.Items = (function()
         init: init,
         reset: unselectAllItems,
         save: save,
-        load: load
+        load: load,
+        getHighestItemId: getHighestItemId
     };
 })();
