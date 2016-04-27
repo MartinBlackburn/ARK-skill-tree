@@ -29,6 +29,17 @@
         "parent": "Turrets"
     },
     {
+        "id": 312,
+        "name": "Primitive cannon",
+        "description": "A powerful, heavy weapon of war, capable of demolishing heavily reinforced structures.",
+        "image": "primitive cannon.png",
+        "minLevel": 35,
+        "engrams": 25,
+        "prerequisites": ["Catapult turret"],
+        "type": "item",
+        "parent": "Turrets"
+    },
+    {
         "id": 67,
         "name": "Auto turret",
         "description": "Requires electricity to run. Consumes bullets while firing. Can be configured to automatically attack hostiles within range.",

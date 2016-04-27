@@ -5,7 +5,7 @@ App.Items = (function()
     //variables
     var container = $(".js-categories");
     var useLocalStorage = false;
-    var version = "236.2";
+    var version = "239.3";
     var highestItemId = 0;
 
     //item files

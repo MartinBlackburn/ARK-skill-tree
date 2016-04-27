@@ -9,10 +9,21 @@
     {
         "id": 13,
         "name": "Ballista bolt",
-        "description": "A massive Bolt with a cast iron arrow head. Can only be used in a Ballista Turret. If it doesn't break, you can recover your ammo.",
+        "description": "A massive bolt with a cast iron arrow head. Can only be used in a Ballista Turret. If it doesn't break, you can recover your ammo.",
         "image": "ballista bolt.png",
         "minLevel": 25,
         "engrams": 10,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Turret ammunition"
+    },
+    {
+        "id": 313,
+        "name": "Cannon ball",
+        "description": "A gigantic ball of heavy metal, capable of demolishing very strong structures.",
+        "image": "cannon ball.png",
+        "minLevel": 35,
+        "engrams": 5,
         "prerequisites": [],
         "type": "item",
         "parent": "Turret ammunition"
