@@ -99,6 +99,17 @@
         "parent": "Crafting stations"
     },
     {
+        "id": 311,
+        "name": "Chemistry bench",
+        "description": "An advanced crafting station that functions as the upgraded Mortar and Pestle, capable of efficiently making refined batches of goods.",
+        "image": "chemistry bench.png",
+        "minLevel": 85,
+        "engrams": 65,
+        "prerequisites": ["Beer barrel", "Fabricator", "Mortar and pestle"],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
+    {
         "id": 298,
         "name": "Industrial forge",
         "description": "Refines resources in bulk. Powered by gasoline.",
