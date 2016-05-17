@@ -16,5 +16,16 @@
         "prerequisites": [],
         "type": "item",
         "parent": "Other weapons"
+    },
+    {
+        "id": 314,
+        "name": "Bola",
+        "description": "Wind it up and throw!",
+        "image": "bola.png",
+        "minLevel": 10,
+        "engrams": 8,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other weapons"
     }
 ]
