@@ -317,7 +317,7 @@ App.Items = (function()
      */
     function drawItem(item)
     {
-        var itemTemplate = ["<tr class='item' data-id='" + item.id + "' data-name='" + item.name + "' data-engrams='" + item.engrams + "' data-minlevel='" + item.minLevel + "' data-prerequisites='" + item.prerequisites + "'>",
+        var itemTemplate = ["<tr class='item' data-id='" + item.id + "' data-name=\"" + item.name + "\" data-engrams='" + item.engrams + "' data-minlevel='" + item.minLevel + "' data-prerequisites='" + item.prerequisites + "'>",
                                 "<td><img src='assets/images/" + item.image + "' /></td>",
                                 "<td><h3 class='item__name'>" + item.name + "</h3></td>",
                                 "<td><div class='item__description'>" + item.description + "</div></td>",
