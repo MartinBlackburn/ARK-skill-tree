@@ -74,7 +74,7 @@
     },
     {
         "id": 99,
-        "name": "Stone water reservoir",
+        "name": "Water reservoir",
         "description": "A standing storage device for holding water. Automatically fills up during rain, can be filled up with the use of a water skin/jar.",
         "image": "stone water reservoir.png",
         "minLevel": 15,
@@ -156,7 +156,7 @@
         "image": "metal water reservoir.png",
         "minLevel": 45,
         "engrams": 20,
-        "prerequisites": ["Stone water reservoir"],
+        "prerequisites": ["Water reservoir"],
         "type": "item",
         "parent": "Irrigation"
     }
