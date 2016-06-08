@@ -210,9 +210,9 @@ App.Tests = (function()
                 //get item engram points
                 var engramPoints = $(this).find("td:nth-child(3)").text();
                 if(!$.isNumeric(engramPoints)) {
-                    engramPoints = "0";
+                    engramPoints = 0;
                 } 
-                item.engrams = engramPoints
+                item.engrams = Number(engramPoints);
                 
                 //add wiki item to array
                 wikiItems.push(item);
@@ -231,7 +231,6 @@ App.Tests = (function()
                 
                 //check it the same engram points
                 if(foundItems.length > 0) {
-                    
                     if(foundItems[0].data("engrams").toString() != wikiItem.engrams) {
                         console.error("Item didnt have same engram points as wiki: " + wikiItem.name);
                         console.error("Mine: " + foundItems[0].data("engrams").toString() + ", Wiki: " + wikiItem.engrams);
