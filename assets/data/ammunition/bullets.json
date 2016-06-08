@@ -30,7 +30,7 @@
     },
     {
         "id": 7,
-        "name": "Simple rifle ammo",
+        "name": "Simple rifle bullet",
         "description": "An odd bullet and casing, used with forged rifles.",
         "image": "simple rifle ammo.png",
         "minLevel": 35,
@@ -46,13 +46,13 @@
         "image": "advanced rifle bullet.png",
         "minLevel": 55,
         "engrams": 8,
-        "prerequisites": ["Simple rifle ammo"],
+        "prerequisites": ["Simple rifle bullet"],
         "type": "item",
         "parent": "Bullets"
     },
     {
         "id": 9,
-        "name": "Simple shotgun ammo",
+        "name": "Simple shotgun bullet",
         "description": "A few simple bullets in a hide casing, used with forged shotguns.",
         "image": "simple shotgun ammo.png",
         "minLevel": 30,
@@ -63,12 +63,12 @@
     },
     {
         "id": 10,
-        "name": "Advanced sniper ammo",
+        "name": "Advanced sniper bullet",
         "description": "A high-caliber modern bullet, primarily used with fabricated sniper rifles.",
         "image": "advanced sniper bullet.png",
         "minLevel": 70,
         "engrams": 16,
-        "prerequisites": ["Simple rifle ammo"],
+        "prerequisites": ["Simple rifle bullet"],
         "type": "item",
         "parent": "Bullets"
     }
