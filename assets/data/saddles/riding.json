@@ -331,7 +331,7 @@
         "description": "Equip an T-rex with this to ride it.",
         "image": "t-rex saddle.png",
         "minLevel": 60,
-        "engrams": 44,
+        "engrams": 40,
         "prerequisites": [],
         "type": "item",
         "parent": "Riding saddles"
