@@ -37,6 +37,6 @@
         "engrams": 20,
         "prerequisites": [],
         "type": "item",
-        "parent": "Drugs"
+        "parent": "Other farming"
     }
 ]
