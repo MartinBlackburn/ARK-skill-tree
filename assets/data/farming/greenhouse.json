@@ -18,6 +18,17 @@
         "parent": "Greenhouse"
     },
     {
+        "id": 322,
+        "name": "Greenhouse window",
+        "description": "Metal-framed, glass plates on hinges that cover windows to provide protection from projectiles and spying. Excellent for growing crops indoors.",
+        "image": "greenhouse window.png",
+        "minLevel": 45,
+        "engrams": 15,
+        "prerequisites": ["Reinforced window"],
+        "type": "item",
+        "parent": "Greenhouse"
+    },
+    {
         "id": 87,
         "name": "Greenhouse doorframe",
         "description": "A metal-frame, glass wall that provides entrance to a structure. Excellent for growing crops indoors.",
