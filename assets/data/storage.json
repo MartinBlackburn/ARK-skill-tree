@@ -33,7 +33,7 @@
         "parent": "Storage"
     },
     {
-        "id": 320,
+        "id": 321,
         "name": "Preserving bin",
         "description": "Burns simple fuel at low temperatures to dehydrate food and kill bacteria. Keeps perishables from spoiling for a small time.",
         "image": "preserving bin.png",
