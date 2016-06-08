@@ -1,6 +1,6 @@
 [
     {
-        "name": "SCUBA gear",
+        "name": "Scuba gear",
         "description": "Just keep swimming, just keep swimming.",
         "image": "test.png",
         "type": "category",
@@ -8,46 +8,46 @@
     },
     {
         "id": 50,
-        "name": "SCUBA mask",
-        "description": "Connects to a SCUBA Tank, allowing the wearer to breathe underwater for as long as the tank has oxygen.",
+        "name": "Scuba mask",
+        "description": "Connects to a Scuba Tank, allowing the wearer to breathe underwater for as long as the tank has oxygen.",
         "image": "scuba mask.png",
         "minLevel": 75,
         "engrams": 25,
         "prerequisites": ["Hide hat", "Scope attachment", "Fabricator"],
         "type": "item",
-        "parent": "SCUBA gear"
+        "parent": "Scuba gear"
     },
     {
         "id": 51,
-        "name": "SCUBA tank",
+        "name": "Scuba tank",
         "description": "A tank that's filled with Oxygen. Used to temporarily breathe underwater.",
         "image": "scuba tank.png",
         "minLevel": 75,
         "engrams": 35,
         "prerequisites": ["Hide shirt", "Metal water reservoir", "Fabricator"],
         "type": "item",
-        "parent": "SCUBA gear"
+        "parent": "Scuba gear"
     },
     {
         "id": 52,
-        "name": "SCUBA leggings",
+        "name": "Scuba leggings",
         "description": "Provides little defense, but tremendous hypothermal insulation, specifically when underwater.",
         "image": "scuba leggings.png",
         "minLevel": 75,
         "engrams": 35,
         "prerequisites": ["Hide pants", "Fabricator"],
         "type": "item",
-        "parent": "SCUBA gear"
+        "parent": "Scuba gear"
     },
     {
         "id": 53,
-        "name": "SCUBA flippers",
+        "name": "Scuba flippers",
         "description": "These flippers are firm, but flexible. Wearing them increases swim speed, but decreases walking speed.",
         "image": "scuba flippers.png",
         "minLevel": 75,
         "engrams": 20,
         "prerequisites": ["Hide boots", "Fabricator"],
         "type": "item",
-        "parent": "SCUBA gear"
+        "parent": "Scuba gear"
     }
 ]
