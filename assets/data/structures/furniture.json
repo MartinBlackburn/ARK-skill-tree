@@ -73,6 +73,17 @@
         "parent": "Furniture"
     },
     {
+        "id": 315,
+        "name": "Training dummy",
+        "description": "Attack this training dummy to test your DPS!",
+        "image": "training dummy.png",
+        "minLevel": 10,
+        "engrams": 8,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Furniture"
+    },
+    {
         "id": 186,
         "name": "Wooden table",
         "description": "A simple wooden table with a variety of uses.",
