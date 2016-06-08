@@ -23,7 +23,7 @@
         "description": "This brick-and-mortar ceiling has a hole in it for trapdoors.",
         "image": "stone hatchframe.png",
         "minLevel": 25,
-        "engrams": 5,
+        "engrams": 8,
         "prerequisites": ["Stone ceiling", "Wooden hatchframe"],
         "type": "item",
         "parent": "Hatchframes"
