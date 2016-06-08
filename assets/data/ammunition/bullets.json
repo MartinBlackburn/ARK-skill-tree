@@ -23,7 +23,7 @@
         "description": "A small-caliber modern bullet, primarily used with fabricated handguns.",
         "image": "advanced bullet.png",
         "minLevel": 50,
-        "engrams": 6,
+        "engrams": 8,
         "prerequisites": ["Simple bullet"],
         "type": "item",
         "parent": "Bullets"
