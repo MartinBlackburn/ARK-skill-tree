@@ -19,7 +19,7 @@
     },
     {
         "id": 75,
-        "name": "Small Elevator Platform",
+        "name": "Small elevator platform",
         "description": "Attach to an Elevator Track to carry a small amount of weight.",
         "image": "small elevator platform.png",
         "minLevel": 65,
@@ -30,7 +30,7 @@
     },
     {
         "id": 76,
-        "name": "Medium Elevator Platform",
+        "name": "Medium elevator platform",
         "description": "Attach to an Elevator Track to carry a medium amount of weight.",
         "image": "medium elevator platform.png",
         "minLevel": 65,
@@ -41,7 +41,7 @@
     },
     {
         "id": 77,
-        "name": "Large Elevator Platform",
+        "name": "Large elevator platform",
         "description": "Attach to an Elevator Track to carry a large amount of weight.",
         "image": "large elevator platform.png",
         "minLevel": 65,
