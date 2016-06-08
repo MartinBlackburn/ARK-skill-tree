@@ -6,7 +6,6 @@ App.Tests = (function()
     var container = $(".js-categories");
     var categories;
     var items;
-    var totalEngramPointsWiki = 5362; // accoring to the wiki: http://ark.gamepedia.com/Engrams
 
 
 
@@ -38,7 +37,6 @@ App.Tests = (function()
         prerequisitesExist();
         prerequisiteNotCategory();
         emptyCategory();
-        totalEngramPoints();
     }
 
 
@@ -180,27 +178,64 @@ App.Tests = (function()
             }
         });
     }
-
-
-
-
+    
+    
+    
+    
     
     /**
-     * Make sure correct number of engrams points
+     * Check points against what on wiki
+     * This is very tempermental as tries to match by name, which is NOT accurate
      */
-    function totalEngramPoints()
+    function testAgainstWiki()
     {
-        var myEngrampoints = App.Items.getTotalEngramPoints();
-        
-        if(myEngrampoints < totalEngramPointsWiki) {
-            console.error("Not enough engram points, according to the wiki");
-            console.error("I have " + myEngrampoints + ", should have " + totalEngramPointsWiki);
-        }
-        
-        if(myEngrampoints > totalEngramPointsWiki) {
-            console.error("Too many engram points, according to the wiki");
-            console.error("I have " + myEngrampoints + ", should have " + totalEngramPointsWiki);
-        }
+        $.get("http://ark.gamepedia.com/Engrams", function(data) {
+            //object of wiki items
+            var wikiItems = [];
+            
+            //get items from wiki
+            var rows = data.find(".wikitable tr:not(:first-child)");
+            
+            //add each item to the array
+            rows.each(function() {
+                var item = {};
+                
+                //get item name
+                var name = $(this).find("td:nth-child(2)").text();
+                name = name.toLowerCase();
+                name = name.charAt(0).toUpperCase() + name.slice(1);
+                item.name = name;
+                
+                //get item engram points
+                var engramPoints = $(this).find("td:nth-child(3)").text();
+                if(!$.isNumeric(engramPoints)) {
+                    engramPoints = "0";
+                } 
+                item.engrams = engramPoints
+                
+                //add wiki item to array
+                wikiItems.push(item);
+            });
+            
+            //check each item on the wiki
+            $.each(wikiItems, function(index, wikiItem) {                
+                var foundItems = container.find("[data-name='" + wikiItem.name + "']");
+                
+                //check we have it
+                if(foundItems.length == 0) {
+                    console.error("Didnt find wiki item: " + wikiItem.name);
+                }
+                
+                //check it the same engram points
+                if(foundItems.length > 0) {
+                    
+                    if(foundItems[0].data("engrams").toString() != wikiItem.engrams) {
+                        console.error("Item didnt have same engram points as wiki: " + wikiItem.name);
+                        console.error("Mine: " + foundItems[0].data("engrams").toString() + ", Wiki: " + wikiItem.engrams);
+                    }
+                }
+            });
+        });
     }
     
     
@@ -211,6 +246,7 @@ App.Tests = (function()
      * Functions available to the public
      */
     return {
-        init: init
+        init: init,
+        testAgainstWiki: testAgainstWiki
     };
 })();
