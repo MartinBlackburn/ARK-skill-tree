@@ -6,6 +6,7 @@ App.Tests = (function()
     var container = $(".js-categories");
     var categories;
     var items;
+    var totalEngramPoints = 5362; // accoring to the wiki: http://ark.gamepedia.com/Engrams
 
 
 
@@ -37,6 +38,7 @@ App.Tests = (function()
         prerequisitesExist();
         prerequisiteNotCategory();
         emptyCategory();
+        totalEngramPoints();
     }
 
 
@@ -182,7 +184,27 @@ App.Tests = (function()
 
 
 
-
+    
+    /**
+     * Make sure correct number of engrams points
+     */
+    function totalEngramPoints()
+    {
+        var myEngrampoints = App.Items.getTotalEngramPoints();
+        
+        if(myEngrampoints < totalEngramPoints) {
+            console.error("Not enough engram points, according to the wiki");
+        }
+        
+        if(myEngrampoints > totalEngramPoints) {
+            console.error("Too many engram points, according to the wiki");
+        }
+    }
+    
+    
+    
+    
+    
     /**
      * Functions available to the public
      */
