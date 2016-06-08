@@ -223,8 +223,6 @@ App.Tests = (function()
                 //look for wiki item on my site
                 var foundItems = container.find("[data-name='" + wikiItem.name + "']");
                 
-                console.log(foundItems);
-                
                 //check we have it
                 if(foundItems.length === 0) {
                     console.error("Didnt find wiki item: " + wikiItem.name);
