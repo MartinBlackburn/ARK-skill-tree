@@ -72,6 +72,12 @@
         "type": "category"
     },
     {
+        "name": "Vehicles",
+        "description": "Brum brum!",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
         "name": "Weapons",
         "description": "For hunting, making lots of noise or just showing off.",
         "image": "test.png",

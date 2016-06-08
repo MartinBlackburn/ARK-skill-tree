@@ -82,6 +82,8 @@ App.Items = (function()
                     "assets/data/tools/navigation.json",
                     "assets/data/tools/cosmetic.json",
                     "assets/data/tools/other.json",
+                    
+                    "assets/data/vehicles.json",
 
                     "assets/data/weapons/attachments.json",
                     "assets/data/weapons/explosives.json",
