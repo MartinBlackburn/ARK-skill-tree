@@ -24,6 +24,12 @@
         "type": "category"
     },
     {
+        "name": "Drugs",
+        "description": "Red or blue pill?",
+        "image": "test.png",
+        "type": "category"
+    },
+    {
         "name": "Electrical",
         "description": "Tesla would be proud!",
         "image": "test.png",

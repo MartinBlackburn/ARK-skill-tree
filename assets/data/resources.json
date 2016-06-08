@@ -1,16 +1,5 @@
 [
     {
-        "id": 299,
-        "name": "Narcotic",
-        "description": "Increases your health, but puts you to sleep.",
-        "image": "narcotic.png",
-        "minLevel": 5,
-        "engrams": 6,
-        "prerequisites": [],
-        "type": "item",
-        "parent": "Resources"
-    },
-    {
         "id": 300,
         "name": "Sparkpowder",
         "description": "Created by grinding flint with stone in a Mortar and Pestle.",

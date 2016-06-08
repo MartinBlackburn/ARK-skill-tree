@@ -27,5 +27,16 @@
         "prerequisites": [],
         "type": "item",
         "parent": "Other farming"
+    },
+    {
+        "id": 319,
+        "name": "Re-fertilizer",
+        "description": "Spread these seeds of concentrated nutrients around and what was once harvested may yet regrow, even nearby a structure.",
+        "image": "re-fertilizer.png",
+        "minLevel": 35,
+        "engrams": 20,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Drugs"
     }
 ]
