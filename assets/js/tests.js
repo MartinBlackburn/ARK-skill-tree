@@ -203,8 +203,8 @@ App.Tests = (function()
                 //get item name
                 var name = $(this).find("td:nth-child(2)").text();
                 name = name.toLowerCase();
-                name = name.charAt(0).toUpperCase() + name.slice(1);
                 name = name.trim();
+                name = name.charAt(0).toUpperCase() + name.slice(1);
                 item.name = name;
                 
                 //get item engram points
@@ -221,7 +221,8 @@ App.Tests = (function()
             console.log(wikiItems);
             
             //check each item on the wiki
-            $.each(wikiItems, function(index, wikiItem) {                
+            $.each(wikiItems, function(index, wikiItem) {
+                //look for wiki item on my site
                 var foundItems = container.find("[data-name='" + wikiItem.name + "']");
                 
                 //check we have it
