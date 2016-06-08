@@ -194,7 +194,7 @@ App.Tests = (function()
             var wikiItems = [];
             
             //get items from wiki
-            var rows = data.find(".wikitable tr:not(:first-child)");
+            var rows = $(data).find(".wikitable tr:not(:first-child)");
             
             //add each item to the array
             rows.each(function() {
