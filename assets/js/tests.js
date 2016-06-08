@@ -194,10 +194,12 @@ App.Tests = (function()
         
         if(myEngrampoints < totalEngramPointsWiki) {
             console.error("Not enough engram points, according to the wiki");
+            console.error("I have " + myEngrampoints + ", should have " + totalEngramPointsWiki);
         }
         
         if(myEngrampoints > totalEngramPointsWiki) {
             console.error("Too many engram points, according to the wiki");
+            console.error("I have " + myEngrampoints + ", should have " + totalEngramPointsWiki);
         }
     }
     
