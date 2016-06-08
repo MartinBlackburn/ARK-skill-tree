@@ -41,7 +41,7 @@
     },
     {
         "id": 249,
-        "name": "GPS",
+        "name": "Gps",
         "description": "Detects strange energy from the three Obelisks to triangulate your exact location on the island.",
         "image": "gps.png",
         "minLevel": 45,
@@ -57,7 +57,7 @@
         "image": "transponder tracker.png",
         "minLevel": 65,
         "engrams": 30,
-        "prerequisites": ["GPS"],
+        "prerequisites": ["Gps"],
         "type": "item",
         "parent": "Navigation"
     },
@@ -68,7 +68,7 @@
         "image": "transponder node.png",
         "minLevel": 65,
         "engrams": 20,
-        "prerequisites": ["GPS"],
+        "prerequisites": ["Gps"],
         "type": "item",
         "parent": "Navigation"
     }
