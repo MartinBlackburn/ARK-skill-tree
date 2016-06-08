@@ -204,6 +204,7 @@ App.Tests = (function()
                 var name = $(this).find("td:nth-child(2)").text();
                 name = name.toLowerCase();
                 name = name.charAt(0).toUpperCase() + name.slice(1);
+                name = name.trim();
                 item.name = name;
                 
                 //get item engram points
@@ -224,7 +225,7 @@ App.Tests = (function()
                 var foundItems = container.find("[data-name='" + wikiItem.name + "']");
                 
                 //check we have it
-                if(foundItems.length == 0) {
+                if(foundItems.length === 0) {
                     console.error("Didnt find wiki item: " + wikiItem.name);
                 }
                 
