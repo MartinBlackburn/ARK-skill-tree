@@ -40,6 +40,17 @@
         "parent": "Other tools"
     },
     {
+        "id": 257,
+        "name": "Parachute",
+        "description": "Use this while falling to slow your fall. Jump while parachuting to deactivate it.",
+        "image": "parachute.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other tools"
+    },
+    {
         "id": 255,
         "name": "Magnifying glass",
         "description": "This instrument, while primitive, is effective as short-range analysis of both flora and fauna.",
@@ -55,17 +66,6 @@
         "name": "Radio",
         "description": "Use this to communicate securely over great distances.",
         "image": "radio.png",
-        "minLevel": 25,
-        "engrams": 8,
-        "prerequisites": [],
-        "type": "item",
-        "parent": "Other tools"
-    },
-    {
-        "id": 257,
-        "name": "Parachute",
-        "description": "Use this while falling to slow your fall. Jump while parachuting to deactivate it.",
-        "image": "parachute.png",
         "minLevel": 25,
         "engrams": 8,
         "prerequisites": [],
