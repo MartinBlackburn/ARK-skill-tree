@@ -218,12 +218,12 @@ App.Tests = (function()
                 wikiItems.push(item);
             });
             
-            console.log(wikiItems);
-            
             //check each item on the wiki
             $.each(wikiItems, function(index, wikiItem) {
                 //look for wiki item on my site
                 var foundItems = container.find("[data-name='" + wikiItem.name + "']");
+                
+                console.log(foundItems);
                 
                 //check we have it
                 if(foundItems.length === 0) {
