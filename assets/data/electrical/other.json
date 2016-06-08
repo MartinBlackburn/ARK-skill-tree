@@ -8,7 +8,7 @@
     },
     {
         "id": 81,
-        "name": "Remote Keypad",
+        "name": "Remote keypad",
         "description": "Allows remote access to multiple doors and/or lights.",
         "image": "remote keypad.png",
         "minLevel": 50,
