@@ -7,6 +7,7 @@ App.Items = (function()
     var useLocalStorage = false;
     var version = "242.6";
     var highestItemId = 0;
+    var totalEngramPoints = 0;
 
     //item files
     var itemFiles = [
@@ -231,6 +232,9 @@ App.Items = (function()
                 if(item.id > highestItemId) {
                     highestItemId = item.id;
                 }
+                
+                //log total engrams points
+                totalEngramPoints += item.engrams;
             }
         });
 
@@ -558,10 +562,20 @@ App.Items = (function()
      * Log highest used ID when asked for
      */
     function getHighestItemId()
-    {
-        console.log(highestItemId);
-        
+    {        
         return highestItemId;
+    }
+    
+    
+    
+    
+    
+    /**
+     * Log highest used ID when asked for
+     */
+    function getTotalEngramPoints()
+    {        
+        return totalEngramPoints;
     }
 
 
@@ -576,6 +590,7 @@ App.Items = (function()
         reset: unselectAllItems,
         save: save,
         load: load,
-        getHighestItemId: getHighestItemId
+        getHighestItemId: getHighestItemId,
+        getTotalEngramPoints: getTotalEngramPoints
     };
 })();
