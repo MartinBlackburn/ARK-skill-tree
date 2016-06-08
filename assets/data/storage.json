@@ -33,13 +33,24 @@
         "parent": "Storage"
     },
     {
+        "id": 320,
+        "name": "Preserving bin",
+        "description": "Burns simple fuel at low temperatures to dehydrate food and kill bacteria. Keeps perishables from spoiling for a small time.",
+        "image": "preserving bin.png",
+        "minLevel": 20,
+        "engrams": 9,
+        "prerequisites": ["Storage box"],
+        "type": "item",
+        "parent": "Storage"
+    },
+    {
         "id": 308,
         "name": "Bookshelf",
         "description": "A large bookshelf to store Blueprints, Notes, and other small trinkets in.",
         "image": "bookshelf.png",
         "minLevel": 20,
         "engrams": 15,
-        "prerequisites": ["Large Storage box"],
+        "prerequisites": ["Large storage box"],
         "type": "item",
         "parent": "Storage"
     },
@@ -50,7 +61,7 @@
         "image": "refrigerator.png",
         "minLevel": 55,
         "engrams": 20,
-        "prerequisites": ["Large Storage box"],
+        "prerequisites": ["Large storage box"],
         "type": "item",
         "parent": "Storage"
     },
@@ -61,7 +72,7 @@
         "image": "vault.png",
         "minLevel": 65,
         "engrams": 30,
-        "prerequisites": ["Large Storage box"],
+        "prerequisites": ["Large storage box"],
         "type": "item",
         "parent": "Storage"
     }
