@@ -230,11 +230,18 @@ App.Tests = (function()
                     console.error("Didnt find wiki item: " + wikiItem.name);
                 }
                 
+                //make sure we dont find it more than once
+                if(foundItems.length > 1) {
+                    console.error("Found several: " + wikiItem.name);
+                }
+                
                 //check it the same engram points
-                if(foundItems.length > 0) {
-                    if(foundItems[0].data("engrams").toString() != wikiItem.engrams) {
+                if(foundItems.length == 1) {
+                    var engrams = $(foundItems).data("engrams").toString();
+                    
+                    if(engrams != wikiItem.engrams) {
                         console.error("Item didnt have same engram points as wiki: " + wikiItem.name);
-                        console.error("Mine: " + foundItems[0].data("engrams").toString() + ", Wiki: " + wikiItem.engrams);
+                        console.error("Mine: " + engrams + ", Wiki: " + wikiItem.engrams);
                     }
                 }
             });
