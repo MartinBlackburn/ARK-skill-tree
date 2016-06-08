@@ -12,7 +12,7 @@
         "description": "A thin walkway for bridging areas together. Made from sturdy wood.",
         "image": "wooden catwalk.png",
         "minLevel": 20,
-        "engrams": 6,
+        "engrams": 8,
         "prerequisites": ["Wooden ceiling"],
         "type": "item",
         "parent": "Catwalks"
