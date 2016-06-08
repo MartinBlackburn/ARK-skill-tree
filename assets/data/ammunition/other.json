@@ -13,7 +13,7 @@
         "image": "tranquilizer dart.png",
         "minLevel": 65,
         "engrams": 30,
-        "prerequisites": ["Stone arrow", "Narcotic", "Simple rifle bullet"],
+        "prerequisites": ["Stone arrow", "Narcotic", "Simple rifle ammo"],
         "type": "item",
         "parent": "Other ammunition"
     },
