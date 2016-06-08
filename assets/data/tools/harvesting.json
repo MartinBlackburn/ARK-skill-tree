@@ -23,7 +23,7 @@
         "description": "A sharp metal pick for harvesting metal from mountain rocks, flint from rocks, and meat from bodies.",
         "image": "metal pick.png",
         "minLevel": 25,
-        "engrams": 8,
+        "engrams": 6,
         "prerequisites": ["Stone pick"],
         "type": "item",
         "parent": "Harvesting"
