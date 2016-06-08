@@ -56,7 +56,7 @@
         "description": "A curved tool ideal for harvesting fiber from seed plants.",
         "image": "metal sickle.png",
         "minLevel": 25,
-        "engrams": 8,
+        "engrams": 12,
         "prerequisites": ["Metal pick", "Metal hatchet"],
         "type": "item",
         "parent": "Harvesting"
