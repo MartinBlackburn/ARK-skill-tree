@@ -12,7 +12,7 @@
         "description": "The carefully shaped crystal lenses in this scope grant the user a telescopic aim when firing. Attach this to a supporting weapon to gain more accurate aiming.",
         "image": "scope attachment.png",
         "minLevel": 30,
-        "engrams": 12,
+        "engrams": 13,
         "prerequisites": ["Spyglass"],
         "type": "item",
         "parent": "Attachments"
