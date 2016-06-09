@@ -216,6 +216,17 @@
         "parent": "Riding saddles"
     },
     {
+        "id": 327,
+        "name": "Diplodocus saddle",
+        "description": "A saddle for your Diplodocus. It has ten seats! Bring lots of friends!",
+        "image": "diplodocus saddle.png",
+        "minLevel": 35,
+        "engrams": 30,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
         "id": 131,
         "name": "Ankylo saddle",
         "description": "Equip an Ankylo with this to ride it.",
