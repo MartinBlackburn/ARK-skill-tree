@@ -260,6 +260,17 @@
         "parent": "Riding saddles"
     },
     {
+        "id": 329,
+        "name": "Dunkleosteus saddle",
+        "description": "Equip a Dunkleosteus with this to ride it.",
+        "image": "dunkleosteus saddle.png",
+        "minLevel": 40,
+        "engrams": 20,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
         "id": 134,
         "name": "Megalodon saddle",
         "description": "Equip a Megalodon with this to ride it.",
