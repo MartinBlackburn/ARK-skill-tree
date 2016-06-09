@@ -272,9 +272,9 @@
     },
     {
         "id": 326,
-        "name": "Wooly rhino saddle",
-        "description": "Equip a Wooly rhino with this to ride it.",
-        "image": "wooly rhino saddle.png",
+        "name": "Woolly rhino saddle",
+        "description": "Equip a Woolly rhino with this to ride it.",
+        "image": "woolly rhino saddle.png",
         "minLevel": 45,
         "engrams": 24,
         "prerequisites": [],
