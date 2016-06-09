@@ -9,7 +9,7 @@
     {
         "id": 114,
         "name": "Phiomia saddle",
-        "description": "Equip an Phiomia with this to ride it.",
+        "description": "Equip a Phiomia with this to ride it.",
         "image": "phiomia saddle.png",
         "minLevel": 5,
         "engrams": 6,
@@ -31,7 +31,7 @@
     {
         "id": 116,
         "name": "Parasaur saddle",
-        "description": "Equip an Parasaur with this to ride it.",
+        "description": "Equip a Parasaur with this to ride it.",
         "image": "parasaur saddle.png",
         "minLevel": 10,
         "engrams": 9,
@@ -42,7 +42,7 @@
     {
         "id": 117,
         "name": "Pachy saddle",
-        "description": "Equip an Pachy with this to ride it.",
+        "description": "Equip a Pachy with this to ride it.",
         "image": "pachy saddle.png",
         "minLevel": 15,
         "engrams": 9,
@@ -53,7 +53,7 @@
     {
         "id": 118,
         "name": "Raptor saddle",
-        "description": "Equip an Raptor with this to ride it.",
+        "description": "Equip a Raptor with this to ride it.",
         "image": "raptor saddle.png",
         "minLevel": 15,
         "engrams": 9,
@@ -64,7 +64,7 @@
     {
         "id": 119,
         "name": "Trike saddle",
-        "description": "Equip an Triceratops with this to ride it.",
+        "description": "Equip a Triceratops with this to ride it.",
         "image": "trike saddle.png",
         "minLevel": 20,
         "engrams": 12,
@@ -75,7 +75,7 @@
     {
         "id": 120,
         "name": "Carbonemys saddle",
-        "description": "Equip an Carbonemys with this to ride it.",
+        "description": "Equip a Carbonemys with this to ride it.",
         "image": "carbonemys saddle.png",
         "minLevel": 25,
         "engrams": 12,
@@ -86,7 +86,7 @@
     {
         "id": 121,
         "name": "Beelzebufo saddle",
-        "description": "Equip an Beelzebufo with this to ride it.",
+        "description": "Equip a Beelzebufo with this to ride it.",
         "image": "beelzebufo saddle.png",
         "minLevel": 25,
         "engrams": 16,
@@ -97,7 +97,7 @@
     {
         "id": 122,
         "name": "Pulmonoscorpius saddle",
-        "description": "Equip an Pulmonoscorpius with this to ride it.",
+        "description": "Equip a Pulmonoscorpius with this to ride it.",
         "image": "pulmonoscorpius saddle.png",
         "minLevel": 25,
         "engrams": 12,
@@ -108,7 +108,7 @@
     {
         "id": 123,
         "name": "Terror bird saddle",
-        "description": "Equip an Terror Bird with this to ride it.",
+        "description": "Equip a Terror Bird with this to ride it.",
         "image": "terror bird saddle.png",
         "minLevel": 25,
         "engrams": 15,
@@ -130,7 +130,7 @@
     {
         "id": 124,
         "name": "Doedicurus saddle",
-        "description": "Equip an Doedicurus with this to ride it.",
+        "description": "Equip a Doedicurus with this to ride it.",
         "image": "doedicurus saddle.png",
         "minLevel": 30,
         "engrams": 20,
@@ -152,7 +152,7 @@
     {
         "id": 126,
         "name": "Megaloceros saddle",
-        "description": "Equip an Megaloceros with this to ride it.",
+        "description": "Equip a Megaloceros with this to ride it.",
         "image": "megaloceros saddle.png",
         "minLevel": 30,
         "engrams": 20,
@@ -163,7 +163,7 @@
     {
         "id": 127,
         "name": "Paracer saddle",
-        "description": "Equip an Paracer with this to ride it.",
+        "description": "Equip a Paracer with this to ride it.",
         "image": "paracer saddle.png",
         "minLevel": 30,
         "engrams": 18,
@@ -174,7 +174,7 @@
     {
         "id": 128,
         "name": "Stego saddle",
-        "description": "Equip an Stego with this to ride it.",
+        "description": "Equip a Stego with this to ride it.",
         "image": "stego saddle.png",
         "minLevel": 30,
         "engrams": 15,
@@ -185,7 +185,7 @@
     {
         "id": 129,
         "name": "Pteranodon saddle",
-        "description": "Equip an Pteranodon with this to ride it.",
+        "description": "Equip a Pteranodon with this to ride it.",
         "image": "pteranodon saddle.png",
         "minLevel": 35,
         "engrams": 15,
@@ -196,7 +196,7 @@
     {
         "id": 130,
         "name": "Sarco saddle",
-        "description": "Equip an Sarco with this to ride it.",
+        "description": "Equip a Sarco with this to ride it.",
         "image": "sarco saddle.png",
         "minLevel": 35,
         "engrams": 15,
@@ -240,7 +240,7 @@
     {
         "id": 133,
         "name": "Mammoth saddle",
-        "description": "Equip an Mammoth with this to ride it.",
+        "description": "Equip a Mammoth with this to ride it.",
         "image": "mammoth saddle.png",
         "minLevel": 40,
         "engrams": 18,
@@ -251,7 +251,7 @@
     {
         "id": 134,
         "name": "Megalodon saddle",
-        "description": "Equip an Megalodon with this to ride it.",
+        "description": "Equip a Megalodon with this to ride it.",
         "image": "megalodon saddle.png",
         "minLevel": 45,
         "engrams": 18,
@@ -262,7 +262,7 @@
     {
         "id": 135,
         "name": "Sabertooth saddle",
-        "description": "Equip an Sabertooth with this to ride it.",
+        "description": "Equip a Sabertooth with this to ride it.",
         "image": "sabertooth saddle.png",
         "minLevel": 45,
         "engrams": 18,
@@ -271,9 +271,20 @@
         "parent": "Riding saddles"
     },
     {
+        "id": 326,
+        "name": "Wooly rhino saddle",
+        "description": "Equip a Wooly rhino with this to ride it.",
+        "image": "wooly rhino saddle.png",
+        "minLevel": 45,
+        "engrams": 24,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
         "id": 136,
         "name": "Carnotaurus saddle",
-        "description": "Equip an Carnotaurus with this to ride it.",
+        "description": "Equip a Carnotaurus with this to ride it.",
         "image": "carnotaurus saddle.png",
         "minLevel": 50,
         "engrams": 21,
@@ -284,7 +295,7 @@
     {
         "id": 137,
         "name": "Procoptodon saddle",
-        "description": "Equip an Procoptodon with this to ride it.",
+        "description": "Equip a Procoptodon with this to ride it.",
         "image": "procoptodon saddle.png",
         "minLevel": 50,
         "engrams": 35,
@@ -306,7 +317,7 @@
     {
         "id": 139,
         "name": "Bronto saddle",
-        "description": "Equip an Bronto with this to ride it.",
+        "description": "Equip a Bronto with this to ride it.",
         "image": "bronto saddle.png",
         "minLevel": 55,
         "engrams": 21,
@@ -328,7 +339,7 @@
     {
         "id": 141,
         "name": "Plesiosaur saddle",
-        "description": "Equip an Plesiosaur with this to ride it.",
+        "description": "Equip a Plesiosaur with this to ride it.",
         "image": "plesiosaur saddle.png",
         "minLevel": 60,
         "engrams": 40,
@@ -339,7 +350,7 @@
     {
         "id": 142,
         "name": "Quetz saddle",
-        "description": "Equip an Quetz with this to ride it.",
+        "description": "Equip a Quetz with this to ride it.",
         "image": "quetz saddle.png",
         "minLevel": 60,
         "engrams": 44,
@@ -350,7 +361,7 @@
     {
         "id": 143,
         "name": "Rex saddle",
-        "description": "Equip an T-rex with this to ride it.",
+        "description": "Equip a T-rex with this to ride it.",
         "image": "t-rex saddle.png",
         "minLevel": 60,
         "engrams": 40,
@@ -361,7 +372,7 @@
     {
         "id": 144,
         "name": "Spino saddle",
-        "description": "Equip an Spino with this to ride it.",
+        "description": "Equip a Spino with this to ride it.",
         "image": "spino saddle.png",
         "minLevel": 60,
         "engrams": 40,
@@ -372,7 +383,7 @@
     {
         "id": 145,
         "name": "Mosasaurus saddle",
-        "description": "Equip an Mosasaurus with this to ride it.",
+        "description": "Equip a Mosasaurus with this to ride it.",
         "image": "mosasaurus saddle.png",
         "minLevel": 75,
         "engrams": 60,
@@ -383,7 +394,7 @@
     {
         "id": 146,
         "name": "Giganotosaurus saddle",
-        "description": "Equip an Giganotosaurus with this to ride it.",
+        "description": "Equip a Giganotosaurus with this to ride it.",
         "image": "giganotosaurus saddle.png",
         "minLevel": 85,
         "engrams": 75,
