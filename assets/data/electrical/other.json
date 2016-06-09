@@ -7,6 +7,17 @@
         "parent": "Electrical"
     },
     {
+        "id": 325,
+        "name": "Electrical outlet",
+        "description": "An outlet for an electrical grid. When connected to a generator via cables, this provides power to all nearby devices that use electricity.",
+        "image": "electrical outlet.png",
+        "minLevel": 50,
+        "engrams": 16,
+        "prerequisites": ["Straight electrical cable"],
+        "type": "item",
+        "parent": "Other elecrtical"
+    },
+    {
         "id": 81,
         "name": "Remote keypad",
         "description": "Allows remote access to multiple doors and/or lights.",
