@@ -118,9 +118,9 @@
     },
     {
         "id": 323,
-        "name": "Mantra saddle",
+        "name": "Manta saddle",
         "description": "Equip a Manta with this to ride it.",
-        "image": "mantra saddle.png",
+        "image": "manta saddle.png",
         "minLevel": 25,
         "engrams": 16,
         "prerequisites": [],
