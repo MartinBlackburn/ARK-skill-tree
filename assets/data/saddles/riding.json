@@ -203,6 +203,17 @@
         "prerequisites": [],
         "type": "item",
         "parent": "Riding saddles"
+    },    
+    {
+        "id": 324,
+        "name": "Direbear saddle",
+        "description": "Equip a Direbear with this to ride it.",
+        "image": "direbear saddle.png",
+        "minLevel": 35,
+        "engrams": 24,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
     },
     {
         "id": 131,
