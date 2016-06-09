@@ -189,10 +189,7 @@ App.Tests = (function()
      */
     function testAgainstWiki()
     {
-        $.get("http://ark.gamepedia.com/Engrams", function(data) {
-            //remove images to stop errors
-            $(data).find("img").remove();
-            
+        $.get("http://ark.gamepedia.com/Engrams", function(data) {            
             //object of wiki items
             var wikiItems = [];
             
