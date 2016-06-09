@@ -304,6 +304,17 @@
         "parent": "Riding saddles"
     },
     {
+        "id": 328,
+        "name": "Arthropluera saddle",
+        "description": "Equip a Arthropluera with this to ride it.",
+        "image": "arthropluera saddle.png",
+        "minLevel": 50,
+        "engrams": 30,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
         "id": 137,
         "name": "Procoptodon saddle",
         "description": "Equip a Procoptodon with this to ride it.",
