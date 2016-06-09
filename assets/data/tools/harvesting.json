@@ -45,7 +45,7 @@
         "description": "A sharp metal hatchet for harvesting wood from trees, stone from rocks, and skin from bodies.",
         "image": "metal hatchet.png",
         "minLevel": 25,
-        "engrams": 8,
+        "engrams": 6,
         "prerequisites": ["Stone hatchet"],
         "type": "item",
         "parent": "Harvesting"
