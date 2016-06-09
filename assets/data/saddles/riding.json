@@ -117,6 +117,17 @@
         "parent": "Riding saddles"
     },
     {
+        "id": 323,
+        "name": "Mantra saddle",
+        "description": "Equip a Manta with this to ride it.",
+        "image": "mantra saddle.png",
+        "minLevel": 25,
+        "engrams": 16,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Riding saddles"
+    },
+    {
         "id": 124,
         "name": "Doedicurus saddle",
         "description": "Equip an Doedicurus with this to ride it.",
