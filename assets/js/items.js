@@ -111,15 +111,13 @@ App.Items = (function()
         //check version in localstorage
         var localVersion = localStorage.getItem('version');
 
-        //if no local version, set one
-        if(!localVersion) {
-            localStorage.setItem('version', version);
-        }
-
         //if versions same use localstorage
         if(version === localVersion) {
             useLocalStorage = true;
         }
+        
+        //set version in local storage
+        localStorage.setItem('version', version);
 
         //load items
         loadItems();
