@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Tree platforms",
+        "description": "Living on the ground is for losers.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "id": 333,
+        "name": "Wooden tree platform",
+        "description": "Attach to a large tree, enabling you to build on it.",
+        "image": "wooden tree paltform.png",
+        "minLevel": 30,
+        "engrams": 28,
+        "prerequisites": ["Wooden foundation", "Wooden ceiling", "Wooden wall"],
+        "type": "item",
+        "parent": "Tree platforms"
+    }
+]
