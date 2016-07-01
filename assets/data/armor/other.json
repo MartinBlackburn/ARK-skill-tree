@@ -16,5 +16,16 @@
         "prerequisites": ["Flak helmet"],
         "type": "item",
         "parent": "Other armor"
+    },
+    {
+        "id": 330,
+        "name": "Gas mask",
+        "description": "Protects the wearer against various airborne poisons",
+        "image": "gas mask.png",
+        "minLevel": 85,
+        "engrams": 110,
+        "prerequisites": ["Scuba mask", "Scuba tank", "Absorbent substrate"],
+        "type": "item",
+        "parent": "Other armor"
     }
 ]
