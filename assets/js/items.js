@@ -5,7 +5,7 @@ App.Items = (function()
     //variables
     var container = $(".js-categories");
     var useLocalStorage = false;
-    var version = "242.7";
+    var version = "243";
     var highestItemId = 0;
     var totalEngramPoints = 0;
 
