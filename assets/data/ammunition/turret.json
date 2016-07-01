@@ -35,7 +35,7 @@
         "image": "chain bola.png",
         "minLevel": 45,
         "engrams": 30,
-        "prerequisites": [],
+        "prerequisites": ["Bola"],
         "type": "item",
         "parent": "Turret ammunition"
     }
