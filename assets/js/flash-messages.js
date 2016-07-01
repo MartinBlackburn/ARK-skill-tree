@@ -36,7 +36,7 @@ App.FlashMessage = (function()
 
         $.each(classes, function(index, cssClass) {
             if (cssClass.indexOf("flashMessage--") === 0) {
-                $("#sample").removeClass(cssClass);
+                $(".flashMessage").removeClass(cssClass);
             }
         });
 
