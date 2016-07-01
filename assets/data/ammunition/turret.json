@@ -27,5 +27,16 @@
         "prerequisites": [],
         "type": "item",
         "parent": "Turret ammunition"
+    },
+    {
+        "id": 331,
+        "name": "Chain bola",
+        "description": "A gigantic bola made of metal chain, capable of ensnaring larger creatures. Usuable within a Ballista turret.",
+        "image": "chain bola.png",
+        "minLevel": 45,
+        "engrams": 30,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Turret ammunition"
     }
 ]
