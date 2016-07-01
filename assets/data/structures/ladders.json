@@ -7,6 +7,17 @@
         "parent": "Structures"
     },
     {
+        "id": 332,
+        "name": "Rope ladder",
+        "description": "A simple rope ladder useed to climb up or down tall structures. Can also be used to extend existing ladders.",
+        "image": "chain bola.png",
+        "minLevel": 10,
+        "engrams": 5,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Structures"
+    },
+    {
         "id": 195,
         "name": "Wooden ladder",
         "description": "A simple wooden ladder used to climb up or down tall structures. Can also be used to extend existing ladders.",
