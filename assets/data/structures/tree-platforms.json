@@ -16,5 +16,16 @@
         "prerequisites": ["Wooden foundation", "Wooden ceiling", "Wooden wall"],
         "type": "item",
         "parent": "Tree platforms"
+    },
+    {
+        "id": 33,
+        "name": "Metal tree platform",
+        "description": "Attach to a large tree, enabling you to build on it.",
+        "image": "metal tree paltform.png",
+        "minLevel": 60,
+        "engrams": 35,
+        "prerequisites": ["Wooden tree platform", "Metal foundation", "Metal ceiling"],
+        "type": "item",
+        "parent": "Tree platforms"
     }
 ]
