@@ -60,5 +60,16 @@
         "prerequisites": ["Metal pick", "Metal hatchet"],
         "type": "item",
         "parent": "Harvesting"
+    },
+    {
+        "id": 332,
+        "name": "Tree sap tap",
+        "description": "Attach this to a large tree to tap its sap over time.",
+        "image": "tree sap tap.png",
+        "minLevel": 35,
+        "engrams": 18,
+        "prerequisites": ["Cementing paste"],
+        "type": "item",
+        "parent": "Harvesting"
     }
 ]
