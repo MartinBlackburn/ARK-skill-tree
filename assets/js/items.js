@@ -327,6 +327,11 @@ App.Items = (function()
 
         //find parent element
         var parent = container.find("[data-name='" + item.parent + "']");
+        
+        //check that there isn't more than one parent
+        if(parent.length > 1) {
+            console.error("Item '" + item.name + "' has too many parents '" + item.parent + "'");
+        }
 
         //check if item is being added to correct place
         if(parent.hasClass("category")) {
