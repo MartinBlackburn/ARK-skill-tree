@@ -76,6 +76,7 @@ App.Tests = (function()
 
             if(sameItemId.length > 1) {
                 console.error("There are items with the same id: " + name + " (" + id + ")");
+                console.log(sameItemId);
             }
         });
     }
@@ -96,6 +97,7 @@ App.Tests = (function()
 
             if(sameItemId.length > 1) {
                 console.error("There are items with the same name: " + name);
+                console.log(sameItemId);
             }
         });
     }
