@@ -7,7 +7,7 @@
         "parent": "Structures"
     },
     {
-        "id": 333,
+        "id": 334,
         "name": "Wooden tree platform",
         "description": "Attach to a large tree, enabling you to build on it.",
         "image": "wooden tree paltform.png",
@@ -18,7 +18,7 @@
         "parent": "Tree platforms"
     },
     {
-        "id": 33,
+        "id": 335,
         "name": "Metal tree platform",
         "description": "Attach to a large tree, enabling you to build on it.",
         "image": "metal tree paltform.png",

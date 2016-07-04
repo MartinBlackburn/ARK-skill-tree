@@ -7,7 +7,7 @@
         "parent": "Structures"
     },
     {
-        "id": 332,
+        "id": 333,
         "name": "Rope ladder",
         "description": "A simple rope ladder useed to climb up or down tall structures. Can also be used to extend existing ladders.",
         "image": "chain bola.png",
