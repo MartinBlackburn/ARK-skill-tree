@@ -60,5 +60,16 @@
         "prerequisites": ["Mosasaurus saddle"],
         "type": "item",
         "parent": "Platform saddles"
+    },
+    {
+        "id": 338,
+        "name": "Titanosaur platform saddle",
+        "description": "Equip a Titanosaur with this to ride it. You can build structure on the large platform to make a mobile base.",
+        "image": "titanosaur platform saddle.png",
+        "minLevel": 95,
+        "engrams": 170,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Platform saddles"
     }
 ]
