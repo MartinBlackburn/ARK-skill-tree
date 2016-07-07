@@ -60,7 +60,7 @@
         "description": "This sticky compound excels at absorbing other chemicals.",
         "image": "absorbent substrate.png",
         "minLevel": 80,
-        "engrams": 65,
+        "engrams": 60,
         "prerequisites": ["Chemistry bench"],
         "type": "item",
         "parent": "Resources"
