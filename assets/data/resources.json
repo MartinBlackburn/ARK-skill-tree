@@ -53,5 +53,16 @@
         "prerequisites": [],
         "type": "item",
         "parent": "Resources"
+    },
+    {
+        "id": 337,
+        "name": "Absorbant substrate",
+        "description": "This sticky compound excels at absorbing other chemicals.",
+        "image": "absorbant substrate.png",
+        "minLevel": 80,
+        "engrams": 65,
+        "prerequisites": ["Chemistry bench"],
+        "type": "item",
+        "parent": "Resources"
     }
 ]
