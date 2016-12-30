@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Railings",
+        "description": "Safety first!",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "id": 200,
+        "name": "Wooden railing",
+        "description": "A sturdy wooden railing that acts a a simple barrier to prevent people from falling.",
+        "image": "wooden railing.png",
+        "minLevel": 10,
+        "engrams": 3,
+        "prerequisites": ["Wooden wall"],
+        "type": "item",
+        "parent": "Railings"
+    },
+	{
+        "id": 1032,
+        "name": "Adobe railing DLC",
+        "description": "A adobe railing that acts a a simple barrier to prevent people from falling.",
+        "image": "Adobe Railing.png",
+        "minLevel": 15,
+        "engrams": 2,
+        "prerequisites": ["Adobe wall DLC"],
+        "type": "item",
+        "parent": "Railings"
+    },
+    {
+        "id": 201,
+        "name": "Stone railing",
+        "description": "A brick-and-mortar railing that acts a a simple barrier to prevent people from falling.",
+        "image": "stone railing.png",
+        "minLevel": 40,
+        "engrams": 4,
+        "prerequisites": ["Stone wall", "Wooden railing"],
+        "type": "item",
+        "parent": "Railings"
+    },
+    {
+        "id": 202,
+        "name": "Metal railing",
+        "description": "A metal-plated concrete railing that acts a a simple barrier to prevent people from falling.",
+        "image": "metal railing.png",
+        "minLevel": 30,
+        "engrams": 7,
+        "prerequisites": ["Metal wall", "Stone railing"],
+        "type": "item",
+        "parent": "Railings"
+    }
+]

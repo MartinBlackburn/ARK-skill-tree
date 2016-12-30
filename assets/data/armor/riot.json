@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Riot armor",
+        "description": "The best protection money can buy.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Armor"
+    },
+    {
+        "id": 45,
+        "name": "Riot helmet",
+        "description": "Provides heavy physical protection and reduced physical torpor, but provides almost no protection from the elements.",
+        "image": "riot helmet.png",
+        "minLevel": 80,
+        "engrams": 40,
+        "prerequisites": ["Ghillie mask"],
+        "type": "item",
+        "parent": "Riot armor"
+    },
+    {
+        "id": 46,
+        "name": "Riot chestpiece",
+        "description": "Provides heavy physical protection and reduced physical torpor, but provides almost no protection from the elements.",
+        "image": "riot chestpiece.png",
+        "minLevel": 80,
+        "engrams": 40,
+        "prerequisites": ["Ghillie chestpiece"],
+        "type": "item",
+        "parent": "Riot armor"
+    },
+    {
+        "id": 47,
+        "name": "Riot gauntlets",
+        "description": "Provides heavy physical protection and reduced physical torpor, but provides almost no protection from the elements.",
+        "image": "riot gauntlets.png",
+        "minLevel": 80,
+        "engrams": 40,
+        "prerequisites": ["Ghillie gauntlets"],
+        "type": "item",
+        "parent": "Riot armor"
+    },
+    {
+        "id": 48,
+        "name": "Riot leggings",
+        "description": "Provides heavy physical protection and reduced physical torpor, but provides almost no protection from the elements.",
+        "image": "riot leggings.png",
+        "minLevel": 80,
+        "engrams": 40,
+        "prerequisites": ["Ghillie leggings"],
+        "type": "item",
+        "parent": "Riot armor"
+    },
+    {
+        "id": 49,
+        "name": "Riot boots",
+        "description": "Provides heavy physical protection and reduced physical torpor, but provides almost no protection from the elements.",
+        "image": "riot boots.png",
+        "minLevel": 80,
+        "engrams": 40,
+        "prerequisites": ["Ghillie boots"],
+        "type": "item",
+        "parent": "Riot armor"
+    }
+]

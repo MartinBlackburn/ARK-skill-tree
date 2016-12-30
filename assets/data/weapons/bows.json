@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Bows",
+        "description": "Be the next robin hood.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Weapons"
+    },
+    {
+        "id": 267,
+        "name": "Bow",
+        "description": "Masters of the bow often became great conquerors. Requires arrows to fire.",
+        "image": "bow.png",
+        "minLevel": 15,
+        "engrams": 11,
+        "prerequisites": ["Slingshot"],
+        "type": "item",
+        "parent": "Bows"
+    },
+    {
+        "id": 268,
+        "name": "Crossbow",
+        "description": "Has significantly more power than the Bow, but cannot fire rapidly. Can fire underwater.",
+        "image": "crossbow.png",
+        "minLevel": 25,
+        "engrams": 12,
+        "prerequisites": ["Bow"],
+        "type": "item",
+        "parent": "Bows"
+    },
+    {
+        "id": 269,
+        "name": "Compound bow",
+        "description": "A high-tech bow made of durable alloy, can launch arrows at high velocity. Requires arrows to fire.",
+        "image": "compound bow.png",
+        "minLevel": 70,
+        "engrams": 40,
+        "prerequisites": ["Bow"],
+        "type": "item",
+        "parent": "Bows"
+    }
+]

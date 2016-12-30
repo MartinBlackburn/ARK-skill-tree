@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Trophy bases",
+        "description": "Show off your awards.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "id": 219,
+        "name": "Trophy base",
+        "description": "Provides the base upon which you can place a Trophy!",
+        "image": "trophy base.png",
+        "minLevel": 20,
+        "engrams": 10,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Trophy bases"
+    },
+    {
+        "id": 220,
+        "name": "Trophy wall-mount",
+        "description": "Provides the wall-mount upon which you can place a trophy!",
+        "image": "trophy wall-mount.png",
+        "minLevel": 20,
+        "engrams": 10,
+        "prerequisites": ["Wooden sign"],
+        "type": "item",
+        "parent": "Trophy bases"
+    }
+]

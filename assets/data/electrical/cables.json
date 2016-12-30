@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Cables",
+        "description": "Send electricty around your base.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Electrical"
+    },
+    {
+        "id": 70,
+        "name": "Straight electrical cable",
+        "description": "A straight cable, used for transmitting electricity across land.",
+        "image": "straight electrical cable.png",
+        "minLevel": 50,
+        "engrams": 16,
+        "prerequisites": ["Electrical generator"],
+        "type": "item",
+        "parent": "Cables"
+    },
+    {
+        "id": 71,
+        "name": "Inclined electrical cable",
+        "description": "An inclined cable for transmitting electricity up and down hills.",
+        "image": "inclined electrical cable.png",
+        "minLevel": 55,
+        "engrams": 16,
+        "prerequisites": ["Straight electrical cable"],
+        "type": "item",
+        "parent": "Cables"
+    },
+    {
+        "id": 72,
+        "name": "Vertical electrical cable",
+        "description": "A vertical cable for transmitting electricity up and down cliffs.",
+        "image": "vertical electrical cable.png",
+        "minLevel": 55,
+        "engrams": 16,
+        "prerequisites": ["Straight electrical cable"],
+        "type": "item",
+        "parent": "Cables"
+    },
+    {
+        "id": 73,
+        "name": "Electrical cable intersection",
+        "description": "A plus-shaped intersection for a power grid, used for splitting one power cable into three.",
+        "image": "electrical cable intersection.png",
+        "minLevel": 55,
+        "engrams": 24,
+        "prerequisites": ["Straight electrical cable"],
+        "type": "item",
+        "parent": "Cables"
+    }
+]

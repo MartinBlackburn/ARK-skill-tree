@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Trapdoors",
+        "description": "Like doors, but for your ceilings.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "id": 216,
+        "name": "Wooden trapdoor",
+        "description": "This small wooden door can be used to secure hatches.",
+        "image": "wooden trapdoor.png",
+        "minLevel": 20,
+        "engrams": 6,
+        "prerequisites": ["Wooden hatchframe"],
+        "type": "item",
+        "parent": "Trapdoors"
+    },
+	{
+        "id": 1045,
+        "name": "Adobe trapdoor DLC",
+        "description": "This adobe slab can be used to secure hatches.",
+        "image": "Adobe Trapdoor.png",
+        "minLevel": 20,
+        "engrams": 6,
+        "prerequisites": ["Adobe hatchframe DLC"],
+        "type": "item",
+        "parent": "Trapdoors"
+    },
+    {
+        "id": 217,
+        "name": "Reinforced trapdoor",
+        "description": "This small reinforced door can be used to secure hatches.",
+        "image": "reinforced trapdoor.png",
+        "minLevel": 30,
+        "engrams": 10,
+        "prerequisites": ["Stone hatchframe", "Wooden trapdoor"],
+        "type": "item",
+        "parent": "Trapdoors"
+    },
+	{
+        "id": 1058,
+        "name": "Giant adobe trapdoor DLC",
+        "description": "A large adobe gate that can be used with a Gateway to most keep dinosaurs in or out.",
+        "image": "Giant Adobe Trapdoor.png",
+        "minLevel": 30,
+        "engrams": 12,
+        "prerequisites": ["Giant adobe hatchframe DLC"],
+        "type": "item",
+        "parent": "Trapdoors"
+    },
+	{
+        "id": 1007,
+        "name": "Giant Reinforced Trapdoor",
+        "description": "A large reinforced ceiling gate that can be used with a Gateway to most keep dinosaurs in or out.",
+        "image": "Giant Reinforced Trapdoor.png",
+        "minLevel": 35,
+        "engrams": 20,
+        "prerequisites": ["Giant Stone Hatchframe"],
+        "type": "item",
+        "parent": "Hatchframes"
+    },
+    {
+        "id": 218,
+        "name": "Metal trapdoor",
+        "description": "This metal-plated concrete slab can be used to secure hatches.",
+        "image": "metal trapdoor.png",
+        "minLevel": 40,
+        "engrams": 14,
+        "prerequisites": ["Metal hatchframe", "Reinforced trapdoor"],
+        "type": "item",
+        "parent": "Trapdoors"
+    },
+	{
+        "id": 1012,
+        "name": "Giant Metal Trapdoor",
+        "description": "A large reinforced ceiling gate that can be used with a Gateway to keep most dinosaurs in or out.",
+        "image": "Giant Metal Trapdoor.png",
+        "minLevel": 50,
+        "engrams": 30,
+        "prerequisites": ["Giant Metal Hatchframe"],
+        "type": "item",
+        "parent": "Hatchframes"
+    }
+]

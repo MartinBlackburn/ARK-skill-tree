@@ -1,0 +1,163 @@
+[
+    {
+        "name": "Irrigation",
+        "description": "Automatically water your crops.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Farming"
+    },
+    {
+        "id": 93,
+        "name": "Stone irrigation pipe - intake",
+        "description": "The stone intake for an irrigation network that transports water over land.",
+        "image": "stone irrigation pipe - intake.png",
+        "minLevel": 10,
+        "engrams": 5,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 94,
+        "name": "Stone irrigation pipe - tap",
+        "description": "This stone tap allows access to the water in an irrigation network. Can refill containers, irrigate crop plots, or provide a refreshing drink.",
+        "image": "stone irrigation pipe - tap.png",
+        "minLevel": 10,
+        "engrams": 5,
+        "prerequisites": ["Stone irrigation pipe - intake"],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 95,
+        "name": "Stone irrigation pipe - straight",
+        "description": "A straight stone pipe for an irrigation network, used for transporting water across land.",
+        "image": "stone irrigation pipe - straight.png",
+        "minLevel": 10,
+        "engrams": 2,
+        "prerequisites": ["Stone irrigation pipe - intake"],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 96,
+        "name": "Stone irrigation pipe - inclined",
+        "description": "An inclined stone pipe for an irrigation network, used for transporting water up and down hills.",
+        "image": "stone irrigation pipe - inclined.png",
+        "minLevel": 15,
+        "engrams": 3,
+        "prerequisites": ["Stone irrigation pipe - straight"],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 97,
+        "name": "Stone irrigation pipe - vertical",
+        "description": "A vertical stone pipe for an irrigation network, used for transporting water up and down cliffs.",
+        "image": "stone irrigation pipe - vertical.png",
+        "minLevel": 15,
+        "engrams": 3,
+        "prerequisites": ["Stone irrigation pipe - straight"],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 98,
+        "name": "Stone irrigation pipe - intersection",
+        "description": "A plus-shaped stone intersection for an irrigation network, used for splitting one water source into three.",
+        "image": "stone irrigation pipe - intersection.png",
+        "minLevel": 15,
+        "engrams": 5,
+        "prerequisites": ["Stone irrigation pipe - straight"],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 99,
+        "name": "Water reservoir",
+        "description": "A standing storage device for holding water. Automatically fills up during rain, can be filled up with the use of a water skin/jar.",
+        "image": "stone water reservoir.png",
+        "minLevel": 15,
+        "engrams": 7,
+        "prerequisites": ["Cementing paste"],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 100,
+        "name": "Metal irrigation pipe - intake",
+        "description": "The metal intake for an irrigation network that transports water over land.",
+        "image": "metal irrigation pipe - intake.png",
+        "minLevel": 40,
+        "engrams": 15,
+        "prerequisites": ["Stone irrigation pipe - intake"],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 101,
+        "name": "Metal irrigation pipe - tap",
+        "description": "This stone tap allows access to the water in an irrigation network. Can refill containers, irrigate crop plots, or provide a refreshing drink.",
+        "image": "metal irrigation pipe - tap.png",
+        "minLevel": 40,
+        "engrams": 18,
+        "prerequisites": ["Stone irrigation pipe - tap", "Metal irrigation pipe - straight"],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 102,
+        "name": "Metal irrigation pipe - straight",
+        "description": "A straight metal pipe for an irrigation network, used for transporting water across land.",
+        "image": "metal irrigation pipe - straight.png",
+        "minLevel": 40,
+        "engrams": 12,
+        "prerequisites": ["Stone irrigation pipe - straight", "Metal irrigation pipe - intake"],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 103,
+        "name": "Metal irrigation pipe - inclined",
+        "description": "An inclined metal pipe for an irrigation network, used for transporting water up and down hills.",
+        "image": "metal irrigation pipe - inclined.png",
+        "minLevel": 45,
+        "engrams": 12,
+        "prerequisites": ["Stone irrigation pipe - inclined", "Metal irrigation pipe - straight"],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 104,
+        "name": "Metal irrigation pipe - vertical",
+        "description": "A vertical metal pipe for an irrigation network, used for transporting water up and down cliffs.",
+        "image": "metal irrigation pipe - vertical.png",
+        "minLevel": 45,
+        "engrams": 12,
+        "prerequisites": ["Stone irrigation pipe - vertical", "Metal irrigation pipe - straight"],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 105,
+        "name": "Metal irrigation pipe - intersection",
+        "description": "A plus-shaped metal intersection for an irrigation network, used for splitting one water source into three.",
+        "image": "metal irrigation pipe - intersection.png",
+        "minLevel": 45,
+        "engrams": 18,
+        "prerequisites": ["Stone irrigation pipe - intersection", "Metal irrigation pipe - straight"],
+        "type": "item",
+        "parent": "Irrigation"
+    },
+    {
+        "id": 106,
+        "name": "Metal water reservoir",
+        "description": "Attach this to pipes to store rain, irrigation, or manually deposited water for later use. Will automatically irrigate nearby crops if attached to a tap. Stores a large amount of water!",
+        "image": "metal water reservoir.png",
+        "minLevel": 45,
+        "engrams": 20,
+        "prerequisites": ["Water reservoir"],
+        "type": "item",
+        "parent": "Irrigation"
+    }
+]

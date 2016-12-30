@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Ghillie armor",
+        "description": "You don't need protection when things cant see you.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Armor"
+    },
+    {
+        "id": 34,
+        "name": "Ghillie mask",
+        "description": "Strands of Organic Polymer cause this to disperse heat and keep you cool. Camouflage keeps you more hidden from enemy creatures. Provides moderate physical protection, but less than Chitin.",
+        "image": "ghillie mask.png",
+        "minLevel": 35,
+        "engrams": 13,
+        "prerequisites": ["Hide hat"],
+        "type": "item",
+        "parent": "Ghillie armor"
+    },
+    {
+        "id": 35,
+        "name": "Ghillie chestpiece",
+        "description": "Strands of Organic Polymer cause this to disperse heat and keep you cool. Camouflage keeps you more hidden from enemy creatures. Provides moderate physical protection, but less than Chitin.",
+        "image": "ghillie chestpiece.png",
+        "minLevel": 35,
+        "engrams": 11,
+        "prerequisites": ["Hide shirt"],
+        "type": "item",
+        "parent": "Ghillie armor"
+    },
+    {
+        "id": 36,
+        "name": "Ghillie gauntlets",
+        "description": "Strands of Organic Polymer cause this to disperse heat and keep you cool. Camouflage keeps you more hidden from enemy creatures. Provides moderate physical protection, but less than Chitin.",
+        "image": "ghillie gauntlets.png",
+        "minLevel": 40,
+        "engrams": 11,
+        "prerequisites": ["Hide gloves"],
+        "type": "item",
+        "parent": "Ghillie armor"
+    },
+    {
+        "id": 37,
+        "name": "Ghillie leggings",
+        "description": "Strands of Organic Polymer cause this to disperse heat and keep you cool. Camouflage keeps you more hidden from enemy creatures. Provides moderate physical protection, but less than Chitin.",
+        "image": "ghillie leggings.png",
+        "minLevel": 35,
+        "engrams": 11,
+        "prerequisites": ["Hide pants"],
+        "type": "item",
+        "parent": "Ghillie armor"
+    },
+    {
+        "id": 38,
+        "name": "Ghillie boots",
+        "description": "Strands of Organic Polymer cause this to disperse heat and keep you cool. Camouflage keeps you more hidden from enemy creatures. Provides moderate physical protection, but less than Chitin.",
+        "image": "ghillie boots.png",
+        "minLevel": 40,
+        "engrams": 11,
+        "prerequisites": ["Hide boots"],
+        "type": "item",
+        "parent": "Ghillie armor"
+    }
+]

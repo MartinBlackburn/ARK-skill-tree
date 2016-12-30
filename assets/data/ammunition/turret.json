@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Turret ammunition",
+        "description": "Big arrows for big knees.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Ammunition"
+    },
+    {
+        "id": 13,
+        "name": "Ballista bolt",
+        "description": "A massive bolt with a cast iron arrow head. Can only be used in a Ballista Turret. If it doesn't break, you can recover your ammo.",
+        "image": "ballista bolt.png",
+        "minLevel": 25,
+        "engrams": 10,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Turret ammunition"
+    },
+    {
+        "id": 313,
+        "name": "Cannon ball",
+        "description": "A gigantic ball of heavy metal, capable of demolishing very strong structures.",
+        "image": "cannon ball.png",
+        "minLevel": 35,
+        "engrams": 5,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Turret ammunition"
+    },
+    {
+        "id": 331,
+        "name": "Chain bola",
+        "description": "A gigantic bola made of metal chain, capable of ensnaring larger creatures. Usuable within a Ballista turret.",
+        "image": "chain bola.png",
+        "minLevel": 45,
+        "engrams": 30,
+        "prerequisites": ["Bola"],
+        "type": "item",
+        "parent": "Turret ammunition"
+    }
+]

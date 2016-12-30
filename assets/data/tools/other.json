@@ -1,0 +1,108 @@
+[
+    {
+        "name": "Other tools",
+        "description": "Few other things to help make life easier..",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Tools"
+    },
+    {
+        "id": 252,
+        "name": "Note",
+        "description": "Write your own text on a note! Or put it in a Cooking Pot to make a Custom Recipe!",
+        "image": "note.png",
+        "minLevel": 2,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other tools"
+    },
+    {
+        "id": 253,
+        "name": "Handcuffs",
+        "description": "Equip this onto an unconscious player, and they'll be restrained when they wake up!",
+        "image": "handcuffs.png",
+        "minLevel": 25,
+        "engrams": 16,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other tools"
+    },
+    {
+        "id": 254,
+        "name": "Flare gun",
+        "description": "A single-use flare launcher. Fires a bright ball of Sparkpowder to temporarily light an area.",
+        "image": "flare gun.png",
+        "minLevel": 10,
+        "engrams": 6,
+        "prerequisites": ["Gunpowder"],
+        "type": "item",
+        "parent": "Other tools"
+    },
+	{
+        "id": 1023,
+        "name": "Tent DLC",
+        "description": "A portable Tent where you can take cover in hostile environments.",
+        "image": "Tent.png",
+        "minLevel": 10,
+        "engrams": 8,
+        "prerequisites": ["Hide sleeping bag"],
+        "type": "item",
+        "parent": "Other tools"
+    },
+    {
+        "id": 257,
+        "name": "Parachute",
+        "description": "Use this while falling to slow your fall. Jump while parachuting to deactivate it.",
+        "image": "parachute.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other tools"
+    },
+    {
+        "id": 255,
+        "name": "Magnifying glass",
+        "description": "This instrument, while primitive, is effective as short-range analysis of both flora and fauna.",
+        "image": "magnifying glass.png",
+        "minLevel": 20,
+        "engrams": 16,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other tools"
+    },
+    {
+        "id": 256,
+        "name": "Radio",
+        "description": "Use this to communicate securely over great distances.",
+        "image": "radio.png",
+        "minLevel": 25,
+        "engrams": 8,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other tools"
+    },
+	{
+        "id": 1015,
+        "name": "Camera",
+        "description": "Equip, target, and take a shot!.",
+        "image": "Camera.png",
+        "minLevel": 50,
+        "engrams": 30,
+        "prerequisites": ["Spyglass", "Magnifying glass"],
+        "type": "item",
+        "parent": "Other tools"
+    },
+	{
+        "id": 1020,
+        "name": "Night Vision Goggles",
+        "description": "Effortlessly see in the dark, though beware blindingly bright light sources!",
+        "image": "Night Vision Goggles.png",
+        "minLevel": 90,
+        "engrams": 100,
+        "prerequisites": ["Lamppost", "Absorbent substrate", "Electrical generator"],
+        "type": "item",
+        "parent": "Other tools"
+    }
+]

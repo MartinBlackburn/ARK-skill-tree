@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Pillars",
+        "description": "That roof wont hold itself up.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "id": 197,
+        "name": "Wooden pillar",
+        "description": "Adds structural integrity to the area it is built on. Can also act as stilts for buildings on inclines.",
+        "image": "wooden pillar.png",
+        "minLevel": 15,
+        "engrams": 9,
+        "prerequisites": ["Wooden foundation"],
+        "type": "item",
+        "parent": "Pillars"
+    },
+	{
+        "id": 1039,
+        "name": "Adobe pillar DLC",
+        "description": "The adobe pillar adds structural integrity to the area it is built under. Can also act as stilts for buildings on inclines.",
+        "image": "Adobe Pillar.png",
+        "minLevel": 20,
+        "engrams": 8,
+        "prerequisites": ["Adobe foundation DLC"],
+        "type": "item",
+        "parent": "Pillars"
+    },
+    {
+        "id": 198,
+        "name": "Stone pillar",
+        "description": "Adds structural integrity to the area it is built on. Can also act as stilts for buildings on inclines.",
+        "image": "stone pillar.png",
+        "minLevel": 25,
+        "engrams": 8,
+        "prerequisites": ["Stone foundation", "Wooden pillar"],
+        "type": "item",
+        "parent": "Pillars"
+    },
+    {
+        "id": 199,
+        "name": "Metal pillar",
+        "description": "This metal-plated concrete pillar adds structural integrity to the area it is built under. Can also act as stilts for building on inclines.",
+        "image": "metal pillar.png",
+        "minLevel": 35,
+        "engrams": 18,
+        "prerequisites": ["Metal foundation", "Stone pillar"],
+        "type": "item",
+        "parent": "Pillars"
+    }
+]

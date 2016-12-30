@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Traps",
+        "description": "Kill or catch things without even being there.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Defences"
+    },
+    {
+        "id": 59,
+        "name": "Tripwire alarm trap",
+        "description": "Place two of these near each other to create a trap.",
+        "image": "tripwire alarm trap.png",
+        "minLevel": 20,
+        "engrams": 7,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Traps"
+    },
+	{
+        "id": 1038,
+        "name": "Oil Jar DLC",
+        "description": "Throw it to create an oil slick which can be lit on fire! This sticky substance can also slow people down which step in it!",
+        "image": "Oil Jar.png",
+        "minLevel": 20,
+        "engrams": 15,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Traps"
+    },
+    {
+        "id": 60,
+        "name": "Bear trap",
+        "description": "Immobilizes humans and small creatures.",
+        "image": "bear trap.png",
+        "minLevel": 25,
+        "engrams": 9,
+        "prerequisites": ["Smithy"],
+        "type": "item",
+        "parent": "Traps"
+    },
+    {
+        "id": 61,
+        "name": "Large bear trap",
+        "description": "Immobilizes large creatures only.",
+        "image": "large bear trap.png",
+        "minLevel": 25,
+        "engrams": 12,
+        "prerequisites": ["Bear trap"],
+        "type": "item",
+        "parent": "Traps"
+    },
+    {
+        "id": 62,
+        "name": "Tripwire narcotic trap",
+        "description": "Place two of these near each other to create a poisonous trap.",
+        "image": "tripwire narcotic trap.png",
+        "minLevel": 25,
+        "engrams": 9,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Traps"
+    },
+    {
+        "id": 63,
+        "name": "Improvised explosive device",
+        "description": "Place two of these near each other to create an explosive trap.",
+        "image": "improvised explosive device.png",
+        "minLevel": 45,
+        "engrams": 30,
+        "prerequisites": ["Grenade"],
+        "type": "item",
+        "parent": "Traps"
+    },
+    {
+        "id": 64,
+        "name": "Homing underwater mine",
+        "description": "Place this underwater to create an explosive trap that floats, homes, explodes when touched.",
+        "image": "homing underwater mine.png",
+        "minLevel": 75,
+        "engrams": 30,
+        "prerequisites": ["Improvised explosive device", "Metal water reservoir"],
+        "type": "item",
+        "parent": "Traps"
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Catwalks",
+        "description": "Narrow walkways.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "id": 150,
+        "name": "Wooden catwalk",
+        "description": "A thin walkway for bridging areas together. Made from sturdy wood.",
+        "image": "wooden catwalk.png",
+        "minLevel": 20,
+        "engrams": 8,
+        "prerequisites": ["Wooden ceiling"],
+        "type": "item",
+        "parent": "Catwalks"
+    },
+    {
+        "id": 151,
+        "name": "Metal catwalk",
+        "description": "A thin walkway for bridging areas together. Made from metal plates.",
+        "image": "metal catwalk.png",
+        "minLevel": 50,
+        "engrams": 18,
+        "prerequisites": ["Wooden catwalk", "Metal ceiling"],
+        "type": "item",
+        "parent": "Catwalks"
+    }
+]

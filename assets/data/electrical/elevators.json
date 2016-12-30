@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Elevators",
+        "description": "Lift heavy things with the power of science.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Electrical"
+    },
+    {
+        "id": 74,
+        "name": "Elevator track",
+        "description": "Attach an Elevator Platform to these to complete an elevator!",
+        "image": "elevator track.png",
+        "minLevel": 65,
+        "engrams": 40,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Elevators"
+    },
+    {
+        "id": 75,
+        "name": "Small elevator platform",
+        "description": "Attach to an Elevator Track to carry a small amount of weight.",
+        "image": "small elevator platform.png",
+        "minLevel": 65,
+        "engrams": 40,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Elevators"
+    },
+    {
+        "id": 76,
+        "name": "Medium elevator platform",
+        "description": "Attach to an Elevator Track to carry a medium amount of weight.",
+        "image": "medium elevator platform.png",
+        "minLevel": 65,
+        "engrams": 40,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Elevators"
+    },
+    {
+        "id": 77,
+        "name": "Large elevator platform",
+        "description": "Attach to an Elevator Track to carry a large amount of weight.",
+        "image": "large elevator platform.png",
+        "minLevel": 65,
+        "engrams": 40,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Elevators"
+    }
+]

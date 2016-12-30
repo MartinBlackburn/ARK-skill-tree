@@ -1,0 +1,108 @@
+[
+    {
+        "name": "Foundations",
+        "description": "Create a solid base for building to stand on.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "id": 173,
+        "name": "Thatch foundation",
+        "description": "A foundation is required to build structures. This one is a wooden frame with some smooth bundles of sticks that act as a floor.",
+        "image": "thatch foundation.png",
+        "minLevel": 2,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Foundations"
+    },
+    {
+        "id": 174,
+        "name": "Wooden foundation",
+        "description": "A foundation is required to build structures. This one is made from sturdy wood.",
+        "image": "wooden foundation.png",
+        "minLevel": 5,
+        "engrams": 6,
+        "prerequisites": ["Thatch foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    },
+    {
+        "id": 175,
+        "name": "Wooden fence foundation",
+        "description": "This very cheap, narrow foundation is used to build fences around an area.",
+        "image": "wooden fence foundation.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Wooden foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    },
+	{
+        "id": 1028,
+        "name": "Adobe foundation DLC",
+        "description": "Required to build structures in an area.",
+        "image": "Adobe Foundation.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Thatch foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    },
+    {
+        "id": 176,
+        "name": "Stone foundation",
+        "description": "A foundation is required to build structures in an area. This one is made from brick-and-mortar.",
+        "image": "stone foundation.png",
+        "minLevel": 20,
+        "engrams": 6,
+        "prerequisites": ["Wooden foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    },
+    {
+        "id": 177,
+        "name": "Stone fence foundation",
+        "description": "This strong, narrow foundation is used to build walls around an area.",
+        "image": "stone fence foundation.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Wooden fence foundation", "Stone foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    },
+	{
+        "id": 1031,
+        "name": "Adobe fence foundation DLC",
+        "description": "This very strong, narrow foundation is used to build walls around an area.",
+        "image": "Adobe Fence Foundation.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Adobe foundation DLC"],
+        "type": "item",
+        "parent": "Foundations"
+    },
+    {
+        "id": 178,
+        "name": "Metal foundation",
+        "description": "A foundation is required to build structures in an area. This one is made from sturdy metal-plated concrete.",
+        "image": "metal foundation.png",
+        "minLevel": 30,
+        "engrams": 24,
+        "prerequisites": ["Stone foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    },
+    {
+        "id": 179,
+        "name": "Metal fence foundation",
+        "description": "This very strong, narrow foundation is used to build walls around an area.",
+        "image": "metal fence foundation.png",
+        "minLevel": 40,
+        "engrams": 12,
+        "prerequisites": ["Stone fence foundation", "Metal foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    }
+]

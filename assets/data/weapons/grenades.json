@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Grenades",
+        "description": "Pull the pin and thorw, just don't hold it too long.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Weapons"
+    },
+    {
+        "id": 273,
+        "name": "Smoke grenade",
+        "description": "Releases a lot of smoke to obscure your plans. Pulling the pin starts a 5 second timer to an explosion.",
+        "image": "smoke grenade.png",
+        "minLevel": 25,
+        "engrams": 18,
+        "prerequisites": ["Sparkpowder"],
+        "type": "item",
+        "parent": "Grenades"
+    },
+    {
+        "id": 274,
+        "name": "Grenade",
+        "description": "Pulling the pin starts a 5 second timer to an explosion. Make sure you've thrown it by then.",
+        "image": "grenade.png",
+        "minLevel": 30,
+        "engrams": 20,
+        "prerequisites": ["Gunpowder"],
+        "type": "item",
+        "parent": "Grenades"
+    },
+    {
+        "id": 275,
+        "name": "Poison grenade",
+        "description": "Releases narcotic smoke to knock out anything in the area - only affects humans. Pulling the pin starts a 2.5 second timer to the gas release.",
+        "image": "poison grenade.png",
+        "minLevel": 40,
+        "engrams": 18,
+        "prerequisites": ["Smoke grenade", "Tripwire narcotic trap"],
+        "type": "item",
+        "parent": "Grenades"
+    },
+	{
+        "id": 1067,
+        "name": "Cluster grenade DLC",
+        "description": "Splits in several explosive fragments.",
+        "image": "Cluster Grenade.png",
+        "minLevel": 50,
+        "engrams": 8,
+        "prerequisites": ["Grenade", "Gps"],
+        "type": "item",
+        "parent": "Grenades"
+    }
+]

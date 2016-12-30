@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Ladders",
+        "description": "Quick, get to the roof.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "id": 336,
+        "name": "Rope ladder",
+        "description": "A simple rope ladder useed to climb up or down tall structures. Can also be used to extend existing ladders.",
+        "image": "rope ladder.png",
+        "minLevel": 10,
+        "engrams": 5,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Ladders"
+    },
+    {
+        "id": 195,
+        "name": "Wooden ladder",
+        "description": "A simple wooden ladder used to climb up or down tall structures. Can also be used to extend existing ladders.",
+        "image": "wooden ladder.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Ladders"
+    },
+	{
+        "id": 1035,
+        "name": "Adobe ladder DLC",
+        "description": "A simple adobe ladder used to climb up or down tall structures. Can also be used to extend existing ladders.",
+        "image": "Adobe Ladder.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Ladders"
+    },
+    {
+        "id": 196,
+        "name": "Metal ladder",
+        "description": "A simple metal ladder used to climb up or down tall structures. Can also be used to extend existing ladders.",
+        "image": "metal ladder.png",
+        "minLevel": 45,
+        "engrams": 21,
+        "prerequisites": ["Wooden ladder"],
+        "type": "item",
+        "parent": "Ladders"
+    }
+]

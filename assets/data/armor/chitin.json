@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Chitin armor",
+        "description": "Much better protection than hide, but not as warm.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Armor"
+    },
+    {
+        "id": 14,
+        "name": "Chitin helmet",
+        "description": "Provides moderate physical protection, but can get a little warm.",
+        "image": "chitin helmet.png",
+        "minLevel": 30,
+        "engrams": 18,
+        "prerequisites": ["Hide hat"],
+        "type": "item",
+        "parent": "Chitin armor"
+    },
+    {
+        "id": 15,
+        "name": "Chitin chestpiece",
+        "description": "Provides moderate physical protection, but can get a little warm.",
+        "image": "chitin chestpiece.png",
+        "minLevel": 30,
+        "engrams": 18,
+        "prerequisites": ["Hide shirt"],
+        "type": "item",
+        "parent": "Chitin armor"
+    },
+    {
+        "id": 16,
+        "name": "Chitin gauntlets",
+        "description": "Provides moderate physical protection, but can get a little warm.",
+        "image": "chitin gauntlets.png",
+        "minLevel": 35,
+        "engrams": 15,
+        "prerequisites": ["Hide gloves"],
+        "type": "item",
+        "parent": "Chitin armor"
+    },
+    {
+        "id": 17,
+        "name": "Chitin leggings",
+        "description": "Provides moderate physical protection, but can get a little warm.",
+        "image": "chitin leggings.png",
+        "minLevel": 30,
+        "engrams": 15,
+        "prerequisites": ["Hide pants"],
+        "type": "item",
+        "parent": "Chitin armor"
+    },
+    {
+        "id": 18,
+        "name": "Chitin boots",
+        "description": "Provides moderate physical protection, but can get a little warm.",
+        "image": "chitin boots.png",
+        "minLevel": 35,
+        "engrams": 15,
+        "prerequisites": ["Hide boots"],
+        "type": "item",
+        "parent": "Chitin armor"
+    }
+]

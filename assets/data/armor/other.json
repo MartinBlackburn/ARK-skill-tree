@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Other armor",
+        "description": "One off, little bits of armor.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Armor"
+    },
+    {
+        "id": 44,
+        "name": "Heavy miner's helmet",
+        "description": "Provides heavy physical protection, but makes the elements harder to endure. Comes with a built-in light source!",
+        "image": "heavy miners helmet.png",
+        "minLevel": 65,
+        "engrams": 35,
+        "prerequisites": ["Flak helmet"],
+        "type": "item",
+        "parent": "Other armor"
+    },
+    {
+        "id": 330,
+        "name": "Gas mask",
+        "description": "Protects the wearer against various airborne poisons",
+        "image": "gas mask.png",
+        "minLevel": 85,
+        "engrams": 110,
+        "prerequisites": ["Scuba mask", "Scuba tank", "Absorbent substrate"],
+        "type": "item",
+        "parent": "Other armor"
+    }
+]

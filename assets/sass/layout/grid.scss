@@ -1,0 +1,217 @@
+/*------------------------------------*\
+    $BREAKPOINTS
+\*------------------------------------*/
+$breakpoints: (
+    'palm' '(max-width: #{$lapSize})',
+    'lap' '(min-width: #{$lapSize}) and (max-width: #{$deskSize})',
+    'desk' '(min-width: #{$deskSize})'
+) !default;
+
+$breakpoint-has-widths: ('palm', 'lap', 'desk') !default;
+
+
+
+
+
+/*------------------------------------*\
+    $MIXINS
+\*------------------------------------*/
+@mixin grid-media-query($media-query) {
+    $breakpoint-found: false;
+
+    @each $breakpoint in $breakpoints {
+        $name: nth($breakpoint, 1);
+        $declaration: nth($breakpoint, 2);
+
+        @if $media-query == $name and $declaration {
+            $breakpoint-found: true;
+
+            @media only screen and #{$declaration} {
+                @content;
+            }
+        }
+    }
+
+    @if not $breakpoint-found {
+        @warn "Breakpoint '#{$media-query}' does not exist";
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    $GRID SETUP
+\*------------------------------------*/
+/**
+ * 1. Remove any margins and paddings that might affect the grid system.
+ * 2. Apply a negative `margin-left` to negate the columns' gutters.
+ */
+.grid {
+    margin: 0;                       /* [1] */
+    padding: 0;                      /* [1] */
+    margin-left: -$gutters;          /* [2] */
+}
+
+.grid:after {
+    height: 0;
+    display: block;
+    content: "";
+    visibility: hidden;
+    clear: both;
+}
+
+/**
+ * Change the grid to remove padding
+ */
+.grid--full {
+    margin-left: 0;
+}
+
+.grid--full > .grid__item {
+    padding-left: 0;
+}
+
+/**
+ * Change the grid to use flexbox
+ *
+ * 1. set to flexbox display
+ * 2. center items horizontally
+ * 3. center items vertically
+ * 4. wrap items when needed
+ */
+.grid--flex {
+    display: flex;               /* [1] */
+
+    justify-content: center;     /* [2] */
+
+    align-items: center;         /* [3] */
+
+    flex-wrap: wrap;             /* [4] */
+}
+
+/**
+ * Grid modifiers for flex box
+ */
+.grid--flex.grid--top {
+    align-items: flex-start;
+}
+
+.grid--flex.grid--bottom {
+    align-items: flex-end;
+}
+
+.grid--flex.grid--stretch {
+    align-items: stretch;
+}
+
+.grid--flex.grid--stretch .grid__item {
+    display: flex;
+}
+
+.grid--flex.grid--stretch .grid__item > * {
+    flex: 1; 
+}
+
+
+/**
+ * 1. Cause columns to stack side-by-side.
+ * 2. Space columns apart.
+ * 3. Align columns to the tops of each other.
+ * 4. Full-width unless told to behave otherwise.
+ */
+.grid__item {
+    min-height: 1px;
+    float: left;              /* [1] */
+    padding-left: $gutters;   /* [2] */
+    vertical-align: top;      /* [3] */
+    width: 100%;              /* [4] */
+}
+
+/**
+ * Set the defaults of each flex item
+ *
+ * 1. Set default order for flex item
+ * 2. Remove float
+ * 3. Stop items shrinking smaller than their width (flex-basis)
+ */
+.grid--flex .grid__item {
+    order: 0;          /* [1] */
+    float: none;       /* [2] */
+
+    flex-shrink: 0;    /* [3] */
+}
+
+
+
+
+
+/*------------------------------------*\
+    $WIDTHS
+\*------------------------------------*/
+@mixin device-type($namespace:"") {
+    $prefix: "." + $namespace;
+
+    /**
+     * Whole
+     */
+    #{$prefix}one-whole         { width:100%; }
+
+
+    /**
+     * Halves
+     */
+    #{$prefix}one-half          { width:50%; }
+
+
+    /**
+     * Thirds
+     */
+    #{$prefix}one-third         { width:33.333%; }
+    #{$prefix}two-thirds        { width:66.666%; }
+
+
+    /**
+     * Quarters
+     */
+    #{$prefix}one-quarter       { width:25%; }
+    #{$prefix}two-quarters      { width:50%; }
+    #{$prefix}three-quarters    { width:75%; }
+
+
+    /**
+     * Grid modifiers for flex box ordering
+     */
+    .grid--flex #{$prefix}order-first {
+        order: -1;
+    }
+
+    .grid--flex #{$prefix}order-second {
+        order: 1;
+    }
+
+    .grid--flex #{$prefix}order-third {
+        order: 2;
+    }
+
+    .grid--flex #{$prefix}order-fourth {
+        order: 3;
+    }
+}
+
+
+/**
+ * Our regular, non-responsive width classes.
+ */
+@include device-type;
+
+
+/**
+ * Our responsive classes.
+ */
+@each $name in $breakpoint-has-widths {
+    @include grid-media-query($name) {
+       @include device-type('#{$name}--');
+    }
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Other farming",
+        "description": "Other things to make farming easier.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Farming"
+    },
+    {
+        "id": 107,
+        "name": "Compost bin",
+        "description": "A large bin for converting thatch and dung into high-quality fertilizer.",
+        "image": "compost bin.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Storage box"],
+        "type": "item",
+        "parent": "Other farming"
+    },
+    {
+        "id": 108,
+        "name": "Feeding trough",
+        "description": "Put food for your nearby pets in this, and they'll automatically eat it when hungry!",
+        "image": "feeding trough.png",
+        "minLevel": 15,
+        "engrams": 12,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other farming"
+    },
+    {
+        "id": 319,
+        "name": "Re-fertilizer",
+        "description": "Spread these seeds of concentrated nutrients around and what was once harvested may yet regrow, even nearby a structure.",
+        "image": "re-fertilizer.png",
+        "minLevel": 35,
+        "engrams": 20,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other farming"
+    }
+]

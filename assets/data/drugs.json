@@ -1,0 +1,46 @@
+[
+    {
+        "id": 299,
+        "name": "Narcotic",
+        "description": "Increases your health, but puts you to sleep.",
+        "image": "narcotic.png",
+        "minLevel": 5,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Drugs"
+    },
+    {
+        "id": 316,
+        "name": "Stimulant",
+        "description": "Keeps you awake, but dehydrates you.",
+        "image": "stimulant.png",
+        "minLevel": 10,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Drugs"
+    },
+    {
+        "id": 317,
+        "name": "Bug repellant",
+        "description": "This gnarly paste makes you nearly invisible to bugs. Just don't attack them, and they'll ignore you!",
+        "image": "bug repellant.png",
+        "minLevel": 15,
+        "engrams": 12,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Drugs"
+    },
+    {
+        "id": 318,
+        "name": "Lesser antidote",
+        "description": "Cures Lesser Afflictions!",
+        "image": "lesser antidote.png",
+        "minLevel": 20,
+        "engrams": 16,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Drugs"
+    }
+]

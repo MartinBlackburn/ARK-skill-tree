@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Dinosaur gateways",
+        "description": "Massive gateways that can fit a dinosaur though.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "id": 160,
+        "name": "Dinosaur gateway",
+        "description": "A large wood and stone gateway that can be used with a gate to keep most dinosaurs in or out.",
+        "image": "dinosaur gateway.png",
+        "minLevel": 15,
+        "engrams": 7,
+        "prerequisites": ["Wooden doorframe"],
+        "type": "item",
+        "parent": "Dinosaur gateways"
+    },
+    {
+        "id": 161,
+        "name": "Stone dinosaur gateway",
+        "description": "A large brick-and-mortar gateway that can be used with a Gate to keep most dinosaurs in or out.",
+        "image": "stone dinosaur gateway.png",
+        "minLevel": 20,
+        "engrams": 9,
+        "prerequisites": ["Stone doorframe", "Dinosaur gateway"],
+        "type": "item",
+        "parent": "Dinosaur gateways"
+    },
+	{
+        "id": 1055,
+        "name": "Adobe dinosaur gateway DLC",
+        "description": "A large adobe gateway that can be used with a Gate to keep most dinosaurs in or out.",
+        "image": "Adobe Dinosaur Gateway.png",
+        "minLevel": 25,
+        "engrams": 12,
+        "prerequisites": ["Adobe doorframe DLC"],
+        "type": "item",
+        "parent": "Dinosaur gateways"
+    },
+    {
+        "id": 162,
+        "name": "Behemoth stone dinosaur gateway",
+        "description": "A massive brick-and-mortar gateway that can be used for penning up huge dinosaurs.",
+        "image": "behemoth stone dinosaur gateway.png",
+        "minLevel": 30,
+        "engrams": 12,
+        "prerequisites": ["Stone dinosaur gateway"],
+        "type": "item",
+        "parent": "Dinosaur gateways"
+    },
+    {
+        "id": 163,
+        "name": "Metal dinosaur gateway",
+        "description": "A large metal gateway that can be used with a gate to keep most dinosaurs in or out.",
+        "image": "metal dinosaur gateway.png",
+        "minLevel": 40,
+        "engrams": 12,
+        "prerequisites": ["Metal doorframe", "Dinosaur gateway"],
+        "type": "item",
+        "parent": "Dinosaur gateways"
+    },
+	{
+        "id": 1061,
+        "name": "Behemoth adobe dinosaur gateway DLC",
+        "description": "A massive brick-and-mortar gateway that can be used for penning up huge dinosaurs.",
+        "image": "Behemoth Adobe Dinosaur Gateway.png",
+        "minLevel": 40,
+        "engrams": 18,
+        "prerequisites": ["Adobe dinosaur gateway DLC"],
+        "type": "item",
+        "parent": "Dinosaur gateways"
+    },
+    {
+        "id": 164,
+        "name": "Behemoth gateway",
+        "description": "A large metal-plated concrete gateway, reinforced with obsidian polymer, that can be used with a Behemoth Gate to allow even the largest of creatures in or out.",
+        "image": "behemoth gateway.png",
+        "minLevel": 55,
+        "engrams": 28,
+        "prerequisites": ["Metal dinosaur gateway"],
+        "type": "item",
+        "parent": "Dinosaur gateways"
+    }
+]
