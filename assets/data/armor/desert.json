@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Desert cloth",
+        "description": "Provides some protection from the heat and cold",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Armor"
+    },
+    {
+        "id": 1049,
+        "name": "Desert Cloth Shirt DLC",
+        "description": "Provides some protection from the heat and cold, but only minimal protection from injuries.",
+        "image": "Desert Cloth Shirt.png",
+        "minLevel": 25,
+        "engrams": 4,
+        "prerequisites": ["Cloth shirt"],
+        "type": "item",
+        "parent": "Desert cloth"
+    },
+    {
+        "id": 1050,
+        "name": "Desert Cloth Pants DLC",
+        "description": "Provides some protection from the heat and cold, but only minimal protection from injuries.",
+        "image": "Desert Cloth Pants.png",
+        "minLevel": 25,
+        "engrams": 5,
+        "prerequisites": ["Cloth pants"],
+        "type": "item",
+        "parent": "Desert cloth"
+    },
+    {
+        "id": 1051,
+        "name": "Desert Goggles and Hat DLC",
+        "description": "Provides some protection from the heat and cold, but only minimal protection from injuries.",
+        "image": "Desert Goggles and Hat.png",
+        "minLevel": 30,
+        "engrams": 7,
+        "prerequisites": ["Cloth hat"],
+        "type": "item",
+        "parent": "Desert cloth"
+    },
+    {
+        "id": 1052,
+        "name": "Desert Cloth Gloves DLC",
+        "description": "Provides some protection from the heat and cold, but only minimal protection from injuries.",
+        "image": "Desert Cloth Gloves.png",
+        "minLevel": 30,
+        "engrams": 7,
+        "prerequisites": ["Cloth gloves"],
+        "type": "item",
+        "parent": "Desert cloth"
+    },
+    {
+        "id": 1053,
+        "name": "Desert Cloth Boots DLC",
+        "description": "Provides some protection from the heat and cold, but only minimal protection from injuries.",
+        "image": "Desert Cloth Boots.png",
+        "minLevel": 30,
+        "engrams": 7,
+        "prerequisites": ["Cloth boots"],
+        "type": "item",
+        "parent": "Desert cloth"
+    }
+]

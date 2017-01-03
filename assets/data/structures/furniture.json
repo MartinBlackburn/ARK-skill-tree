@@ -138,6 +138,17 @@
         "type": "item",
         "parent": "Furniture"
     },
+	{
+        "id": 1059,
+        "name": "Mirror DLC",
+        "description": "Put it on a wall, and look at your beautiful self!",
+        "image": "Mirror.png",
+        "minLevel": 35,
+        "engrams": 25,
+        "prerequisites": ["Metal wall sign"],
+        "type": "item",
+        "parent": "Furniture"
+    },
     {
         "id": 191,
         "name": "War map",

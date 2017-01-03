@@ -5,7 +5,7 @@ App.Items = (function()
     //variables
     var container = $(".js-categories");
     var useLocalStorage = false;
-    var version = "244.2";
+    var version = "255";
     var highestItemId = 0;
     var totalEngramPoints = 0;
 
@@ -20,6 +20,7 @@ App.Items = (function()
 
                     "assets/data/armor/chitin.json",
                     "assets/data/armor/cloth.json",
+					"assets/data/armor/desert.json",
                     "assets/data/armor/flak.json",
                     "assets/data/armor/fur.json",
                     "assets/data/armor/ghillie.json",
@@ -71,6 +72,7 @@ App.Items = (function()
                     "assets/data/structures/ramps.json",
                     "assets/data/structures/roofs.json",
                     "assets/data/structures/signs.json",
+					"assets/data/structures/staircase.json",
                     "assets/data/structures/trapdoors.json",
                     "assets/data/structures/tree-platforms.json",
                     "assets/data/structures/trophy-bases.json",

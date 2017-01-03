@@ -6,6 +6,17 @@
         "type": "category",
         "parent": "Ammunition"
     },
+	{
+        "id": 1069,
+        "name": "Flamethrower ammo DLC",
+        "description": "Fuel for the Flamethrower.",
+        "image": "Flamethrower Ammo.png",
+        "minLevel": 55,
+        "engrams": 10,
+        "prerequisites": ["Flamethrower DLC"],
+        "type": "item",
+        "parent": "Other ammunition"
+    },
     {
         "id": 11,
         "name": "Tranquilizer dart",
@@ -25,6 +36,28 @@
         "minLevel": 60,
         "engrams": 8,
         "prerequisites": ["Grenade"],
+        "type": "item",
+        "parent": "Other ammunition"
+    },
+	{
+        "id": 1072,
+        "name": "Rocket homing missile DLC",
+        "description": "Advanced projectile with trajectory auto-correction.",
+        "image": "Rocket Homing Missile.png",
+        "minLevel": 75,
+        "engrams": 25,
+        "prerequisites": ["Rocket launcher"],
+        "type": "item",
+        "parent": "Other ammunition"
+    },
+	{
+        "id": 1000,
+        "name": "Shocking Tranquilizer Dart",
+        "description": "The target's torpor will increase by 1200% of the damage dealt instantaneously, as well as an additional 500% of the over the next 5 seconds, for a total of 442 Torpor with a 100% Longneck Rifle.",
+        "image": "shocking tranquilizer dart.png",
+        "minLevel": 85,
+        "engrams": 30,
+        "prerequisites": ["Stone arrow", "Narcotic", "Simple rifle ammo"],
         "type": "item",
         "parent": "Other ammunition"
     }

@@ -17,6 +17,17 @@
         "type": "item",
         "parent": "Pillars"
     },
+	{
+        "id": 1039,
+        "name": "Adobe pillar DLC",
+        "description": "The adobe pillar adds structural integrity to the area it is built under. Can also act as stilts for buildings on inclines.",
+        "image": "Adobe Pillar.png",
+        "minLevel": 20,
+        "engrams": 8,
+        "prerequisites": ["Adobe foundation DLC"],
+        "type": "item",
+        "parent": "Pillars"
+    },
     {
         "id": 198,
         "name": "Stone pillar",

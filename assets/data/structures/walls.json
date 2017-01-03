@@ -83,6 +83,17 @@
         "type": "item",
         "parent": "Walls"
     },
+	{
+        "id": 1029,
+        "name": "Adobe wall DLC",
+        "description": "An adobe wall that insulates the inside from the outside and separates rooms.",
+        "image": "Adobe Wall.png",
+        "minLevel": 15,
+        "engrams": 7,
+        "prerequisites": ["Thatch wall"],
+        "type": "item",
+        "parent": "Walls"
+    },
     {
         "id": 228,
         "name": "Sloped stone wall left",
@@ -102,6 +113,28 @@
         "minLevel": 20,
         "engrams": 3,
         "prerequisites": ["Sloped wood wall right", "Stone wall"],
+        "type": "item",
+        "parent": "Walls"
+    },
+	{
+        "id": 1041,
+        "name": "Sloped adobe wall left DLC",
+        "description": "A sturdy adobe-framed, sloped wall that insulates the inside from the outside, seprarates rooms, and provides structural integrity. Used in conjunction with the roof. Excellent for growing crops indoors.",
+        "image": "Sloped Adobe Wall Left.png",
+        "minLevel": 20,
+        "engrams": 3,
+        "prerequisites": ["Sloped wood wall left", "Adobe wall DLC"],
+        "type": "item",
+        "parent": "Walls"
+    },
+	{
+        "id": 1042,
+        "name": "Sloped adobe wall right DLC",
+        "description": "A sturdy adobe-framed, sloped wall that insulates the inside from the outside, seprarates rooms, and provides structural integrity. Used in conjunction with the roof. Excellent for growing crops indoors.",
+        "image": "Sloped Adobe Wall Right.png",
+        "minLevel": 20,
+        "engrams": 3,
+        "prerequisites": ["Sloped wood wall right", "Adobe wall DLC"],
         "type": "item",
         "parent": "Walls"
     },

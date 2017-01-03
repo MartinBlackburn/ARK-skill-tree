@@ -28,6 +28,17 @@
         "type": "item",
         "parent": "Doors"
     },
+	{
+        "id": 1034,
+        "name": "Adobe door DLC",
+        "description": "A stable adobe door that provides entance to structures. Can be locked for security.",
+        "image": "Adobe Door.png",
+        "minLevel": 15,
+        "engrams": 4,
+        "prerequisites": ["Thatch door", "Adobe doorframe DLC"],
+        "type": "item",
+        "parent": "Doors"
+    },
     {
         "id": 171,
         "name": "Reinforced wooden door",

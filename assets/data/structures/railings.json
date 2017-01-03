@@ -17,6 +17,17 @@
         "type": "item",
         "parent": "Railings"
     },
+	{
+        "id": 1032,
+        "name": "Adobe railing DLC",
+        "description": "A adobe railing that acts a a simple barrier to prevent people from falling.",
+        "image": "Adobe Railing.png",
+        "minLevel": 15,
+        "engrams": 2,
+        "prerequisites": ["Adobe wall DLC"],
+        "type": "item",
+        "parent": "Railings"
+    },
     {
         "id": 201,
         "name": "Stone railing",

@@ -28,6 +28,17 @@
         "type": "item",
         "parent": "Doorframes"
     },
+	{
+        "id": 1033,
+        "name": "Adobe doorframe DLC",
+        "description": "A adobe wall that provides entrance to a structure.",
+        "image": "Adobe Doorframe.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Thatch doorframe", "Adobe wall DLC"],
+        "type": "item",
+        "parent": "Doorframes"
+    },
     {
         "id": 167,
         "name": "Stone doorframe",

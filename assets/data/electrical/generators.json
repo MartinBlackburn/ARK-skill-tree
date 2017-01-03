@@ -6,6 +6,17 @@
         "type": "category",
         "parent": "Electrical"
     },
+	{
+        "id": 1065,
+        "name": "Wind turbine DLC",
+        "description": "Converts the force of the wind into electricity.",
+        "image": "Wind Turbine.png",
+        "minLevel": 45,
+        "engrams": 18,
+        "prerequisites": ["Fabricator"],
+        "type": "item",
+        "parent": "Generators"
+    },
     {
         "id": 78,
         "name": "Electrical generator",

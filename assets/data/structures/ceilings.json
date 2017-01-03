@@ -17,6 +17,17 @@
         "type": "item",
         "parent": "Ceilings"
     },
+	{
+        "id": 1030,
+        "name": "Adobe ceiling DLC",
+        "description": "A stable adobe-plated concrete ceiling that provides insulation, and doubles as a floor for higher levels.",
+        "image": "Adobe Ceiling.png",
+        "minLevel": 15,
+        "engrams": 5,
+        "prerequisites": ["Thatch roof"],
+        "type": "item",
+        "parent": "Ceilings"
+    },
     {
         "id": 153,
         "name": "Stone ceiling",

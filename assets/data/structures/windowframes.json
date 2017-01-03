@@ -17,6 +17,17 @@
         "type": "item",
         "parent": "Windowframes"
     },
+	{
+        "id": 1046,
+        "name": "Adobe windowframe DLC",
+        "description": "An adobe wall, with a hole for a window.",
+        "image": "Adobe Windowframe.png",
+        "minLevel": 20,
+        "engrams": 8,
+        "prerequisites": ["Adobe wall DLC"],
+        "type": "item",
+        "parent": "Windowframes"
+    },
     {
         "id": 234,
         "name": "Stone windowframe",

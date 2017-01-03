@@ -50,6 +50,17 @@
         "type": "item",
         "parent": "Roofs"
     },
+	{
+        "id": 1040,
+        "name": "Sloped adobe roof DLC",
+        "description": "An inclined adobe-framed roof. Slightly different angle than the ramp. Excellent for growing crops indoors.",
+        "image": "Sloped Adobe Roof.png",
+        "minLevel": 20,
+        "engrams": 5,
+        "prerequisites": ["Sloped wooden roof", "Adobe ceiling DLC"],
+        "type": "item",
+        "parent": "Roofs"
+    },
     {
         "id": 209,
         "name": "Sloped metal roof",

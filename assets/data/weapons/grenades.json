@@ -38,5 +38,16 @@
         "prerequisites": ["Smoke grenade", "Tripwire narcotic trap"],
         "type": "item",
         "parent": "Grenades"
+    },
+	{
+        "id": 1067,
+        "name": "Cluster grenade DLC",
+        "description": "Splits in several explosive fragments.",
+        "image": "Cluster Grenade.png",
+        "minLevel": 50,
+        "engrams": 8,
+        "prerequisites": ["Grenade", "Gps"],
+        "type": "item",
+        "parent": "Grenades"
     }
 ]

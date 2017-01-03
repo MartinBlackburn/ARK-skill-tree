@@ -27,5 +27,38 @@
         "prerequisites": [],
         "type": "item",
         "parent": "Other weapons"
+    },
+	{
+        "id": 1024,
+        "name": "Boomerang DLC",
+        "description": "Your trusty ranged weapon.",
+        "image": "Boomerang.png",
+        "minLevel": 10,
+        "engrams": 2,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Other weapons"
+    },
+	{
+        "id": 1025,
+        "name": "Whip DLC",
+        "description": "Keeps your foes at bay, keeps your herd moving.",
+        "image": "Whip.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Slingshot"],
+        "type": "item",
+        "parent": "Other weapons"
+    },
+	{
+        "id": 1068,
+        "name": "Flamethrower DLC",
+        "description": "The fastest way to roast a target.",
+        "image": "Flamethrower.png",
+        "minLevel": 55,
+        "engrams": 25,
+        "prerequisites": ["Assault rifle"],
+        "type": "item",
+        "parent": "Other weapons"
     }
 ]

@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Staircase",
+        "description": "Useful in constructing multi-level buildings.",
+        "image": "test.png",
+        "type": "category",
+        "parent": "Structures"
+    },
+    {
+        "id": 1001,
+        "name": "Wooden Staircase",
+        "description": "A wooden spiral staircase, useful in constructing multi-level buildings.",
+        "image": "Wooden Staircase.png",
+        "minLevel": 10,
+        "engrams": 10,
+        "prerequisites": ["Thatch wall"],
+        "type": "item",
+        "parent": "Staircase"
+    },
+    {
+        "id": 1002,
+        "name": "Stone Staircase",
+        "description": "A stone spiral staircase, useful in constructing multi-level buildings.",
+        "image": "Stone Staircase.png",
+        "minLevel": 20,
+        "engrams": 15,
+        "prerequisites": ["Wooden Staircase"],
+        "type": "item",
+        "parent": "Staircase"
+    },
+	{
+        "id": 1048,
+        "name": "Adobe staircase DLC",
+        "description": "An adobe spiral staircase, useful in constructing multi-level buildings.",
+        "image": "Adobe Staircase.png",
+        "minLevel": 20,
+        "engrams": 15,
+        "prerequisites": ["Adobe wall DLC"],
+        "type": "item",
+        "parent": "Staircase"
+    },
+    {
+        "id": 1003,
+        "name": "Metal Staircase",
+        "description": "A metal spiral staircase, useful in constructing multi-level buildings.",
+        "image": "Metal Staircase.png",
+        "minLevel": 35,
+        "engrams": 20,
+        "prerequisites": ["Stone Staircase"],
+        "type": "item",
+        "parent": "Staircase"
+    }
+]

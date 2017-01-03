@@ -28,6 +28,17 @@
         "type": "item",
         "parent": "Ladders"
     },
+	{
+        "id": 1035,
+        "name": "Adobe ladder DLC",
+        "description": "A simple adobe ladder used to climb up or down tall structures. Can also be used to extend existing ladders.",
+        "image": "Adobe Ladder.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Ladders"
+    },
     {
         "id": 196,
         "name": "Metal ladder",

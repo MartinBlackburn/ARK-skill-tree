@@ -17,6 +17,17 @@
         "type": "item",
         "parent": "Hatchframes"
     },
+	{
+        "id": 1044,
+        "name": "Adobe hatchframe DLC",
+        "description": "This Adobe concrete ceiling has a hole in it for trapdoors.",
+        "image": "Adobe Hatchframe.png",
+        "minLevel": 20,
+        "engrams": 8,
+        "prerequisites": ["Adobe ceiling DLC"],
+        "type": "item",
+        "parent": "Hatchframes"
+    },
     {
         "id": 193,
         "name": "Stone hatchframe",
@@ -28,6 +39,28 @@
         "type": "item",
         "parent": "Hatchframes"
     },
+	{
+        "id": 1057,
+        "name": "Giant adobe hatchframe DLC",
+        "description": "This Giant Adobe concrete ceiling has a hole in it for trapdoors.",
+        "image": "Giant Adobe Hatchframe.png",
+        "minLevel": 30,
+        "engrams": 15,
+        "prerequisites": ["Adobe hatchframe DLC"],
+        "type": "item",
+        "parent": "Hatchframes"
+    },
+	{
+        "id": 1006,
+        "name": "Giant Stone Hatchframe",
+        "description": "This Giant Stone ceiling has a hole in it for trapdoors.",
+        "image": "Giant Stone Hatchframe.png",
+        "minLevel": 35,
+        "engrams": 20,
+        "prerequisites": ["Stone hatchframe"],
+        "type": "item",
+        "parent": "Hatchframes"
+    },
     {
         "id": 194,
         "name": "Metal hatchframe",
@@ -36,6 +69,17 @@
         "minLevel": 40,
         "engrams": 18,
         "prerequisites": ["Metal ceiling", "Stone hatchframe"],
+        "type": "item",
+        "parent": "Hatchframes"
+    },
+	{
+        "id": 1011,
+        "name": "Giant Metal Hatchframe",
+        "description": "This giant metal-plated concrete ceiling has a hole in it for trapdoors.",
+        "image": "Giant Metal Hatchframe.png",
+        "minLevel": 50,
+        "engrams": 30,
+        "prerequisites": ["Metal hatchframe"],
         "type": "item",
         "parent": "Hatchframes"
     }

@@ -17,6 +17,17 @@
         "type": "item",
         "parent": "Traps"
     },
+	{
+        "id": 1038,
+        "name": "Oil Jar DLC",
+        "description": "Throw it to create an oil slick which can be lit on fire! This sticky substance can also slow people down which step in it!",
+        "image": "Oil Jar.png",
+        "minLevel": 20,
+        "engrams": 15,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Traps"
+    },
     {
         "id": 60,
         "name": "Bear trap",

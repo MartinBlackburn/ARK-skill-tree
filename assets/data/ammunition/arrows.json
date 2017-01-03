@@ -28,6 +28,17 @@
         "type": "item",
         "parent": "Arrows"
     },
+	{
+        "id": 1054,
+        "name": "Flame arrow DLC",
+        "description": "Lights the target on fire, and can also light oil slicks.",
+        "image": "Flame Arrow.png",
+        "minLevel": 25,
+        "engrams": 15,
+        "prerequisites": ["Stone arrow"],
+        "type": "item",
+        "parent": "Arrows"
+    },
     {
         "id": 3,
         "name": "Metal arrow",

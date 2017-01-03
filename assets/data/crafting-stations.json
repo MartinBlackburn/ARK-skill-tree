@@ -32,6 +32,17 @@
         "type": "item",
         "parent": "Crafting stations"
     },
+	{
+        "id": 1026,
+        "name": "Water Well DLC",
+        "description": "This stone tap allows access to the water in an irrigation network. Can refill containers, irrigate crop plots, or provide a refreshing drink.",
+        "image": "Water Well.png",
+        "minLevel": 10,
+        "engrams": 6,
+        "prerequisites": ["Large storage box"],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
     {
         "id": 292,
         "name": "Refining forge",
@@ -84,6 +95,28 @@
         "minLevel": 45,
         "engrams": 40,
         "prerequisites": ["Campfire", "Fabricator"],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
+	{
+        "id": 1017,
+        "name": "Industrial grinder",
+        "description": "Grind up crafted items and certain resources!",
+        "image": "Industrial Grinder.png",
+        "minLevel": 60,
+        "engrams": 45,
+        "prerequisites": ["Fabricator"],
+        "type": "item",
+        "parent": "Crafting stations"
+    },
+	{
+        "id": 1070,
+        "name": "Oil pump DLC",
+        "description": "Extracts Oil from an Oil zone.",
+        "image": "Oil Pump.png",
+        "minLevel": 60,
+        "engrams": 24,
+        "prerequisites": ["Wind turbine DLC"],
         "type": "item",
         "parent": "Crafting stations"
     },

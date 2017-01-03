@@ -28,6 +28,17 @@
         "type": "item",
         "parent": "Dinosaur gateways"
     },
+	{
+        "id": 1055,
+        "name": "Adobe dinosaur gateway DLC",
+        "description": "A large adobe gateway that can be used with a Gate to keep most dinosaurs in or out.",
+        "image": "Adobe Dinosaur Gateway.png",
+        "minLevel": 25,
+        "engrams": 12,
+        "prerequisites": ["Adobe doorframe DLC"],
+        "type": "item",
+        "parent": "Dinosaur gateways"
+    },
     {
         "id": 162,
         "name": "Behemoth stone dinosaur gateway",
@@ -47,6 +58,17 @@
         "minLevel": 40,
         "engrams": 12,
         "prerequisites": ["Metal doorframe", "Dinosaur gateway"],
+        "type": "item",
+        "parent": "Dinosaur gateways"
+    },
+	{
+        "id": 1061,
+        "name": "Behemoth adobe dinosaur gateway DLC",
+        "description": "A massive brick-and-mortar gateway that can be used for penning up huge dinosaurs.",
+        "image": "Behemoth Adobe Dinosaur Gateway.png",
+        "minLevel": 40,
+        "engrams": 18,
+        "prerequisites": ["Adobe dinosaur gateway DLC"],
         "type": "item",
         "parent": "Dinosaur gateways"
     },

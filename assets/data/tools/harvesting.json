@@ -61,6 +61,17 @@
         "type": "item",
         "parent": "Harvesting"
     },
+	{
+        "id": 1004,
+        "name": "Fishing Rod",
+        "description": "Used to fish with!",
+        "image": "Fishing Rod.png",
+        "minLevel": 20,
+        "engrams": 15,
+        "prerequisites": ["Bow"],
+        "type": "item",
+        "parent": "Harvesting"
+    },
     {
         "id": 333,
         "name": "Tree sap tap",
@@ -69,6 +80,17 @@
         "minLevel": 35,
         "engrams": 18,
         "prerequisites": ["Cementing paste"],
+        "type": "item",
+        "parent": "Harvesting"
+    },
+	{
+        "id": 1064,
+        "name": "Chainsaw DLC",
+        "description": "The fastest way to cut a tree.",
+        "image": "Chainsaw.png",
+        "minLevel": 45,
+        "engrams": 21,
+        "prerequisites": ["Shotgun"],
         "type": "item",
         "parent": "Harvesting"
     }

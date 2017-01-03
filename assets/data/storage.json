@@ -32,6 +32,17 @@
         "type": "item",
         "parent": "Storage"
     },
+	{
+        "id": 1036,
+        "name": "Vessel DLC",
+        "description": "Stores preservings salts and makes them last longer.",
+        "image": "Vessel.png",
+        "minLevel": 15,
+        "engrams": 10,
+        "prerequisites": ["Storage box"],
+        "type": "item",
+        "parent": "Storage"
+    },
     {
         "id": 321,
         "name": "Preserving bin",

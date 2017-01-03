@@ -6,6 +6,17 @@
         "type": "category",
         "parent": "Structures"
     },
+	{
+        "id": 1047,
+        "name": "Adobe window DLC",
+        "description": "Adobe plates on hinges that cover windows to provide protection from projectiles and spying.",
+        "image": "Adobe Window.png",
+        "minLevel": 20,
+        "engrams": 6,
+        "prerequisites": ["Adobe windowframe DLC"],
+        "type": "item",
+        "parent": "Windows"
+    },
     {
         "id": 236,
         "name": "Wooden window",

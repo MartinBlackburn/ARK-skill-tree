@@ -17,6 +17,17 @@
         "type": "item",
         "parent": "Ramps"
     },
+	{
+        "id": 1043,
+        "name": "Adobe ramp DLC",
+        "description": "An inclined adobe-plated concrete floor for travelling up or down levels. Can also be used to make an angled roof.",
+        "image": "Adobe Ramp.png",
+        "minLevel": 20,
+        "engrams": 3,
+        "prerequisites": ["Adobe ceiling DLC"],
+        "type": "item",
+        "parent": "Ramps"
+    },
     {
         "id": 204,
         "name": "Metal ramp",

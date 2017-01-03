@@ -39,6 +39,17 @@
         "type": "item",
         "parent": "Foundations"
     },
+	{
+        "id": 1028,
+        "name": "Adobe foundation DLC",
+        "description": "Required to build structures in an area.",
+        "image": "Adobe Foundation.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Thatch foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    },
     {
         "id": 176,
         "name": "Stone foundation",
@@ -58,6 +69,17 @@
         "minLevel": 15,
         "engrams": 6,
         "prerequisites": ["Wooden fence foundation", "Stone foundation"],
+        "type": "item",
+        "parent": "Foundations"
+    },
+	{
+        "id": 1031,
+        "name": "Adobe fence foundation DLC",
+        "description": "This very strong, narrow foundation is used to build walls around an area.",
+        "image": "Adobe Fence Foundation.png",
+        "minLevel": 15,
+        "engrams": 6,
+        "prerequisites": ["Adobe foundation DLC"],
         "type": "item",
         "parent": "Foundations"
     },

@@ -132,6 +132,7 @@ App.Player = (function()
         var levelBracket7 = Math.min(level, 72);
         var levelBracket8 = Math.min(level, 86);
         var levelBracket9 = Math.min(level, 98);
+		var levelBracket10 = Math.min(level, 100);
 
         //8 engrams from level 2 to level 9
         for (i = 2; i <= levelBracket1; i++){
@@ -176,6 +177,10 @@ App.Player = (function()
         //60 engrams from level 87 to level 98
         for (i = 87; i <= levelBracket9; i++){
             maxEngrams += 60;
+        }
+		//70 engrams from level 99 to level 100
+        for (i = 99; i <= levelBracket10; i++){
+            maxEngrams += 70;
         }
     }
 

@@ -39,6 +39,17 @@
         "type": "item",
         "parent": "Dinosaur gates"
     },
+	{
+        "id": 1056,
+        "name": "Adobe dinosaur gate DLC",
+        "description": "A large adobe gate that can be used with a Gateway to most keep dinosaurs in or out.",
+        "image": "Adobe Dinosaur Gate.png",
+        "minLevel": 25,
+        "engrams": 8,
+        "prerequisites": ["Adobe door DLC"],
+        "type": "item",
+        "parent": "Dinosaur gates"
+    },
     {
         "id": 158,
         "name": "Metal dinosaur gate",
@@ -47,6 +58,17 @@
         "minLevel": 40,
         "engrams": 8,
         "prerequisites": ["Dinosaur gate", "Metal dinosaur gateway"],
+        "type": "item",
+        "parent": "Dinosaur gates"
+    },
+	{
+        "id": 1062,
+        "name": "Behemoth adobe dinosaur gate DLC",
+        "description": "A large, reinforced adobe gate that can be used with a Behemoth Gateway to keep dinosaurs in or out.",
+        "image": "Behemoth Adobe Dinosaur Gate.png",
+        "minLevel": 40,
+        "engrams": 15,
+        "prerequisites": ["Adobe dinosaur gate DLC"],
         "type": "item",
         "parent": "Dinosaur gates"
     },

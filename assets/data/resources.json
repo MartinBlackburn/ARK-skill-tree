@@ -10,6 +10,28 @@
         "type": "item",
         "parent": "Resources"
     },
+	{
+        "id": 1021,
+        "name": "Preserving Salt DLC",
+        "description": "Created by grinding salt with sulfur in a Mortar and Pestle. Preserves food.",
+        "image": "Preserving Salt.png",
+        "minLevel": 5,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Resources"
+    },
+	{
+        "id": 1022,
+        "name": "Clay DLC",
+        "description": "Created by grinding Sand with Cactus Sap in a Mortar and Pestle.",
+        "image": "Clay.png",
+        "minLevel": 5,
+        "engrams": 3,
+        "prerequisites": [],
+        "type": "item",
+        "parent": "Resources"
+    },
     {
         "id": 301,
         "name": "Gunpowder",
@@ -29,6 +51,17 @@
         "minLevel": 10,
         "engrams": 3,
         "prerequisites": [],
+        "type": "item",
+        "parent": "Resources"
+    },
+	{
+        "id": 1037,
+        "name": "Propellant DLC",
+        "description": "Used to manufacture highly flammable resources.",
+        "image": "Propellant.png",
+        "minLevel": 20,
+        "engrams": 12,
+        "prerequisites": ["Mortar and pestle"],
         "type": "item",
         "parent": "Resources"
     },
